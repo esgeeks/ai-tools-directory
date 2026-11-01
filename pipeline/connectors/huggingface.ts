@@ -6,7 +6,7 @@ import { httpGet, httpJson } from '../lib/http.ts';
 import type { Candidate, Connector, ConnectorContext, HfSpaceData } from './types.ts';
 
 const API = 'https://huggingface.co/api/spaces';
-const EXPAND = ['author', 'cardData', 'createdAt', 'lastModified', 'likes', 'private', 'runtime', 'sdk', 'tags', 'disabled'];
+const EXPAND = ['author', 'cardData', 'createdAt', 'lastModified', 'likes', 'private', 'runtime', 'sdk', 'tags', 'disabled', 'models'];
 
 interface SpaceJson {
   id: string;
@@ -18,7 +18,8 @@ interface SpaceJson {
   lastModified?: string;
   createdAt?: string;
   runtime?: { stage?: string };
-  cardData?: { title?: string; short_description?: string; license?: string; emoji?: string };
+  models?: string[];
+  cardData?: { title?: string; short_description?: string; license?: string; emoji?: string; models?: string[] };
 }
 
 export function spaceToData(s: SpaceJson): HfSpaceData {
@@ -26,6 +27,7 @@ export function spaceToData(s: SpaceJson): HfSpaceData {
     id: s.id,
     title: s.cardData?.title ?? null,
     shortDescription: s.cardData?.short_description ?? null,
+    models: [...new Set([...(s.models ?? []), ...(s.cardData?.models ?? [])])].filter((m) => typeof m === 'string').slice(0, 10),
     readme: null,
     sdk: s.sdk ?? null,
     runtimeStage: s.runtime?.stage ?? null,

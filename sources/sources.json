@@ -56,7 +56,7 @@
     "allowedLicenses": ["CC0-1.0", "MIT", "Apache-2.0", "CC-BY-4.0", "Unlicense"],
     "lists": [
       { "repo": "steven2358/awesome-generative-ai" },
-      { "repo": "sindresorhus/awesome-chatgpt" },
+      { "repo": "sindresorhus/awesome-chatgpt", "path": "readme.md" },
       { "repo": "vince-lam/awesome-local-llms" },
       { "repo": "mahseema/awesome-ai-tools" }
     ]

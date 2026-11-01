@@ -29,6 +29,8 @@ export interface HfSpaceData {
   id: string;
   title: string | null;
   shortDescription: string | null;
+  /** Modelos de Hugging Face que usa el Space (evidencia verificable de IA). */
+  models: string[];
   readme: string | null;
   sdk: string | null;
   runtimeStage: string | null;

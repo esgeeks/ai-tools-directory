@@ -135,7 +135,17 @@ export function processCandidate(c: Candidate, now: Date): ProcessResult {
   };
 
   hard('identifiableSource', !!c.sourceUrl && !!safeUrl(c.sourceUrl, { allowHttp: true }), 'sin URL de fuente válida');
-  hard('aiEvidence', ai.value, 'sin evidencia de uso de IA');
+  // Spaces de Hugging Face: los modelos declarados son evidencia verificable de IA.
+  if (!ai.value && c.hf?.models?.length) {
+    ai.value = true;
+    ai.evidence.push(`modelos HF: ${c.hf.models.slice(0, 3).join(', ')}`);
+  }
+  if (ai.value) prov.aiEvidence = ai.evidence.join(', ');
+  // Solo se rechaza por falta de IA si hubo texto suficiente para comprobarlo; si la fuente no se pudo leer
+  // (p. ej. un sitio que bloquea robots), queda en revisión y se reintenta.
+  const textAvailable = description.length >= MIN_DESC || (c.page?.text.length ?? 0) > 300 || readmeText.length > 300;
+  if (textAvailable) hard('aiEvidence', ai.value, 'sin evidencia de uso de IA');
+  else soft('aiEvidence', ai.value, 'no se pudo obtener texto suficiente para verificar el uso de IA');
   hard('isTool', !appEv.excluded, appEv.excluded ?? '');
   hard('notLibrary', !appEv.library, `parece una biblioteca/framework (${appEv.evidence.filter((e) => e.startsWith('lib:')).join(', ')})`);
   if (c.github) {

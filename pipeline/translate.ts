@@ -65,6 +65,24 @@ export function restore(text: string, tokens: string[]): string | null {
   return out.replace(/\s+([,.;:!?)])/g, '$1').replace(/\(\s+/g, '(').replace(/\s{2,}/g, ' ').trim();
 }
 
+/**
+ * Pulido del español generado: "AI" → "IA" (sin tocar nombres de producto como "Notion AI"),
+ * y restos de posesivos ingleses ("CapCut 's editor" → "editor de CapCut" no es seguro, así que solo se une "'s").
+ */
+export function polishEs(text: string, keepNames: string[] = []): string {
+  const kept: string[] = [];
+  let s = text;
+  for (const name of keepNames.filter((n) => /\bAI\b/i.test(n)).sort((a, b) => b.length - a.length)) {
+    s = s.split(name).join(`\u0000${kept.push(name) - 1}\u0000`);
+  }
+  s = s
+    .replace(/\b(?:A\.I\.|AI)(?=[\s,.;:)!?]|$)/g, 'IA')
+    .replace(/\bAI-(powered|driven|based)\b/gi, 'con IA')
+    .replace(/\s+'s\b/g, "'s")
+    .replace(/\s{2,}/g, ' ');
+  return s.replace(/\u0000(\d+)\u0000/g, (_, i) => kept[Number(i)]);
+}
+
 /** Control de calidad: devuelve null si la traducción no es fiable. */
 export function qualityCheck(source: string, translated: string | null): string | null {
   if (!translated) return null;
@@ -119,6 +137,14 @@ const key = (text: string, s: Lang, t: Lang) => createHash('sha256').update(`${s
  */
 export function translateTools(tools: Tool[], translator: Translator, log: (m: string) => void, opts: { enabled: boolean }): { pending: number; translated: number; failed: number; error: string | null } {
   const cache = loadCache();
+  // El pulido es idempotente: se aplica también a traducciones ya guardadas.
+  for (const tool of tools) {
+    if (tool.description.status.es === 'machine' && tool.description.es) tool.description.es = polishEs(tool.description.es, [tool.name]);
+    for (const field of ['features', 'requirements'] as const) {
+      const es = tool[field].es;
+      if (tool.description.originalLang !== 'es' && es) tool[field].es = es.map((x) => polishEs(x, [tool.name]));
+    }
+  }
   type Job = { tool: Tool; field: 'description' | 'features' | 'requirements'; index: number; target: Lang; source: Lang; text: string; tokens: string[]; k: string };
   const jobs: Job[] = [];
   for (const tool of tools) {
@@ -173,7 +199,8 @@ export function translateTools(tools: Tool[], translator: Translator, log: (m: s
     if (desc.length) {
       const parts = desc.map((j) => cache[j.k]);
       if (parts.every(Boolean)) {
-        tool.description[target] = parts.join('\n\n');
+        const joined = parts.join('\n\n');
+        tool.description[target] = target === 'es' ? polishEs(joined, [tool.name]) : joined;
         tool.description.status[target] = 'machine';
         translated++;
       } else {
@@ -187,7 +214,7 @@ export function translateTools(tools: Tool[], translator: Translator, log: (m: s
       const fj = tj.filter((j) => j.field === field).sort((a, b) => a.index - b.index);
       if (!fj.length) continue;
       const parts = fj.map((j) => cache[j.k]);
-      tool[field][target] = parts.every(Boolean) ? parts : null;
+      tool[field][target] = parts.every(Boolean) ? (target === 'es' ? parts.map((x) => polishEs(x, [tool.name])) : parts) : null;
     }
   }
   saveCache(cache);

@@ -154,3 +154,23 @@ describe('exclusión de contenido que no es herramienta', () => {
     expect(r.status).toBe('review');
   });
 });
+
+describe('evidencia de IA cuando la fuente no se puede leer', () => {
+  it('una herramienta curada cuyo sitio bloquea robots queda en revisión, no rechazada', () => {
+    const c: Candidate = {
+      connector: 'curated', externalId: 'example.org', sourceUrl: 'https://example.org/', retrievedAt: NOW.toISOString(), name: 'Midjourney', description: '', homepage: 'https://example.org/',
+      page: { title: '', description: '', ogImage: null, icon: null, lang: null, text: '', links: [], status: 403, finalUrl: 'https://example.org/' },
+      claims: { categories: ['image-generation'], webApp: true },
+    };
+    const r = processCandidate(c, NOW);
+    expect(r.status).toBe('review');
+    expect(r.reasons.join(' ')).toContain('no se pudo obtener texto');
+  });
+  it('un Space con modelos declarados tiene evidencia de IA', () => {
+    const c: Candidate = {
+      connector: 'huggingface', externalId: 'a/b', sourceUrl: 'https://huggingface.co/spaces/a/b', retrievedAt: NOW.toISOString(), name: 'Demo', description: 'Turn your photos into watercolor paintings in seconds', homepage: null,
+      hf: { id: 'a/b', title: 'Demo', shortDescription: 'Turn your photos into watercolor paintings in seconds', models: ['stabilityai/sdxl-turbo'], readme: null, sdk: 'gradio', runtimeStage: 'RUNNING', likes: 10, lastModified: '2026-10-20', createdAt: '2026-01-01', tags: [], license: 'mit', private: false, disabled: false },
+    };
+    expect(processCandidate(c, NOW).checks.aiEvidence).toBe(true);
+  });
+});
