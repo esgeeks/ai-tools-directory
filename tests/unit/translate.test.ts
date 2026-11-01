@@ -67,3 +67,12 @@ describe('traducción y respaldo', () => {
     expect(r.pending).toBeGreaterThan(0);
   });
 });
+
+describe('pulido del español', () => {
+  it('cambia AI por IA sin tocar nombres de producto y une posesivos sueltos', async () => {
+    const { polishEs } = await import('../../pipeline/translate.ts');
+    expect(polishEs('El editor de vídeo impulsado por AI de CapCut', ['CapCut'])).toBe('El editor de vídeo impulsado por IA de CapCut');
+    expect(polishEs('Notion AI ayuda con AI.', ['Notion AI'])).toBe('Notion AI ayuda con IA.');
+    expect(polishEs("CapCut 's editor")).toBe("CapCut's editor");
+  });
+});

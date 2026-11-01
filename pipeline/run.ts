@@ -41,7 +41,9 @@ interface Config {
   'awesome-list': AwesomeConfig;
   rss: RssConfig;
 }
-type Rejected = Record<string, { at: string; reasons: string[]; name: string; source: string }>;
+type Rejected = Record<string, { at: string; reasons: string[]; name: string; source: string; rules?: string }>;
+/** Versión de las reglas de verificación. Al cambiarla, los descartes anteriores se vuelven a evaluar. */
+const RULES_VERSION = '2026-11-01.2';
 
 const startedAt = new Date();
 const today = startedAt.toISOString().slice(0, 10);
@@ -65,7 +67,7 @@ async function main() {
 
   // Purga rechazos antiguos para darles otra oportunidad.
   const retryCutoff = new Date(startedAt.getTime() - cfg.limits.rejectedRetryDays * 86_400_000).toISOString().slice(0, 10);
-  for (const [k, v] of Object.entries(rejected)) if (v.at < retryCutoff) delete rejected[k];
+  for (const [k, v] of Object.entries(rejected)) if (v.at < retryCutoff || v.rules !== RULES_VERSION || k.startsWith('curated:')) delete rejected[k];
 
   const known = new Set<string>([...catalog.tools.flatMap((t) => dedupeKeys(t)), ...Object.keys(rejected)]);
   const ctx: ConnectorContext = {
@@ -136,7 +138,7 @@ async function main() {
     if (status === 'rejected') {
       rejectedCount++;
       bump(c.connector, 'rejected');
-      rejected[d.id] = { at: today, reasons: reasons.filter((r) => r.startsWith('RECHAZO')).slice(0, 4), name: d.name, source: d.sources[0].url };
+      rejected[d.id] = { at: today, reasons: reasons.filter((r) => r.startsWith('RECHAZO')).slice(0, 4), name: d.name, source: d.sources[0].url, rules: RULES_VERSION };
       continue;
     }
     if (status === 'published' && admitted >= cfg.limits.maxAdmissionsPerRun) {
