@@ -45,7 +45,7 @@ export function aiEvidence(primary: string[], secondary: string[] = []): Evidenc
 
 /* -------------------- Aplicación utilizable vs. no-herramienta -------------------- */
 
-const EXCLUDE_NAME = /(^|[-_/])(awesome|papers?|dataset|datasets|prompts?|tutorials?|course|courses|cookbook|examples?|notebooks?|interview|roadmap|cheatsheet|leaderboard|benchmark|survey|resources|list)([-_/]|$)/i;
+const EXCLUDE_NAME = /(^|[-_/])(awesome|papers?|dataset|datasets|prompts|tutorials?|course|courses|cookbook|examples?|notebooks?|interview|roadmap|cheatsheet|leaderboard|benchmark|survey|resources|list)([-_/]|$)/i;
 const EXCLUDE_TOPICS = ['awesome', 'awesome-list', 'dataset', 'datasets', 'prompts', 'prompt-engineering-guide', 'tutorial', 'course', 'papers', 'paper', 'survey', 'leaderboard', 'benchmark', 'research-paper', 'education-resource'];
 const EXCLUDE_TEXT = [
   'a curated list', 'curated list of', 'awesome list', 'collection of prompts', 'list of prompts', 'prompt collection', 'dataset for', 'official implementation',

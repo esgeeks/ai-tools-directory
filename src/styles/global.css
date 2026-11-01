@@ -25,6 +25,9 @@
   :focus-visible { outline: 2px solid var(--color-cyan); outline-offset: 2px; border-radius: 6px; }
   ::selection { background: rgb(134 93 255 / 0.45); }
   [hidden] { display: none !important; }
+  fieldset { min-width: 0; }
+  fieldset > legend { float: left; width: 100%; }
+  fieldset > legend + * { clear: both; }
 }
 
 @layer components {

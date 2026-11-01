@@ -1,0 +1,419 @@
+{
+  "events": [
+    {
+      "date": "2026-11-01",
+      "id": "github:open-webui/open-webui",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:farion1231/cc-switch",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:paperclipai/paperclip",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:openhands/openhands",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:rtk-ai/rtk",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ruvnet/ruflo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:unslothai/unsloth",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:mintplex-labs/anything-llm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:pathwaycom/serviette",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:zylon-ai/private-gpt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:jeecgboot/jeecgboot",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:janhq/jan",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:tinyhumansai/openhuman",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:copilotkit/copilotkit",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:can1357/oh-my-pi",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:medusajs/medusa",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:langfuse/langfuse",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:esengine/deepseek-reasonix",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:twigpine/openclaude",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:onyx-dot-app/onyx",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:zackriya-solutions/meetily",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:feder-cr/invisible_dots",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:anil-matcha/open-generative-ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:nanocoai/nanoclaw",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:jackwener/opencli",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:gitleaks/gitleaks",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:qwenlm/qwen-code",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:hypit-ai/hypit",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:mozilla-ai/llamafile",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:nocobase/nocobase",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:screenpipe/screenpipe",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:lexmount/moli",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:1jehuang/jcode",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:kortix-ai/suna",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:wanshuiyin/auto-claude-code-research-in-sleep",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:lidge-jun/opencodex",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:leon-ai/leon",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:vincentwei1021/video-shotcraft",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:usagi-org/ai-goofish-monitor",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:yusufkaraaslan/skill_seekers",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:nanmicoder/cc-haha",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:palmier-io/palmier-pro",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:nanobrowser/nanobrowser",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:sirmalloc/ccstatusline",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:trailhq/trail-code",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:lemomo-ai/lemo-opuscar",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:chaitin/pandawiki",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:mengxi-ream/read-frog",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:makazhanalpamys/soup",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:pacifio/atlas",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:makecindy/cindy",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:deeplethe/utopia",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:lightningpixel/modly",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:qualcomm/geniex",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:jev-chat/jev-chat-jarvis",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:arvinlovegood/go-stock",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:steel-dev/steel-browser",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:mufeedvh/code2prompt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:osmantic/ods",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:apache/hertzbeat",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:tbphp/gpt-load",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:orkas-ai/orkas",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:drumih/turbo-fieldfare",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:open-multi-agent/open-multi-agent",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:dramaclaw/dramaclaw",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:anus-dev/anus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:modelscope/funclip",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:kimyx0207/ai-coding-guide-zh",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:kunagent/kun",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:sylinko/everywhere",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:generalaction/emdash",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ufomiao/zcf",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:opensensenova/sensenova-skills",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:pbek/qownnotes",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:apache/maka",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:beclab/olares",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:iflytek/astron-rpa",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:unlayer/react-email-editor",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:mangiucugna/json_repair",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:chaitin/monkeycode",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:bing-su/adetailer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ccch1mneyyy/dsh-go",
+      "type": "review"
+    }
+  ]
+}
