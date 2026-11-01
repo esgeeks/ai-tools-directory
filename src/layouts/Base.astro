@@ -62,6 +62,9 @@ const clientStrings = {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   {ld.map((json) => <script type="application/ld+json" set:html={json} />)}
+  {site.analytics.cloudflareToken && (
+    <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: site.analytics.cloudflareToken })}></script>
+  )}
 </head>
 <body data-lang={lang} data-base={site.basePath}>
   <a class="skip" href="#main">{t(lang, 'nav.skip')}</a>

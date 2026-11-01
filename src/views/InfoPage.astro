@@ -117,13 +117,13 @@ const issues = `${site.repo}/issues`;
     {page === 'privacy' && (
       es ? (
         <>
-          <p>Este sitio no usa cuentas, cookies de seguimiento ni analítica.</p>
+          <p>Este sitio no usa cuentas ni cookies. Para medir visitas usamos <a href="https://www.cloudflare.com/web-analytics/" rel="noopener">Cloudflare Web Analytics</a>, que no usa cookies, no guarda datos personales y no rastrea a los visitantes entre sitios: solo cuenta páginas vistas de forma agregada.</p>
           <p>Tus favoritos y tu selección del comparador se guardan solo en tu navegador (<code>localStorage</code>). No se envían a ningún servidor y puedes borrarlos desde las páginas de favoritos y comparador o limpiando los datos del sitio.</p>
           <p>Los logotipos pueden cargarse desde servidores de terceros (GitHub, Hugging Face o el sitio oficial de la herramienta), que pueden registrar la solicitud según sus propias políticas.</p>
         </>
       ) : (
         <>
-          <p>This site uses no accounts, tracking cookies or analytics.</p>
+          <p>This site uses no accounts and no cookies. To count visits we use <a href="https://www.cloudflare.com/web-analytics/" rel="noopener">Cloudflare Web Analytics</a>, which uses no cookies, stores no personal data and does not track visitors across sites: it only counts page views in aggregate.</p>
           <p>Your favorites and comparison picks are stored only in your browser (<code>localStorage</code>). They are never sent to a server; you can clear them from the favorites and compare pages or by clearing site data.</p>
           <p>Logos may load from third-party servers (GitHub, Hugging Face or the tool's official site), which may log the request under their own policies.</p>
         </>

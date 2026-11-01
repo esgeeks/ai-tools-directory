@@ -55,6 +55,10 @@ describe('construcción estática bilingüe', () => {
     expect(idx.items.find((i: { slug: string }) => i.slug === 'fixture-alpha').description).toContain('ficticia');
     expect(read('robots.txt')).toContain('Sitemap: https://tools.iathink.com/sitemap.xml');
   });
+  it('incluye la analítica sin cookies de Cloudflare', () => {
+    expect(read('es/index.html')).toContain('static.cloudflareinsights.com/beacon.min.js');
+    expect(read('es/index.html')).toContain('ede9c31e625c4f8883b057275f144075');
+  });
   it('incluye el aviso de seguridad y no muestra cifras inventadas', () => {
     const home = read('es/index.html');
     expect(home).toContain('no la seguridad del software');
