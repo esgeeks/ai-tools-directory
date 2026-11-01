@@ -3,7 +3,7 @@ import { site } from '../config/site.ts';
 interface Props { href: string }
 const { href } = Astro.props;
 ---
-<a class="flex items-center gap-2.5 whitespace-nowrap font-display text-[17px] font-bold sm:text-[18px]" href={href} aria-label={site.name}>
+<a class="flex items-center gap-2.5 min-w-0 whitespace-nowrap font-brand text-[13.5px] sm:text-[16px]" href={href} aria-label={site.name}>
   <span class="logo-mark"><span></span></span>
   <span>{site.logo.primary} <b class="grad-text">{site.logo.accent}</b></span>
 </a>

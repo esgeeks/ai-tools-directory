@@ -5,7 +5,7 @@ import { t } from '../i18n/ui.ts';
 ---
 <Base lang="es" title={t('es', 'notfound.title')} description={t('es', 'notfound.body')} path="/404/" alternates={{}} noindex>
   <div class="wrap py-24 text-center">
-    <p class="grad-text font-display text-7xl font-bold">404</p>
+    <p class="grad-text font-brand text-7xl">404</p>
     <h1 class="mt-4 text-2xl font-semibold">{t('es', 'notfound.title')} · <span lang="en">{t('en', 'notfound.title')}</span></h1>
     <p class="mt-2 text-muted">{t('es', 'notfound.body')}</p>
     <p class="mt-8 flex justify-center gap-3"><a class="btn" href={path('es', 'home')}>{t('es', 'notfound.back')}</a><a class="btn-ghost" href={path('en', 'home')} lang="en">{t('en', 'notfound.back')}</a></p>
