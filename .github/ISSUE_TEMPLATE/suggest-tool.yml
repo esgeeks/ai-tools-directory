@@ -1,0 +1,30 @@
+name: Sugerir herramienta / Suggest a tool
+description: Propón una herramienta de IA para el directorio. Se verificará automáticamente antes de publicarse.
+title: "[Sugerencia] "
+labels: ["sugerencia"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Nombre / Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL oficial o repositorio / Official URL or repository
+      description: Solo https. / https only.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notas / Notes
+      description: ¿Qué hace? ¿En qué plataformas funciona? / What does it do? Which platforms?
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmación
+      options:
+        - label: Es una herramienta utilizable (no un modelo aislado, dataset ni lista de prompts). / It is a usable tool (not a standalone model, dataset or prompt list).
+          required: true

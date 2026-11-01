@@ -32,6 +32,8 @@ export function stripMarkdown(s: string): string {
     .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, ' ')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/`([^`]+)`/g, '$1')
+    .replace(/^\s*>\s*\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\][^\n]*/gim, ' ')
+    .replace(/^\s*>\s?/gm, '')
     .replace(/^#{1,6}\s*/gm, '')
     .replace(/(\*\*|__)(.*?)\1/g, '$2')
     .replace(/(^|\s)[*_](\S[^*_]*?)[*_](?=\s|$)/g, '$1$2')

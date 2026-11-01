@@ -89,7 +89,7 @@ export function processCandidate(c: Candidate, now: Date): ProcessResult {
 
   /* ---------- 3. Clasificación ---------- */
   const evidenceTexts = [name, description, (c.github?.topics ?? []).join(' '), (c.hf?.tags ?? []).join(' ')];
-  const ai = aiEvidence([...evidenceTexts, readmeText.slice(0, 4000), c.page?.text.slice(0, 4000) ?? '', c.hint ?? '']);
+  const ai = aiEvidence([...evidenceTexts, c.page?.description ?? '', c.hint ?? ''], [readmeText.slice(0, 4000), c.page?.text.slice(0, 4000) ?? '']);
   const appEv = applicationEvidence(c, `${description} ${(c.github?.topics ?? []).join(' ')} ${readmeText.slice(0, 3000)}`);
   const license = c.github
     ? licenseInfo(c.github.license.spdx, c.github.license.name)

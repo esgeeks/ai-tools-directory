@@ -24,7 +24,7 @@ export const GET: APIRoute = () => {
   const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
   const urls: string[] = [];
   for (const e of entries) {
-    const alts = [e.okEs && `<xhtml:link rel="alternate" hreflang="es" href="${esc(absolute(e.es))}"/>`, e.okEn && `<xhtml:link rel="alternate" hreflang="en" href="${esc(absolute(e.en))}"/>`, e.okEs && `<xhtml:link rel="alternate" hreflang="x-default" href="${esc(absolute(e.es))}"/>`].filter(Boolean).join('');
+    const alts = [e.okEs && `<xhtml:link rel="alternate" hreflang="es" href="${esc(absolute(e.es))}"/>`, e.okEn && `<xhtml:link rel="alternate" hreflang="en" href="${esc(absolute(e.en))}"/>`, (e.okEs || e.okEn) && `<xhtml:link rel="alternate" hreflang="x-default" href="${esc(absolute(e.okEs ? e.es : e.en))}"/>`].filter(Boolean).join('');
     for (const [loc, ok] of [[e.es, e.okEs], [e.en, e.okEn]] as const) {
       if (!ok) continue;
       urls.push(`<url><loc>${esc(absolute(loc))}</loc>${e.lastmod ? `<lastmod>${e.lastmod}</lastmod>` : ''}${alts}</url>`);

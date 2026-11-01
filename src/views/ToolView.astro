@@ -68,7 +68,11 @@ const metrics = tool.metrics.filter((m) => m.kind !== 'github_forks' || m.value 
 const provenance = Object.entries(tool.provenance);
 ---
 <Base lang={lang} title={`${tool.name}: ${titleSuffix}`} description={metaDesc} path={self}
-      alternates={{ es: path('es', 'tool', tool.slug), en: path('en', 'tool', tool.slug) }}
+      alternates={{
+        ...(isIndexable(tool, 'es') ? { es: path('es', 'tool', tool.slug) } : {}),
+        ...(isIndexable(tool, 'en') ? { en: path('en', 'tool', tool.slug) } : {}),
+      }}
+      switchTo={{ es: path('es', 'tool', tool.slug), en: path('en', 'tool', tool.slug) }}
       noindex={!isIndexable(tool, lang)} ogType="article"
       ogImage={tool.screenshots[0]?.url ?? null} jsonLd={[ld, crumbs]}>
   <div class="hero-bg relative overflow-hidden">
@@ -76,7 +80,7 @@ const provenance = Object.entries(tool.provenance);
       <nav class="mb-6 text-[13px] text-muted" aria-label="Breadcrumb">
         <a class="hover:text-cyan" href={path(lang, 'home')}>{t(lang, 'tool.breadcrumbHome')}</a>
         {cats[0] && <> / <a class="hover:text-cyan" href={path(lang, 'category', cats[0].slug[lang])}>{cats[0].label[lang]}</a></>}
-        / <span class="text-ink" aria-current="page">{tool.name}</span>
+        {' / '}<span class="text-ink" aria-current="page">{tool.name}</span>
       </nav>
       <div class="flex flex-col gap-6 sm:flex-row sm:items-start">
         <div set:html={renderLogo({ name: tool.name, logo: tool.logo?.url ?? null }, 72)} />

@@ -10,7 +10,8 @@ import { site, type Locale } from '../config/site.ts';
 import type { IndexItem } from './filters.ts';
 import { path } from '../i18n/routes.ts';
 
-const DATA_DIR = join(process.cwd(), 'data');
+// AITD_DATA_DIR permite compilar con datos de prueba (tests/fixtures) sin tocar el catálogo real.
+const DATA_DIR = process.env.AITD_DATA_DIR ? join(process.cwd(), process.env.AITD_DATA_DIR) : join(process.cwd(), 'data');
 
 function readJson<T>(file: string, fallback: T): T {
   const p = join(DATA_DIR, file);

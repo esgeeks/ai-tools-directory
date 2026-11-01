@@ -27,13 +27,20 @@ const AI_TERMS = [
   'copilot', 'agent', 'agents', 'gguf', 'onnx', 'yolo', 'sdxl', 'flux', 'comfyui', 'vlm', 'multimodal',
 ];
 
-export function aiEvidence(texts: string[]): Evidence<boolean> {
-  const t = norm(texts.join(' '));
-  const hits = AI_TERMS.filter((k) => hasPhrase(t, k));
-  // "agent"/"ia"/"ai" solos son débiles: se exige un término fuerte o dos coincidencias.
-  const weak = new Set(['agent', 'agents', 'ia', 'ai', 'neural', 'diffusion', 'flux', 'rag']);
-  const strong = hits.filter((h) => !weak.has(h));
-  return { value: strong.length >= 1 || hits.length >= 2, evidence: hits.slice(0, 6) };
+const WEAK_AI = new Set(['agent', 'agents', 'ia', 'ai', 'neural', 'diffusion', 'flux', 'rag']);
+
+/**
+ * Evidencia de IA. Fuente principal (nombre, descripción, temas, meta descripción): un término fuerte o dos términos.
+ * El README/página solo cuenta si aporta al menos 3 términos fuertes distintos (no basta con una mención aislada).
+ */
+export function aiEvidence(primary: string[], secondary: string[] = []): Evidence<boolean> {
+  const p = norm(primary.join(' '));
+  const hits = AI_TERMS.filter((k) => hasPhrase(p, k));
+  const strong = hits.filter((h) => !WEAK_AI.has(h));
+  if (strong.length >= 1 || hits.length >= 2) return { value: true, evidence: hits.slice(0, 6) };
+  const s = norm(secondary.join(' '));
+  const sec = AI_TERMS.filter((k) => !WEAK_AI.has(k) && hasPhrase(s, k));
+  return { value: sec.length >= 3, evidence: [...hits, ...sec.map((x) => `readme:${x}`)].slice(0, 6) };
 }
 
 /* -------------------- Aplicación utilizable vs. no-herramienta -------------------- */
@@ -291,7 +298,7 @@ export function readmeIntro(readme: string): string {
   for (const b of blocks) {
     const t = cleanText(b, 500);
     if (t.length < 60) continue;
-    if (/^(\||#|!\[|\[!\[)/.test(b.trim())) continue;
+    if (/^(\||#|!\[|\[!\[|>\s*\[!)/.test(b.trim())) continue;
     if ((t.match(/\w+/g) ?? []).length < 10) continue;
     if (/(english|中文|日本語|한국어|español|français)\s*[|·]/i.test(t)) continue;
     return t;

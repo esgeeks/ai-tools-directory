@@ -150,8 +150,7 @@ async function main() {
       ctx.error(c.connector, `${d.id}: esquema inválido (${parsed.error.issues[0]?.path.join('.')}: ${parsed.error.issues[0]?.message})`);
       continue;
     }
-    catalog.tools.push(parsed.data);
-    idx.tools.push(parsed.data);
+    catalog.tools.push(parsed.data); // idx.tools es el mismo arreglo: no se duplica
     idx.index(parsed.data);
     seenThisRun.index(parsed.data);
     changes.events.push({ date: today, id: parsed.data.id, type: status === 'published' ? 'added' : 'review' });
@@ -235,10 +234,13 @@ async function main() {
   /* ---------------- 7. Validación final y escritura ---------------- */
   catalog.generatedAt = today;
   catalog.tools.sort((a, b) => a.id.localeCompare(b.id));
+  const ids = new Set(catalog.tools.map((t) => t.id));
+  const slugs = new Set(catalog.tools.map((t) => t.slug));
+  if (ids.size !== catalog.tools.length || slugs.size !== catalog.tools.length) ctx.error('guard', 'ids o slugs duplicados en el catálogo');
   const valid = CatalogSchema.safeParse(catalog);
   const nowPublished = published.length;
   const guardOk = nowPublished >= Math.floor(previousPublished * (1 - cfg.limits.maxUnpublishRatio));
-  const ok = valid.success && guardOk;
+  const ok = valid.success && guardOk && ids.size === catalog.tools.length && slugs.size === catalog.tools.length;
   if (!valid.success) ctx.error('guard', `catálogo inválido: ${valid.error.issues.slice(0, 3).map((i) => `${i.path.join('.')}: ${i.message}`).join('; ')}`);
   if (!guardOk) ctx.error('guard', `publicadas ${previousPublished} → ${nowPublished}: caída excesiva, se conserva el catálogo anterior`);
 

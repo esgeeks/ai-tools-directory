@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01",
+  "$comment": "DATOS DE PRUEBA FICTICIOS: solo para tests. Nunca se publican.",
+  "tools": [
+    {
+      "id": "fixture:fixture-alpha",
+      "slug": "fixture-alpha",
+      "name": "Fixture Alpha",
+      "description": {
+        "original": "Fixture Alpha is a fictional desktop application used only in automated tests to check that tool pages render correctly in both languages.",
+        "originalLang": "en",
+        "es": "Fixture Alpha es una aplicación de escritorio ficticia usada solo en pruebas automáticas para comprobar que las fichas se generan en ambos idiomas.",
+        "en": "Fixture Alpha is a fictional desktop application used only in automated tests to check that tool pages render correctly in both languages.",
+        "status": {
+          "es": "machine",
+          "en": "original"
+        }
+      },
+      "categories": [
+        "assistants",
+        "local-ai"
+      ],
+      "tags": [
+        "fixture"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "openSource": true
+      },
+      "pricing": "free",
+      "localExecution": true,
+      "offline": null,
+      "urls": {
+        "official": null,
+        "github": "https://github.com/example/fixture-alpha",
+        "huggingface": null,
+        "download": null,
+        "docs": null,
+        "pricing": null
+      },
+      "logo": null,
+      "screenshots": [],
+      "features": {
+        "original": [
+          "Feature one for testing",
+          "Feature two for testing"
+        ],
+        "es": [
+          "Función uno de prueba",
+          "Función dos de prueba"
+        ],
+        "en": null
+      },
+      "requirements": {
+        "original": [],
+        "es": null,
+        "en": null
+      },
+      "related": [],
+      "dates": {
+        "discovered": "2026-10-30",
+        "added": "2026-10-30",
+        "sourceUpdated": "2026-10-30",
+        "lastVerified": "2026-11-01",
+        "lastChangeDetected": null
+      },
+      "sources": [
+        {
+          "connector": "fixture",
+          "externalId": "fixture-alpha",
+          "url": "https://github.com/example/fixture-alpha",
+          "retrievedAt": "2026-11-01"
+        }
+      ],
+      "provenance": {
+        "description": "DATOS DE PRUEBA"
+      },
+      "metrics": [],
+      "validation": {
+        "status": "published",
+        "checks": {},
+        "reasons": [],
+        "consecutiveFailures": 0
+      },
+      "sponsored": false,
+      "affiliateUrl": null
+    },
+    {
+      "id": "fixture:fixture-beta",
+      "slug": "fixture-beta",
+      "name": "Fixture Beta",
+      "description": {
+        "original": "Fixture Beta is a fictional web tool for tests only; it has no Spanish translation so its Spanish page must be noindex.",
+        "originalLang": "en",
+        "es": null,
+        "en": "Fixture Beta is a fictional web tool for tests only; it has no Spanish translation so its Spanish page must be noindex.",
+        "status": {
+          "es": "pending",
+          "en": "original"
+        }
+      },
+      "categories": [
+        "image-generation"
+      ],
+      "tags": [
+        "fixture"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "license": {
+        "spdx": null,
+        "name": null,
+        "openSource": null
+      },
+      "pricing": "freemium",
+      "localExecution": null,
+      "offline": null,
+      "urls": {
+        "official": "https://example.com/beta",
+        "github": null,
+        "huggingface": null,
+        "download": null,
+        "docs": null,
+        "pricing": null
+      },
+      "logo": null,
+      "screenshots": [],
+      "features": {
+        "original": [
+          "Feature one for testing",
+          "Feature two for testing"
+        ],
+        "es": [
+          "Función uno de prueba",
+          "Función dos de prueba"
+        ],
+        "en": null
+      },
+      "requirements": {
+        "original": [],
+        "es": null,
+        "en": null
+      },
+      "related": [],
+      "dates": {
+        "discovered": "2026-09-01",
+        "added": "2026-09-01",
+        "sourceUpdated": "2026-09-01",
+        "lastVerified": "2026-11-01",
+        "lastChangeDetected": null
+      },
+      "sources": [
+        {
+          "connector": "fixture",
+          "externalId": "fixture-beta",
+          "url": "https://example.com/beta",
+          "retrievedAt": "2026-11-01"
+        }
+      ],
+      "provenance": {
+        "description": "DATOS DE PRUEBA"
+      },
+      "metrics": [],
+      "validation": {
+        "status": "published",
+        "checks": {},
+        "reasons": [],
+        "consecutiveFailures": 0
+      },
+      "sponsored": false,
+      "affiliateUrl": null
+    },
+    {
+      "id": "fixture:fixture-gamma",
+      "slug": "fixture-gamma",
+      "name": "Fixture Gamma",
+      "description": {
+        "original": "Fixture Gamma es una herramienta ficticia de línea de comandos para pruebas, con descripción original en español y suficiente longitud.",
+        "originalLang": "es",
+        "es": "Fixture Gamma es una herramienta ficticia de línea de comandos para pruebas, con descripción original en español y suficiente longitud.",
+        "en": "Fixture Gamma is a fictional command line tool for testing, with an original Spanish description of sufficient length.",
+        "status": {
+          "es": "original",
+          "en": "machine"
+        }
+      },
+      "categories": [
+        "programming",
+        "assistants"
+      ],
+      "tags": [
+        "fixture"
+      ],
+      "platforms": [
+        "cli"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "openSource": true
+      },
+      "pricing": "unverified",
+      "localExecution": null,
+      "offline": null,
+      "urls": {
+        "official": null,
+        "github": "https://github.com/example/fixture-gamma",
+        "huggingface": null,
+        "download": null,
+        "docs": null,
+        "pricing": null
+      },
+      "logo": null,
+      "screenshots": [],
+      "features": {
+        "original": [
+          "Feature one for testing",
+          "Feature two for testing"
+        ],
+        "es": null,
+        "en": null
+      },
+      "requirements": {
+        "original": [],
+        "es": null,
+        "en": null
+      },
+      "related": [],
+      "dates": {
+        "discovered": "2026-10-01",
+        "added": "2026-10-01",
+        "sourceUpdated": "2026-10-01",
+        "lastVerified": "2026-11-01",
+        "lastChangeDetected": null
+      },
+      "sources": [
+        {
+          "connector": "fixture",
+          "externalId": "fixture-gamma",
+          "url": "https://github.com/example/fixture-gamma",
+          "retrievedAt": "2026-11-01"
+        }
+      ],
+      "provenance": {
+        "description": "DATOS DE PRUEBA"
+      },
+      "metrics": [],
+      "validation": {
+        "status": "published",
+        "checks": {},
+        "reasons": [],
+        "consecutiveFailures": 0
+      },
+      "sponsored": false,
+      "affiliateUrl": null
+    }
+  ]
+}

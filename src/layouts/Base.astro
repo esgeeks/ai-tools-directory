@@ -16,13 +16,15 @@ interface Props {
   path: string;
   /** Rutas equivalentes por idioma, para hreflang y el selector de idioma. */
   alternates: Partial<Record<Locale, string>>;
+  /** Destinos del selector de idioma (por defecto, las alternativas). */
+  switchTo?: Partial<Record<Locale, string>>;
   noindex?: boolean;
   ogImage?: string | null;
   ogType?: 'website' | 'article';
   jsonLd?: object[];
 }
 
-const { lang, title, description, path, alternates, noindex = false, ogImage = null, ogType = 'website', jsonLd = [] } = Astro.props;
+const { lang, title, description, path, alternates, switchTo, noindex = false, ogImage = null, ogType = 'website', jsonLd = [] } = Astro.props;
 const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 const canonical = absolute(path);
 const image = ogImage ?? absolute(asset('/og-default.png'));
@@ -47,7 +49,7 @@ const clientStrings = {
   {noindex && <meta name="robots" content="noindex, follow" />}
   {!noindex && alternates.es && <link rel="alternate" hreflang="es" href={absolute(alternates.es)} />}
   {!noindex && alternates.en && <link rel="alternate" hreflang="en" href={absolute(alternates.en)} />}
-  {!noindex && alternates.es && <link rel="alternate" hreflang="x-default" href={absolute(alternates.es)} />}
+  {!noindex && (alternates.es || alternates.en) && <link rel="alternate" hreflang="x-default" href={absolute((alternates.es ?? alternates.en)!)} />}
   <meta name="theme-color" content={site.colors.bg} />
   <link rel="icon" href={asset('/favicon.svg')} type="image/svg+xml" />
   <meta property="og:site_name" content={site.name} />
@@ -63,7 +65,7 @@ const clientStrings = {
 </head>
 <body data-lang={lang} data-base={site.basePath}>
   <a class="skip" href="#main">{t(lang, 'nav.skip')}</a>
-  <Header lang={lang} alternates={alternates} />
+  <Header lang={lang} alternates={{ ...alternates, ...switchTo }} />
   <main id="main">
     <slot />
   </main>

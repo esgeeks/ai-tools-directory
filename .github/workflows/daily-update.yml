@@ -1,0 +1,176 @@
+name: Actualización diaria y despliegue
+
+on:
+  schedule:
+    # Una vez al día a las 06:17 UTC (evita el minuto cero, cuando GitHub tiene más carga).
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      run_pipeline:
+        description: 'Ejecutar el pipeline de descubrimiento (si no, solo compila y despliega)'
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths-ignore: ['**.md', 'docs/**']
+
+# Permisos mínimos por defecto; cada job amplía solo lo que necesita.
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Descubrir, verificar, traducir y compilar
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write # solo para guardar el catálogo actualizado en el repositorio
+    outputs:
+      pipeline: ${{ steps.pipeline.outputs.status }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Decidir si se ejecuta el pipeline
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || { [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.run_pipeline }}" = "true" ]; }; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v6
+        if: steps.mode.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pipeline/translate/requirements.txt
+
+      - name: Caché de modelos de Argos Translate
+        if: steps.mode.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: argos-models-en-es-v1
+
+      - name: Instalar Argos Translate (CPU, gratuito)
+        if: steps.mode.outputs.run == 'true'
+        continue-on-error: true # si falla, el pipeline usa el texto original y marca traducciones pendientes
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r pipeline/translate/requirements.txt
+
+      - name: Ejecutar pipeline
+        id: pipeline
+        if: steps.mode.outputs.run == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHON: python
+        run: |
+          set +e
+          npx tsx pipeline/run.ts
+          code=$?
+          if [ $code -eq 0 ]; then echo "status=ok" >> "$GITHUB_OUTPUT"; else echo "status=failed" >> "$GITHUB_OUTPUT"; fi
+          # Un fallo del pipeline no detiene el despliegue: se conserva el último catálogo válido.
+          exit 0
+
+      - name: Pruebas
+        run: npm test
+
+      - name: Compilar sitio estático
+        run: npm run build
+
+      - name: Guardar catálogo actualizado
+        if: steps.mode.outputs.run == 'true' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "ai-tools-directory-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios en el catálogo."
+          else
+            git commit -m "chore(data): actualización diaria del catálogo [skip ci]"
+            git push
+          fi
+
+      - name: Resumen de la ejecución
+        if: always()
+        run: |
+          if [ -f data/runs/latest.json ]; then
+            node -e '
+              const r = require("./data/runs/latest.json");
+              const lines = [
+                "## Actualización del catálogo",
+                `- Finalizada: ${r.finishedAt}`,
+                `- Válida: ${r.ok ? "sí" : "no (se conservó el catálogo anterior)"}`,
+                `- Descubiertas: ${r.discovered} · Admitidas: ${r.admitted} · En revisión: ${r.review} · Descartadas: ${r.rejected} · Duplicadas: ${r.duplicates}`,
+                `- Re-verificadas: ${r.reverified} · Con cambios: ${r.updated} · Despublicadas: ${r.unpublished}`,
+                `- Publicadas en total: ${r.publishedTotal}`,
+                `- Traducciones: ${r.translationsDone} hechas · ${r.translationsFailed} fallidas · ${r.translationsPending} pendientes`,
+                "### Errores por fuente",
+                ...Object.entries(r.sourceErrors || {}).map(([k, v]) => `- **${k}**: ${v.length} — ${String(v[0]).slice(0, 200)}`),
+              ];
+              console.log(lines.join("\n"));
+            ' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - uses: actions/configure-pages@v5
+        if: github.ref == 'refs/heads/main'
+
+      - uses: actions/upload-pages-artifact@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: dist
+
+  deploy:
+    name: Publicar en GitHub Pages
+    needs: update
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  record:
+    name: Registrar resultado del despliegue
+    needs: [update, deploy]
+    if: always() && github.ref == 'refs/heads/main' && needs.update.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - run: |
+          mkdir -p data/runs
+          cat > data/runs/deploy.json <<EOF
+          {
+            "at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "result": "${{ needs.deploy.result }}",
+            "pipeline": "${{ needs.update.outputs.pipeline || 'skipped' }}",
+            "run": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }
+          EOF
+          git config user.name "ai-tools-directory-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/runs/deploy.json
+          git diff --cached --quiet || { git commit -m "chore(data): resultado del despliegue [skip ci]" && git push; }
