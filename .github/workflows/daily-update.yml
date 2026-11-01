@@ -86,12 +86,6 @@ jobs:
           # Un fallo del pipeline no detiene el despliegue: se conserva el último catálogo válido.
           exit 0
 
-      - name: Pruebas
-        run: npm test
-
-      - name: Compilar sitio estático
-        run: npm run build
-
       - name: Guardar catálogo actualizado
         if: steps.mode.outputs.run == 'true' && github.ref == 'refs/heads/main'
         run: |
@@ -100,10 +94,29 @@ jobs:
           git add data/
           if git diff --cached --quiet; then
             echo "Sin cambios en el catálogo."
-          else
-            git commit -m "chore(data): actualización diaria del catálogo [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore(data): actualización diaria del catálogo [skip ci]"
+          # Si main avanzó durante la ejecución (p. ej. se fusionó un PR), se integra y se reintenta.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Catálogo guardado (intento $i)."
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 10))
+          done
+          echo "::error::No se pudo guardar el catálogo tras 5 intentos."
+          exit 1
+
+      - name: Reinstalar dependencias si cambiaron al integrar main
+        run: git diff --quiet ${{ github.sha }} HEAD -- package-lock.json || npm ci
+
+      - name: Pruebas
+        run: npm test
+
+      - name: Compilar sitio estático
+        run: npm run build
 
       - name: Resumen de la ejecución
         if: always()
