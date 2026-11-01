@@ -4,6 +4,7 @@ Directorio bilingüe (español / inglés) de herramientas de inteligencia artifi
 
 - Sitio: `https://tools.iathink.com` (GitHub Pages + dominio propio)
 - Stack: Astro (estático) · TypeScript · Tailwind CSS · GitHub Actions · JSON · `localStorage`
+- Tipografía: Zen Dots (logo y título principal) + Poppins (resto), autoalojadas
 - Sin servidor permanente, sin servicios de pago, sin cuentas de usuario.
 
 ---

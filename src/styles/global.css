@@ -1,6 +1,10 @@
 @import 'tailwindcss';
-@import '@fontsource-variable/inter/wght.css';
-@import '@fontsource-variable/space-grotesk/wght.css';
+/* Tipografía: Zen Dots (marca y título principal, 1 grosor) + Poppins (resto). Solo se descarga el subconjunto usado. */
+@import '@fontsource/zen-dots/400.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
 
 /* Paleta de marca: mantener sincronizada con src/config/site.ts */
 @theme {
@@ -13,14 +17,17 @@
   --color-ink: #F5F7FF;
   --color-muted: #A8B0CB;
   --color-line: rgb(168 176 203 / 0.14);
-  --font-sans: 'Inter Variable', system-ui, sans-serif;
-  --font-display: 'Space Grotesk Variable', 'Inter Variable', system-ui, sans-serif;
+  --font-sans: 'Poppins', system-ui, sans-serif;
+  --font-display: 'Poppins', system-ui, sans-serif;
+  --font-brand: 'Zen Dots', 'Poppins', system-ui, sans-serif;
 }
 
 @layer base {
   html { scroll-behavior: smooth; color-scheme: dark; }
   body { @apply bg-bg text-ink font-sans antialiased; line-height: 1.55; overflow-x: hidden; }
-  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.01em; }
+  /* Zen Dots solo tiene un grosor: nunca se aplica negrita sintética. */
+  .font-brand { font-family: var(--font-brand); font-weight: 400; font-synthesis: none; letter-spacing: 0; }
   a { color: inherit; text-decoration: none; }
   :focus-visible { outline: 2px solid var(--color-cyan); outline-offset: 2px; border-radius: 6px; }
   ::selection { background: rgb(134 93 255 / 0.45); }
