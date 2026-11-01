@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import type { Locale } from '../config/site.ts';
+import { path, asset } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const s = { empty: t(lang, 'fav.empty'), error: t(lang, 'results.error'), retry: t(lang, 'results.retry') };
+---
+<Base lang={lang} title={t(lang, 'fav.title')} description={t(lang, 'fav.description')} path={path(lang, 'favorites')}
+      alternates={{ es: path('es', 'favorites'), en: path('en', 'favorites') }} noindex>
+  <div class="wrap py-12" data-favorites data-src={asset(`/${lang}/index.json`)}>
+    <script type="application/json" data-fav-strings set:html={JSON.stringify(s)} />
+    <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <h1 class="text-[clamp(28px,4vw,40px)] font-bold">{t(lang, 'fav.title')}</h1>
+        <p class="sec-sub">{t(lang, 'fav.description')}</p>
+      </div>
+      <button type="button" class="btn-ghost" data-fav-clear hidden>{t(lang, 'fav.clear')}</button>
+    </div>
+    <div data-fav-list class="grid gap-[18px] sm:grid-cols-2 lg:grid-cols-3" aria-live="polite">
+      <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    </div>
+    <div data-fav-state></div>
+    <noscript><p class="panel p-6 text-muted">JavaScript</p></noscript>
+  </div>
+</Base>
+<script>
+  import { selection, strings, syncSelectionUI, fixBrokenLogos } from '../scripts/app.ts';
+  import { renderCard, type CardLabels } from '../lib/card.ts';
+  import { escapeHtml } from '../lib/icons.ts';
+  import type { IndexItem } from '../lib/filters.ts';
+
+  const root = document.querySelector<HTMLElement>('[data-favorites]');
+  if (root) {
+    const s = JSON.parse(root.querySelector('[data-fav-strings]')?.textContent ?? '{}');
+    const list = root.querySelector<HTMLElement>('[data-fav-list]')!;
+    const state = root.querySelector<HTMLElement>('[data-fav-state]')!;
+    const clear = root.querySelector<HTMLButtonElement>('[data-fav-clear]')!;
+    let items: IndexItem[] = [];
+    const render = () => {
+      const favs = selection.favorites();
+      const found = favs.map((slug) => items.find((i) => i.slug === slug)).filter((x): x is IndexItem => !!x);
+      list.innerHTML = found.map((it) => renderCard(it, strings.cardLabels as CardLabels)).join('');
+      state.innerHTML = found.length ? '' : `<p class="panel p-6 text-muted">${escapeHtml(s.empty)}</p>`;
+      clear.hidden = found.length === 0;
+      syncSelectionUI(list);
+      fixBrokenLogos(list);
+    };
+    clear.addEventListener('click', () => {
+      selection.clearFavorites();
+      syncSelectionUI();
+      render();
+    });
+    document.addEventListener('selection:change', render);
+    const load = async () => {
+      try {
+        const res = await fetch(root.dataset.src ?? '');
+        if (!res.ok) throw new Error(String(res.status));
+        items = ((await res.json()) as { items: IndexItem[] }).items ?? [];
+        render();
+      } catch {
+        list.innerHTML = '';
+        state.innerHTML = `<div class="panel p-6 text-center text-muted" role="alert"><p>${escapeHtml(s.error)}</p><button class="btn-ghost mt-4" data-retry>${escapeHtml(s.retry)}</button></div>`;
+        state.querySelector('[data-retry]')?.addEventListener('click', load);
+      }
+    };
+    load();
+  }
+</script>

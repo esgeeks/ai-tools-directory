@@ -1,0 +1,102 @@
+---
+import type { Locale } from '../config/site.ts';
+import { PLATFORMS, PRICING } from '../config/taxonomy.ts';
+import { t } from '../i18n/ui.ts';
+import { svg } from '../lib/icons.ts';
+import { categoriesWithCounts, getTools, toIndexItem, isNew } from '../lib/catalog.ts';
+import { renderCard } from '../lib/card.ts';
+import { cardLabels } from '../lib/labels.ts';
+import { sortItems } from '../lib/filters.ts';
+import { asset } from '../i18n/routes.ts';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const tools = getTools();
+const cats = categoriesWithCounts().filter((c) => c.count > 0);
+const count = (fn: (x: (typeof tools)[number]) => boolean) => tools.filter(fn).length;
+const labels = cardLabels(lang);
+// Primer lote renderizado en el servidor (funciona sin JavaScript y mejora el LCP).
+const firstItems = sortItems(tools.map((x) => toIndexItem(x, lang)), 'added').slice(0, 12);
+const newSlugs = new Set(tools.filter((x) => isNew(x)).map((x) => x.slug));
+const firstHtml = firstItems.map((it) => renderCard(it, labels, { isNew: newSlugs.has(it.slug) })).join('');
+const windows = [
+  { v: 0, l: t(lang, 'filters.any') }, { v: 7, l: t(lang, 'filters.last7') }, { v: 30, l: t(lang, 'filters.last30') }, { v: 90, l: t(lang, 'filters.last90') },
+];
+const explorerStrings = {
+  count: t(lang, 'results.count'), one: t(lang, 'results.one'), empty: t(lang, 'results.empty'), error: t(lang, 'results.error'),
+  retry: t(lang, 'results.retry'), more: t(lang, 'results.more'), clear: t(lang, 'filters.clear'),
+  newSlugs: [...newSlugs],
+  allowed: { categories: cats.map((c) => c.id), platforms: PLATFORMS.map((p) => p.id), pricing: PRICING.map((p) => p.id) },
+  labels: {
+    ...Object.fromEntries(cats.map((c) => [`cat:${c.id}`, c.label[lang]])),
+    ...Object.fromEntries(PLATFORMS.map((p) => [`plat:${p.id}`, p.label[lang]])),
+    ...Object.fromEntries(PRICING.map((p) => [`price:${p.id}`, p.label[lang]])),
+    os: t(lang, 'filters.openSource'), local: t(lang, 'filters.local'), offline: t(lang, 'filters.offline'),
+    added: t(lang, 'filters.added'), updated: t(lang, 'filters.updated'),
+  },
+};
+---
+<div data-explorer data-src={asset(`/${lang}/index.json`)} class="grid items-start gap-[26px] lg:grid-cols-[260px_1fr]">
+  <script type="application/json" data-explorer-strings set:html={JSON.stringify(explorerStrings).replace(/</g, '\\u003c')} />
+  <aside data-filters class="fixed inset-0 z-[60] hidden overflow-y-auto bg-bg/95 p-5 backdrop-blur-md lg:sticky lg:top-[86px] lg:z-auto lg:block lg:max-h-[calc(100vh-110px)] lg:rounded-[18px] lg:border lg:border-line lg:bg-bg2 lg:p-5" aria-label={t(lang, 'filters.title')}>
+    <div class="mb-4 flex items-center justify-between lg:hidden">
+      <h3 class="text-lg font-semibold">{t(lang, 'filters.title')}</h3>
+      <button type="button" class="icon-btn" data-filters-close aria-label={t(lang, 'nav.close')}><Fragment set:html={svg('close')} /></button>
+    </div>
+    <form data-filter-form class="space-y-5 text-sm">
+      <fieldset>
+        <legend class="mb-2.5 text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'filters.category')}</legend>
+        <select name="cat" class="field w-full">
+          <option value="">{t(lang, 'filters.allCategories')}</option>
+          {cats.map((c) => <option value={c.id}>{c.label[lang]} ({c.count})</option>)}
+        </select>
+      </fieldset>
+      <fieldset class="border-t border-line pt-4">
+        <legend class="mb-2.5 text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'filters.platform')}</legend>
+        {PLATFORMS.map((p) => <label class="opt"><input type="checkbox" name="plat" value={p.id} /> {p.label[lang]}<small>{count((x) => x.platforms.includes(p.id))}</small></label>)}
+      </fieldset>
+      <fieldset class="border-t border-line pt-4">
+        <legend class="mb-2.5 text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'filters.pricing')}</legend>
+        {PRICING.map((p) => <label class="opt"><input type="checkbox" name="price" value={p.id} /> {p.label[lang]}<small>{count((x) => x.pricing === p.id)}</small></label>)}
+      </fieldset>
+      <fieldset class="border-t border-line pt-4">
+        <legend class="mb-2.5 text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'filters.features')}</legend>
+        <label class="opt"><input type="checkbox" name="os" value="1" /> {t(lang, 'filters.openSource')}<small>{count((x) => x.license.openSource === true)}</small></label>
+        <label class="opt"><input type="checkbox" name="local" value="1" /> {t(lang, 'filters.local')}<small>{count((x) => x.localExecution === true)}</small></label>
+        <label class="opt"><input type="checkbox" name="offline" value="1" /> {t(lang, 'filters.offline')}<small>{count((x) => x.offline === true)}</small></label>
+      </fieldset>
+      <fieldset class="grid grid-cols-2 gap-3 border-t border-line pt-4 lg:grid-cols-1">
+        <label class="block"><span class="mb-1.5 block text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'filters.added')}</span>
+          <select name="added" class="field w-full">{windows.map((w) => <option value={w.v}>{w.l}</option>)}</select></label>
+        <label class="block"><span class="mb-1.5 block text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'filters.updated')}</span>
+          <select name="updated" class="field w-full">{windows.map((w) => <option value={w.v}>{w.l}</option>)}</select></label>
+      </fieldset>
+      <div class="flex gap-2 border-t border-line pt-4">
+        <button type="button" class="btn-ghost flex-1 justify-center" data-filters-clear>{t(lang, 'filters.clear')}</button>
+        <button type="button" class="btn flex-1 lg:hidden" data-filters-close>{t(lang, 'filters.apply')}</button>
+      </div>
+    </form>
+  </aside>
+  <div class="min-w-0">
+    <div class="mb-4 flex flex-wrap items-center gap-2.5">
+      <button type="button" class="icon-btn lg:hidden" data-filters-open aria-expanded="false"><Fragment set:html={svg('filter')} />{t(lang, 'filters.title')}</button>
+      <p class="text-sm text-muted" data-result-count aria-live="polite">{tools.length === 1 ? t(lang, 'results.one') : t(lang, 'results.count', { n: tools.length })}</p>
+      <label class="ml-auto flex items-center gap-2 text-sm text-muted">{t(lang, 'sort.label')}
+        <select name="sort" class="field" data-sort>
+          <option value="added">{t(lang, 'sort.added')}</option>
+          <option value="updated">{t(lang, 'sort.updated')}</option>
+          <option value="name">{t(lang, 'sort.name')}</option>
+          <option value="relevance">{t(lang, 'sort.relevance')}</option>
+        </select>
+      </label>
+    </div>
+    <div class="mb-4 flex flex-wrap gap-1.5" data-active-filters></div>
+    <div data-results class="grid gap-[18px] sm:grid-cols-2" aria-busy="false" set:html={firstHtml} />
+    <div data-state class="mt-4"></div>
+    <div class="mt-6 text-center"><button type="button" class="btn-ghost" data-more hidden>{t(lang, 'results.more')}</button></div>
+    {tools.length === 0 && <p class="panel p-6 text-muted">{t(lang, 'home.emptyCatalog')}</p>}
+  </div>
+</div>
+<script>
+  import '../scripts/explorer.ts';
+</script>

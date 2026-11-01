@@ -1,0 +1,155 @@
+{
+  "github:browser-use/browser-use": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO notLibrary: parece una biblioteca/framework (lib:python library, lib:library for)"
+    ],
+    "name": "Browser use",
+    "source": "https://github.com/browser-use/browser-use"
+  },
+  "github:freestylefly/awesome-gpt-image-2": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (freestylefly/awesome-gpt-image-2)"
+    ],
+    "name": "Awesome GPT image 2",
+    "source": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  "github:dipakkr/awesome-ai-engineering": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (dipakkr/awesome-ai-engineering)"
+    ],
+    "name": "Awesome AI engineering",
+    "source": "https://github.com/dipakkr/awesome-ai-engineering"
+  },
+  "github:dailydotdev/daily": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Daily",
+    "source": "https://github.com/dailydotdev/daily"
+  },
+  "github:youmind-openlab/awesome-nano-banana-pro-prompts": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (YouMind-OpenLab/awesome-nano-banana-pro-prompts)"
+    ],
+    "name": "Awesome Nano Banana Pro Prompts",
+    "source": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+  },
+  "github:yihui-dev/awesome-opus5-5-videos": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (yihui-dev/awesome-opus5-5-videos)"
+    ],
+    "name": "Awesome Opus 5.5 Videos",
+    "source": "https://github.com/yihui-dev/awesome-opus5-5-videos"
+  },
+  "github:youmind-openlab/awesome-gpt-image-2": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (YouMind-OpenLab/awesome-gpt-image-2)"
+    ],
+    "name": "Awesome GPT image 2",
+    "source": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2"
+  },
+  "github:rockbenben/chatgpt-shortcut": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: prompts"
+    ],
+    "name": "ChatGPT Shortcut",
+    "source": "https://github.com/rockbenben/ChatGPT-Shortcut"
+  },
+  "github:wenyuchiou/awesome-agentic-ai-zh": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (WenyuChiou/awesome-agentic-ai-zh)"
+    ],
+    "name": "awesome-agentic-ai-zh",
+    "source": "https://github.com/WenyuChiou/awesome-agentic-ai-zh"
+  },
+  "github:cporter202/api-mega-list": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA",
+      "RECHAZO isTool: nombre de colección/recurso (cporter202/API-mega-list)"
+    ],
+    "name": "API Mega List",
+    "source": "https://github.com/cporter202/API-mega-list"
+  },
+  "github:yi1108/printfilm": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "PRINTFILM",
+    "source": "https://github.com/yi1108/printfilm"
+  },
+  "github:mizorewww/laya-mlx": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: no es una herramienta: \"model card\""
+    ],
+    "name": "Laya-MLX",
+    "source": "https://github.com/mizorewww/laya-mlx"
+  },
+  "github:florianbruniaux/claude-code-ultimate-guide": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: tutorial"
+    ],
+    "name": "Claude Code Ultimate Guide",
+    "source": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
+  },
+  "github:michael-a-kuykendall/shimmy": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO notLibrary: parece una biblioteca/framework (lib:inference engine)"
+    ],
+    "name": "Shimmy",
+    "source": "https://github.com/Michael-A-Kuykendall/shimmy"
+  },
+  "github:ahmadhassan-bted/jantt": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO notLibrary: parece una biblioteca/framework (lib:boilerplate)"
+    ],
+    "name": "Jantt",
+    "source": "https://github.com/AhmadHassan-BTed/Jantt"
+  },
+  "github:0xnyk/awesome-hermes-agent": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (0xNyk/awesome-hermes-agent)"
+    ],
+    "name": "Awesome Hermes Agent",
+    "source": "https://github.com/0xNyk/awesome-hermes-agent"
+  },
+  "github:thejoefin/text-grab": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Text Grab",
+    "source": "https://github.com/TheJoeFin/Text-Grab"
+  },
+  "github:palxiao/poster-design": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Poster design",
+    "source": "https://github.com/palxiao/poster-design"
+  },
+  "github:xianyu110/awesome-openclaw-tutorial": {
+    "at": "2026-11-01",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (xianyu110/awesome-openclaw-tutorial)"
+    ],
+    "name": "Awesome OpenClaw Tutorial",
+    "source": "https://github.com/xianyu110/awesome-openclaw-tutorial"
+  }
+}

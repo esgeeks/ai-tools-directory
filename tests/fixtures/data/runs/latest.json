@@ -1,0 +1,11 @@
+{
+  "finishedAt": "2026-11-01T06:30:00Z",
+  "ok": true,
+  "discovered": 3,
+  "admitted": 3,
+  "rejected": 0,
+  "review": 0,
+  "updated": 0,
+  "translationsPending": 1,
+  "sourceErrors": {}
+}

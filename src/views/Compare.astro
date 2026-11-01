@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro';
+import type { Locale } from '../config/site.ts';
+import { path, asset } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const s = {
+  empty: t(lang, 'cmp.empty'), needMore: t(lang, 'cmp.needMore'), error: t(lang, 'results.error'), retry: t(lang, 'results.retry'),
+  remove: t(lang, 'cmp.remove'), unknown: t(lang, 'tool.unknown'), yes: t(lang, 'tool.yes'), no: t(lang, 'tool.no'),
+  rows: {
+    function: t(lang, 'cmp.function'), platforms: t(lang, 'tool.platforms'), pricing: t(lang, 'tool.pricing'), license: t(lang, 'tool.license'),
+    local: t(lang, 'tool.local'), offline: t(lang, 'tool.offline'), features: t(lang, 'tool.features'), links: t(lang, 'cmp.links'), verified: t(lang, 'tool.lastVerified'),
+  },
+  links: { official: t(lang, 'tool.officialSite'), github: 'GitHub', download: t(lang, 'tool.download'), huggingface: 'Hugging Face' },
+  locale: lang === 'es' ? 'es-419' : 'en-US',
+};
+---
+<Base lang={lang} title={t(lang, 'cmp.title')} description={t(lang, 'cmp.description')} path={path(lang, 'compare')}
+      alternates={{ es: path('es', 'compare'), en: path('en', 'compare') }} noindex>
+  <div class="wrap py-12" data-compare data-src={asset(`/${lang}/details.json`)}>
+    <script type="application/json" data-cmp-strings set:html={JSON.stringify(s)} />
+    <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <h1 class="text-[clamp(28px,4vw,40px)] font-bold">{t(lang, 'cmp.title')}</h1>
+        <p class="sec-sub max-w-2xl">{t(lang, 'cmp.description')}</p>
+      </div>
+      <button type="button" class="btn-ghost" data-cmp-clear>{t(lang, 'cmp.clear')}</button>
+    </div>
+    <div data-cmp-out class="overflow-x-auto rounded-[18px] border border-line bg-bg2" aria-live="polite"><div class="skeleton m-4"></div></div>
+  </div>
+</Base>
+<script>
+  import { selection, syncSelectionUI, fixBrokenLogos } from '../scripts/app.ts';
+  import { escapeHtml } from '../lib/icons.ts';
+  import { renderLogo, fmtDate } from '../lib/card.ts';
+
+  interface Detail {
+    slug: string; name: string; url: string; logo: string | null; description: string;
+    platforms: string[]; pricing: string; license: string | null; local: boolean | null; offline: boolean | null;
+    features: string[]; links: Record<string, string | null>; verified: string;
+  }
+  document.body.dataset.page = 'compare';
+  const root = document.querySelector<HTMLElement>('[data-compare]');
+  if (root) {
+    const s = JSON.parse(root.querySelector('[data-cmp-strings]')?.textContent ?? '{}');
+    const out = root.querySelector<HTMLElement>('[data-cmp-out]')!;
+    let data: Detail[] = [];
+    const yn = (v: boolean | null) => (v === true ? s.yes : v === false ? s.no : `<span class="text-muted">${escapeHtml(s.unknown)}</span>`);
+    const val = (v: string | null | undefined) => (v ? escapeHtml(v) : `<span class="text-muted">${escapeHtml(s.unknown)}</span>`);
+    const render = () => {
+      const sel = selection.compare().map((slug) => data.find((d) => d.slug === slug)).filter((x): x is Detail => !!x);
+      if (sel.length === 0) {
+        out.innerHTML = `<p class="p-6 text-muted">${escapeHtml(s.empty)}</p>`;
+        return;
+      }
+      const head = sel.map((d) => `<th scope="col" class="min-w-[220px]"><div class="flex items-center gap-3">${renderLogo(d, 40)}<a class="font-semibold hover:text-cyan" href="${escapeHtml(d.url)}">${escapeHtml(d.name)}</a></div>
+        <button type="button" class="mt-2 text-xs text-muted hover:text-fuchsia" data-remove="${escapeHtml(d.slug)}">✕ ${escapeHtml(s.remove)}</button></th>`).join('');
+      const row = (label: string, cell: (d: Detail) => string) => `<tr><th scope="row">${escapeHtml(label)}</th>${sel.map((d) => `<td>${cell(d)}</td>`).join('')}</tr>`;
+      const linkCell = (d: Detail) => Object.entries(d.links).filter(([, u]) => !!u)
+        .map(([k, u]) => `<a class="block text-cyan hover:underline" href="${escapeHtml(u as string)}" rel="noopener noreferrer" target="_blank">${escapeHtml(s.links[k] ?? k)}</a>`).join('') || val(null);
+      out.innerHTML = `${sel.length < 2 ? `<p class="border-b border-line p-4 text-sm text-fuchsia">${escapeHtml(s.needMore)}</p>` : ''}
+        <table class="cmp-table"><thead><tr><th scope="col"><span class="sr-only">—</span></th>${head}</tr></thead><tbody>
+        ${row(s.rows.function, (d) => `<p class="text-[#d3d8ec]">${escapeHtml(d.description)}</p>`)}
+        ${row(s.rows.platforms, (d) => (d.platforms.length ? escapeHtml(d.platforms.join(', ')) : val(null)))}
+        ${row(s.rows.pricing, (d) => escapeHtml(d.pricing))}
+        ${row(s.rows.license, (d) => val(d.license))}
+        ${row(s.rows.local, (d) => yn(d.local))}
+        ${row(s.rows.offline, (d) => yn(d.offline))}
+        ${row(s.rows.features, (d) => (d.features.length ? `<ul class="list-disc pl-4">${d.features.map((f) => `<li>${escapeHtml(f)}</li>`).join('')}</ul>` : val(null)))}
+        ${row(s.rows.links, linkCell)}
+        ${row(s.rows.verified, (d) => escapeHtml(fmtDate(d.verified, s.locale)))}
+        </tbody></table>`;
+      fixBrokenLogos(out);
+    };
+    out.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest<HTMLElement>('[data-remove]');
+      if (!b) return;
+      selection.toggleCompare(b.dataset.remove ?? '');
+      syncSelectionUI();
+      render();
+    });
+    document.addEventListener('selection:change', render);
+    const load = async () => {
+      try {
+        const res = await fetch(root.dataset.src ?? '');
+        if (!res.ok) throw new Error(String(res.status));
+        data = ((await res.json()) as { items: Detail[] }).items ?? [];
+        render();
+      } catch {
+        out.innerHTML = `<div class="p-6 text-center text-muted" role="alert"><p>${escapeHtml(s.error)}</p><button class="btn-ghost mt-4" data-retry>${escapeHtml(s.retry)}</button></div>`;
+        out.querySelector('[data-retry]')?.addEventListener('click', load);
+      }
+    };
+    syncSelectionUI();
+    load();
+  }
+</script>

@@ -1,0 +1,124 @@
+---
+import Base from '../layouts/Base.astro';
+import CardGrid from '../components/CardGrid.astro';
+import Explorer from '../components/Explorer.astro';
+import SafetyNotice from '../components/SafetyNotice.astro';
+import { site, type Locale } from '../config/site.ts';
+import { CATEGORIES } from '../config/taxonomy.ts';
+import { path, absolute } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+import { svg } from '../lib/icons.ts';
+import { getTools, categoriesWithCounts, getTrends, lastActivity } from '../lib/catalog.ts';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const tools = getTools();
+const byAdded = [...tools].sort((a, b) => b.dates.added.localeCompare(a.dates.added) || a.name.localeCompare(b.name));
+const newest = byAdded.slice(0, 6);
+const newestIds = new Set(newest.map((x) => x.id));
+const updated = tools
+  .filter((x) => lastActivity(x) && !newestIds.has(x.id))
+  .sort((a, b) => (lastActivity(b) ?? '').localeCompare(lastActivity(a) ?? ''))
+  .slice(0, 6);
+const trends = getTrends().slice(0, 6);
+const trendTools = trends.map((tr) => tools.find((x) => x.id === tr.id)).filter((x): x is NonNullable<typeof x> => !!x);
+const metricLabel = (k: string) => t(lang, k === 'hf_likes' ? 'metric.hf_likes' : 'metric.github_stars');
+const trendExtras = Object.fromEntries(trends.map((tr) => [tr.id, `<p class="text-xs text-cyan">+${tr.delta} ${metricLabel(tr.kind)} · ${tr.days}d</p>`]));
+const withCounts = categoriesWithCounts();
+const tiles = (tools.length ? withCounts.filter((c) => c.count > 0).sort((a, b) => b.count - a.count) : withCounts.filter((c) => c.id !== 'other')).slice(0, 12);
+const colors = ['#00DDF5', '#865DFF', '#F535CF'];
+const home = path(lang, 'home');
+const chips = [
+  { q: 'os=1', l: t(lang, 'filters.openSource') },
+  { q: 'local=1', l: t(lang, 'filters.local') },
+  { q: 'price=free', l: lang === 'es' ? 'Gratuita' : 'Free' },
+  { q: 'plat=windows', l: 'Windows' },
+  { q: 'plat=browser-extension', l: lang === 'es' ? 'Extensión de navegador' : 'Browser extension' },
+  { q: 'plat=cli', l: 'CLI' },
+];
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebSite', name: site.name, url: absolute(home), inLanguage: lang,
+    potentialAction: { '@type': 'SearchAction', target: `${absolute(home)}?q={search_term_string}#explorar`, 'query-input': 'required name=search_term_string' },
+  },
+];
+---
+<Base lang={lang} title={t(lang, 'meta.homeTitle')} description={t(lang, 'meta.homeDescription')} path={home}
+      alternates={{ es: path('es', 'home'), en: path('en', 'home') }} jsonLd={jsonLd}>
+  <section class="hero-bg relative overflow-hidden pb-12 pt-14 sm:pb-[70px] sm:pt-[88px]">
+    <div class="wrap relative z-[1] text-center">
+      <span class="inline-flex items-center gap-2 rounded-full border border-cyan/30 bg-cyan/5 px-3.5 py-1.5 text-[10.5px] font-semibold uppercase tracking-[.06em] text-cyan sm:text-[12.5px]">
+        <span class="pulse-dot"></span>{t(lang, 'hero.eyebrow')}
+      </span>
+      <h1 class="mx-auto mb-[18px] mt-[22px] max-w-[880px] text-[clamp(34px,6vw,64px)] font-bold leading-[1.05]">
+        {t(lang, 'hero.title.before')} <span class="grad-text">{t(lang, 'hero.title.accent')}</span> {t(lang, 'hero.title.after')}
+      </h1>
+      <p class="mx-auto mb-8 max-w-[620px] text-[clamp(16px,2vw,18.5px)] text-muted">{t(lang, 'hero.lead')}</p>
+      <form class="search-shell mx-auto max-w-[720px]" role="search" action={`${home}#explorar`} method="get">
+        <div class="search-inner">
+          <Fragment set:html={svg('search', 'h-5 w-5 flex-none text-muted')} />
+          <label for="hero-search" class="sr-only">{t(lang, 'search.label')}</label>
+          <input id="hero-search" data-search type="search" name="q" autocomplete="off" maxlength="120" placeholder={t(lang, 'search.placeholder')} />
+          <button class="btn !px-4 sm:!px-5" type="submit">{t(lang, 'search.button')}</button>
+        </div>
+      </form>
+      <div class="mt-5 flex flex-wrap justify-center gap-2">
+        {chips.map((c) => <a class="chip" href={`${home}?${c.q}#explorar`}>{c.l}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10 sm:py-14" id="categorias" aria-labelledby="h-cats">
+    <div class="wrap">
+      <div class="mb-6 flex items-end justify-between gap-4">
+        <div><h2 id="h-cats" class="sec-title">{t(lang, 'home.categories')}</h2><p class="sec-sub">{t(lang, 'home.categoriesSub')}</p></div>
+        <a class="whitespace-nowrap text-sm text-cyan" href={path(lang, 'categories')}>{t(lang, 'home.allCategories')} →</a>
+      </div>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        {tiles.map((c, i) => (
+          <a class="cat-tile" href={path(lang, 'category', c.slug[lang])}>
+            <span class="mb-3 grid h-[38px] w-[38px] place-items-center rounded-[11px]" style={`background:${colors[i % 3]}1c;color:${colors[i % 3]}`}><Fragment set:html={svg(c.icon, 'h-5 w-5')} /></span>
+            <b class="block text-[14.5px] font-semibold">{c.label[lang]}</b>
+            {tools.length > 0 && <span class="text-xs text-muted">{t(lang, 'cat.count', { n: c.count })}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {newest.length > 0 && (
+    <section class="py-8 sm:py-12" id="nuevas" aria-labelledby="h-new">
+      <div class="wrap">
+        <div class="mb-6"><h2 id="h-new" class="sec-title">{t(lang, 'home.new')}</h2><p class="sec-sub">{t(lang, 'home.newSub')}</p></div>
+        <CardGrid lang={lang} tools={newest} />
+      </div>
+    </section>
+  )}
+
+  {updated.length > 0 && (
+    <section class="py-8 sm:py-12" id="actualizadas" aria-labelledby="h-upd">
+      <div class="wrap">
+        <div class="mb-6"><h2 id="h-upd" class="sec-title">{t(lang, 'home.updated')}</h2><p class="sec-sub">{t(lang, 'home.updatedSub')}</p></div>
+        <CardGrid lang={lang} tools={updated} />
+      </div>
+    </section>
+  )}
+
+  {trendTools.length > 0 && (
+    <section class="py-8 sm:py-12" id="tendencias" aria-labelledby="h-trend">
+      <div class="wrap">
+        <div class="mb-6"><h2 id="h-trend" class="sec-title">{t(lang, 'home.trending')}</h2><p class="sec-sub">{t(lang, 'home.trendingSub')}</p></div>
+        <CardGrid lang={lang} tools={trendTools} extras={trendExtras} />
+      </div>
+    </section>
+  )}
+
+  <section class="bg-gradient-to-b from-transparent via-bg2/60 to-transparent py-10 sm:py-14" id="explorar" aria-labelledby="h-exp">
+    <div class="wrap">
+      <div class="mb-6"><h2 id="h-exp" class="sec-title">{t(lang, 'home.explorer')}</h2><p class="sec-sub">{t(lang, 'home.explorerSub')}</p></div>
+      <Explorer lang={lang} />
+    </div>
+  </section>
+
+  <section class="pb-6 pt-2"><div class="wrap"><SafetyNotice lang={lang} /></div></section>
+</Base>

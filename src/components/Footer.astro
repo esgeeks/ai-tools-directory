@@ -1,0 +1,45 @@
+---
+import { site, type Locale } from '../config/site.ts';
+import { path } from '../i18n/routes.ts';
+import { t, formatDate } from '../i18n/ui.ts';
+import { getLastRun } from '../lib/catalog.ts';
+import Logo from './Logo.astro';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const home = path(lang, 'home');
+const run = getLastRun();
+const suggest = `${site.repo}/issues/new?template=suggest-tool.yml`;
+---
+<footer class="mt-10 border-t border-line bg-bg2 pb-24 pt-12 text-sm text-muted">
+  <div class="wrap">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr]">
+      <div>
+        <Logo href={home} />
+        <p class="mt-3 max-w-[320px]">{t(lang, 'footer.about')}</p>
+      </div>
+      <div>
+        <h2 class="mb-3 text-[13.5px] text-ink">{t(lang, 'footer.directory')}</h2>
+        <a class="block py-1 hover:text-cyan" href={`${home}#explorar`}>{t(lang, 'nav.explore')}</a>
+        <a class="block py-1 hover:text-cyan" href={path(lang, 'categories')}>{t(lang, 'nav.categories')}</a>
+        <a class="block py-1 hover:text-cyan" href={`${home}#nuevas`}>{t(lang, 'nav.new')}</a>
+      </div>
+      <div>
+        <h2 class="mb-3 text-[13.5px] text-ink">{t(lang, 'footer.yours')}</h2>
+        <a class="block py-1 hover:text-cyan" href={path(lang, 'favorites')}>{t(lang, 'nav.favorites')}</a>
+        <a class="block py-1 hover:text-cyan" href={path(lang, 'compare')}>{t(lang, 'nav.compare')}</a>
+        <a class="block py-1 hover:text-cyan" href={suggest} rel="noopener" target="_blank">{t(lang, 'footer.suggest')}</a>
+      </div>
+      <div>
+        <h2 class="mb-3 text-[13.5px] text-ink">{t(lang, 'footer.info')}</h2>
+        <a class="block py-1 hover:text-cyan" href={path(lang, 'methodology')}>{t(lang, 'nav.methodology')}</a>
+        <a class="block py-1 hover:text-cyan" href={path(lang, 'legal')}>{t(lang, 'footer.legal')}</a>
+        <a class="block py-1 hover:text-cyan" href={path(lang, 'privacy')}>{t(lang, 'footer.privacy')}</a>
+      </div>
+    </div>
+    <div class="mt-9 flex flex-wrap justify-between gap-3 border-t border-line pt-5 text-[12.5px]">
+      <span>© {new Date().getUTCFullYear()} {site.name} · {t(lang, 'footer.sibling')} <a class="text-ink hover:text-cyan" href={site.parentSite.url}>{site.parentSite.name}</a></span>
+      <span>{t(lang, 'footer.lastUpdate')}: {run ? formatDate(lang, run.finishedAt) : '—'}</span>
+    </div>
+  </div>
+</footer>

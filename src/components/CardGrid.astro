@@ -1,0 +1,13 @@
+---
+import type { Locale } from '../config/site.ts';
+import type { Tool } from '../lib/schema.ts';
+import { toIndexItem, isNew } from '../lib/catalog.ts';
+import { renderCard } from '../lib/card.ts';
+import { cardLabels } from '../lib/labels.ts';
+
+interface Props { lang: Locale; tools: Tool[]; cols?: 2 | 3; extras?: Record<string, string> }
+const { lang, tools, cols = 3, extras = {} } = Astro.props;
+const labels = cardLabels(lang);
+const html = tools.map((tool) => renderCard(toIndexItem(tool, lang), labels, { isNew: isNew(tool), extra: extras[tool.id] })).join('');
+---
+<div class:list={['grid gap-[18px] sm:grid-cols-2', cols === 3 && 'lg:grid-cols-3']} set:html={html} />

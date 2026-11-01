@@ -1,0 +1,194 @@
+---
+import Base from '../layouts/Base.astro';
+import CardGrid from '../components/CardGrid.astro';
+import SafetyNotice from '../components/SafetyNotice.astro';
+import { site, type Locale } from '../config/site.ts';
+import { PLATFORMS, PRICING, categoryById } from '../config/taxonomy.ts';
+import { path, absolute } from '../i18n/routes.ts';
+import { t, formatDate } from '../i18n/ui.ts';
+import { svg } from '../lib/icons.ts';
+import { renderLogo } from '../lib/card.ts';
+import { describe, isIndexable, relatedTools, lastActivity, sourceLabel, localizedList } from '../lib/catalog.ts';
+import type { Tool } from '../lib/schema.ts';
+
+interface Props { lang: Locale; tool: Tool }
+const { lang, tool } = Astro.props;
+const desc = describe(tool, lang);
+const self = path(lang, 'tool', tool.slug);
+const plat = (id: string) => PLATFORMS.find((p) => p.id === id)?.label[lang] ?? id;
+const price = PRICING.find((p) => p.id === tool.pricing)?.label[lang] ?? tool.pricing;
+const yn = (v: boolean | null) => (v === true ? t(lang, 'tool.yes') : v === false ? t(lang, 'tool.no') : t(lang, 'tool.unknown'));
+const related = relatedTools(tool);
+const features = localizedList(tool.features, tool, lang).items;
+const requirements = localizedList(tool.requirements, tool, lang).items;
+const metaDesc = (() => {
+  const s = desc.text.replace(/\s+/g, ' ').trim();
+  return s.length > 155 ? `${s.slice(0, 152).trimEnd()}…` : s;
+})();
+const titleSuffix = lang === 'es' ? 'herramienta de IA' : 'AI tool';
+const cats = tool.categories.map((c) => categoryById(c)).filter((c): c is NonNullable<typeof c> => !!c);
+const affiliate = site.monetization.affiliateLinks.enabled && tool.affiliateUrl;
+const links = [
+  tool.urls.official && { href: affiliate ? tool.affiliateUrl! : tool.urls.official, label: t(lang, 'tool.officialSite'), icon: 'external', primary: true, rel: affiliate ? site.monetization.affiliateLinks.rel : 'noopener' },
+  tool.urls.download && { href: tool.urls.download, label: t(lang, 'tool.download'), icon: 'download', rel: 'noopener' },
+  tool.urls.github && { href: tool.urls.github, label: t(lang, 'tool.repository'), icon: 'github', rel: 'noopener' },
+  tool.urls.huggingface && { href: tool.urls.huggingface, label: t(lang, 'tool.huggingface'), icon: 'external', rel: 'noopener' },
+  tool.urls.docs && { href: tool.urls.docs, label: t(lang, 'tool.docs'), icon: 'book', rel: 'noopener' },
+  tool.urls.pricing && { href: tool.urls.pricing, label: t(lang, 'tool.pricingPage'), icon: 'external', rel: 'noopener' },
+].filter(Boolean) as { href: string; label: string; icon: string; primary?: boolean; rel: string }[];
+if (!links.some((l) => l.primary) && links[0]) links[0].primary = true;
+
+// Datos estructurados: solo campos verificados. Sin valoraciones ni precios inventados.
+const appCategory = cats.some((c) => c.id === 'programming' || c.id === 'web-development') ? 'DeveloperApplication' : 'UtilitiesApplication';
+const osList = tool.platforms.filter((p) => ['windows', 'macos', 'linux', 'android', 'ios'].includes(p)).map(plat);
+const ld: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: tool.name,
+  description: desc.text.slice(0, 500),
+  applicationCategory: appCategory,
+  url: tool.urls.official ?? tool.urls.github ?? tool.urls.huggingface ?? absolute(self),
+  ...(osList.length ? { operatingSystem: osList.join(', ') } : {}),
+  ...(tool.urls.download ? { downloadUrl: tool.urls.download } : {}),
+  ...(tool.license.spdx ? { license: `https://spdx.org/licenses/${tool.license.spdx}.html` } : {}),
+  ...(tool.urls.github ? { codeRepository: tool.urls.github } : {}),
+  ...(tool.pricing === 'free' ? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } } : {}),
+  ...(tool.logo ? { image: tool.logo.url } : {}),
+  dateModified: tool.dates.lastVerified,
+};
+const crumbs = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t(lang, 'tool.breadcrumbHome'), item: absolute(path(lang, 'home')) },
+    ...(cats[0] ? [{ '@type': 'ListItem', position: 2, name: cats[0].label[lang], item: absolute(path(lang, 'category', cats[0].slug[lang])) }] : []),
+    { '@type': 'ListItem', position: cats[0] ? 3 : 2, name: tool.name, item: absolute(self) },
+  ],
+};
+const metrics = tool.metrics.filter((m) => m.kind !== 'github_forks' || m.value > 0);
+const provenance = Object.entries(tool.provenance);
+---
+<Base lang={lang} title={`${tool.name}: ${titleSuffix}`} description={metaDesc} path={self}
+      alternates={{
+        ...(isIndexable(tool, 'es') ? { es: path('es', 'tool', tool.slug) } : {}),
+        ...(isIndexable(tool, 'en') ? { en: path('en', 'tool', tool.slug) } : {}),
+      }}
+      switchTo={{ es: path('es', 'tool', tool.slug), en: path('en', 'tool', tool.slug) }}
+      noindex={!isIndexable(tool, lang)} ogType="article"
+      ogImage={tool.screenshots[0]?.url ?? null} jsonLd={[ld, crumbs]}>
+  <div class="hero-bg relative overflow-hidden">
+    <div class="wrap relative z-[1] pb-10 pt-8 sm:pt-12">
+      <nav class="mb-6 text-[13px] text-muted" aria-label="Breadcrumb">
+        <a class="hover:text-cyan" href={path(lang, 'home')}>{t(lang, 'tool.breadcrumbHome')}</a>
+        {cats[0] && <> / <a class="hover:text-cyan" href={path(lang, 'category', cats[0].slug[lang])}>{cats[0].label[lang]}</a></>}
+        {' / '}<span class="text-ink" aria-current="page">{tool.name}</span>
+      </nav>
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-start">
+        <div set:html={renderLogo({ name: tool.name, logo: tool.logo?.url ?? null }, 72)} />
+        <div class="min-w-0 flex-1">
+          <h1 class="text-[clamp(30px,5vw,46px)] font-bold leading-tight">{tool.name}</h1>
+          <div class="mt-3 flex flex-wrap gap-1.5">
+            {site.monetization.sponsoredTools.enabled && tool.sponsored && <span class="tag tag-sponsored">{lang === 'es' ? 'Patrocinado' : 'Sponsored'}</span>}
+            {cats.map((c) => <a class="tag hover:border-violet" href={path(lang, 'category', c.slug[lang])}>{c.label[lang]}</a>)}
+            <span class:list={['tag', tool.pricing === 'free' ? 'tag-green' : tool.pricing === 'freemium' ? 'tag-cyan' : 'tag-muted']}>{price}</span>
+            {tool.license.openSource === true && <span class="tag tag-green">{t(lang, 'filters.openSource')}</span>}
+            {tool.localExecution === true && <span class="tag tag-cyan">{t(lang, 'filters.local')}</span>}
+          </div>
+          <div class="mt-5 flex flex-wrap gap-2.5">
+            {links.map((l) => (
+              <a class={l.primary ? 'btn' : 'btn-ghost'} href={l.href} rel={`${l.rel} noreferrer`} target="_blank">
+                <Fragment set:html={svg(l.icon, 'h-4 w-4')} />{l.label}
+              </a>
+            ))}
+            <button type="button" class="btn-ghost" data-fav={tool.slug} aria-pressed="false" aria-label={`${t(lang, 'card.favorite')}: ${tool.name}`}>
+              <Fragment set:html={svg('heart', 'h-4 w-4')} />{t(lang, 'nav.favorites')}
+            </button>
+            <label class="btn-ghost cursor-pointer"><input type="checkbox" class="accent-cyan" data-cmp={tool.slug} /> {t(lang, 'tool.addCompare')}</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap grid gap-8 pb-10 lg:grid-cols-[1fr_340px]">
+    <div class="min-w-0 space-y-8">
+      <section aria-labelledby="h-about">
+        <h2 id="h-about" class="mb-3 text-xl font-semibold">{t(lang, 'tool.about')}</h2>
+        <div class="prose-tool" lang={desc.status === 'fallback' ? (tool.description.originalLang === 'unknown' ? undefined : tool.description.originalLang) : lang}>
+          {desc.text.split(/\n{2,}/).map((p) => <p class="mb-3">{p}</p>)}
+        </div>
+        {desc.status === 'machine' && <p class="mt-2 flex items-center gap-1.5 text-xs text-muted"><Fragment set:html={svg('info', 'h-3.5 w-3.5')} />{t(lang, 'tool.translationMachine')}</p>}
+        {desc.status === 'fallback' && tool.description.originalLang !== lang && <p class="mt-2 flex items-center gap-1.5 text-xs text-muted"><Fragment set:html={svg('info', 'h-3.5 w-3.5')} />{t(lang, 'tool.translationMissing')}</p>}
+      </section>
+
+      {features.length > 0 && (
+        <section aria-labelledby="h-feat">
+          <h2 id="h-feat" class="mb-3 text-xl font-semibold">{t(lang, 'tool.features')}</h2>
+          <ul class="list-disc space-y-1.5 pl-5 text-[#d3d8ec]">{features.map((f) => <li>{f}</li>)}</ul>
+        </section>
+      )}
+
+      {requirements.length > 0 && (
+        <section aria-labelledby="h-req">
+          <h2 id="h-req" class="mb-3 text-xl font-semibold">{t(lang, 'tool.requirements')}</h2>
+          <ul class="list-disc space-y-1.5 pl-5 text-[#d3d8ec]">{requirements.map((f) => <li>{f}</li>)}</ul>
+        </section>
+      )}
+
+      {tool.screenshots.length > 0 && (
+        <section aria-labelledby="h-shots">
+          <h2 id="h-shots" class="mb-3 text-xl font-semibold">{t(lang, 'tool.screenshots')}</h2>
+          <div class="grid gap-4 sm:grid-cols-2">
+            {tool.screenshots.map((s) => (
+              <figure class="panel overflow-hidden">
+                <img src={s.url} alt={s.alt ?? tool.name} loading="lazy" decoding="async" referrerpolicy="no-referrer" class="aspect-video w-full object-cover" />
+                <figcaption class="px-3 py-2 text-xs text-muted">{s.origin === 'official-og-image' ? (lang === 'es' ? 'Imagen oficial del sitio' : 'Official site image') : s.origin === 'hf-thumbnail' ? 'Hugging Face' : s.origin}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <SafetyNotice lang={lang} />
+
+      {related.length > 0 && (
+        <section aria-labelledby="h-rel">
+          <h2 id="h-rel" class="mb-4 text-xl font-semibold">{t(lang, 'tool.alternatives')}</h2>
+          <CardGrid lang={lang} tools={related} cols={2} />
+        </section>
+      )}
+    </div>
+
+    <aside class="space-y-5">
+      <div class="panel p-5">
+        <dl class="dl">
+          <dt>{t(lang, 'tool.platforms')}</dt>
+          <dd>{tool.platforms.length ? <span class="flex flex-wrap gap-x-3 gap-y-1">{tool.platforms.map((p) => <span class="inline-flex items-center gap-1.5"><Fragment set:html={svg(p, 'h-4 w-4 text-cyan')} />{plat(p)}</span>)}</span> : t(lang, 'tool.unknown')}</dd>
+          <dt>{t(lang, 'tool.pricing')}</dt><dd>{price}</dd>
+          <dt>{t(lang, 'tool.license')}</dt><dd>{tool.license.name ?? tool.license.spdx ?? t(lang, 'tool.unknown')}</dd>
+          <dt>{t(lang, 'tool.local')}</dt><dd>{yn(tool.localExecution)}</dd>
+          <dt>{t(lang, 'tool.offline')}</dt><dd>{yn(tool.offline)}</dd>
+        </dl>
+      </div>
+      <div class="panel p-5">
+        <h2 class="text-base font-semibold">{t(lang, 'tool.data')}</h2>
+        <p class="mb-4 text-xs text-muted">{t(lang, 'tool.dataSub')}</p>
+        <dl class="dl">
+          <dt>{t(lang, 'tool.lastVerified')}</dt><dd>{formatDate(lang, tool.dates.lastVerified)}</dd>
+          <dt>{t(lang, 'tool.added')}</dt><dd>{formatDate(lang, tool.dates.added)}</dd>
+          {lastActivity(tool) && <><dt>{t(lang, 'tool.sourceUpdated')}</dt><dd>{formatDate(lang, lastActivity(tool))}</dd></>}
+          {metrics.map((m) => <><dt>{t(lang, `metric.${m.kind}`)}</dt><dd>{m.value.toLocaleString(lang === 'es' ? 'es-419' : 'en-US')} <span class="text-xs text-muted">({formatDate(lang, m.at)})</span></dd></>)}
+        </dl>
+        <h3 class="mb-2 mt-5 text-xs font-semibold uppercase tracking-[.09em] text-muted">{t(lang, 'tool.sources')}</h3>
+        <ul class="space-y-1.5 text-[13px]">
+          {tool.sources.map((s) => <li><a class="break-all text-cyan hover:underline" href={s.url} rel="noopener noreferrer" target="_blank">{s.connector === 'curated' ? sourceLabel(tool, lang) : s.connector}: {s.externalId}</a></li>)}
+        </ul>
+        {provenance.length > 0 && (
+          <details class="mt-4 text-[13px]">
+            <summary class="cursor-pointer text-muted hover:text-ink">{lang === 'es' ? 'Procedencia por campo' : 'Per-field provenance'}</summary>
+            <dl class="dl mt-3">{provenance.map(([k, v]) => <><dt>{k}</dt><dd class="break-words">{v}</dd></>)}</dl>
+          </details>
+        )}
+      </div>
+    </aside>
+  </div>
+</Base>

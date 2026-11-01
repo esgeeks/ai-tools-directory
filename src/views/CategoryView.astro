@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import CardGrid from '../components/CardGrid.astro';
+import SafetyNotice from '../components/SafetyNotice.astro';
+import { site, type Locale } from '../config/site.ts';
+import type { CategoryDef } from '../config/taxonomy.ts';
+import { path, absolute } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+import { toolsInCategory } from '../lib/catalog.ts';
+
+interface Props { lang: Locale; category: CategoryDef }
+const { lang, category } = Astro.props;
+const tools = toolsInCategory(category.id).sort((a, b) => b.dates.added.localeCompare(a.dates.added) || a.name.localeCompare(b.name));
+const name = category.label[lang];
+const self = path(lang, 'category', category.slug[lang]);
+const indexable = tools.length >= site.thresholds.categoryIndexMin;
+const ld = {
+  '@context': 'https://schema.org', '@type': 'CollectionPage', name: t(lang, 'cat.toolsIn', { name }), url: absolute(self), inLanguage: lang,
+  mainEntity: { '@type': 'ItemList', numberOfItems: tools.length, itemListElement: tools.slice(0, 50).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: absolute(path(lang, 'tool', x.slug)), name: x.name })) },
+};
+---
+<Base lang={lang} title={t(lang, 'cat.toolsIn', { name })} description={t(lang, 'cat.metaDescription', { name, n: tools.length })} path={self}
+      alternates={{ es: path('es', 'category', category.slug.es), en: path('en', 'category', category.slug.en) }}
+      noindex={!indexable} jsonLd={[ld]}>
+  <div class="hero-bg relative overflow-hidden">
+    <div class="wrap relative z-[1] py-12">
+      <nav class="mb-4 text-[13px] text-muted" aria-label="Breadcrumb">
+        <a class="hover:text-cyan" href={path(lang, 'home')}>{t(lang, 'tool.breadcrumbHome')}</a> / <a class="hover:text-cyan" href={path(lang, 'categories')}>{t(lang, 'nav.categories')}</a> / <span class="text-ink">{name}</span>
+      </nav>
+      <h1 class="text-[clamp(28px,4vw,44px)] font-bold">{t(lang, 'cat.toolsIn', { name })}</h1>
+      <p class="sec-sub">{t(lang, 'cat.count', { n: tools.length })} · <a class="text-cyan" href={`${path(lang, 'home')}?cat=${category.id}#explorar`}>{t(lang, 'home.explorer')} →</a></p>
+    </div>
+  </div>
+  <div class="wrap space-y-8 pb-10">
+    {tools.length ? <CardGrid lang={lang} tools={tools} /> : <p class="panel p-6 text-muted">{t(lang, 'home.emptyCatalog')}</p>}
+    <SafetyNotice lang={lang} />
+  </div>
+</Base>

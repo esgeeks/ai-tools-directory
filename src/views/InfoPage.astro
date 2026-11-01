@@ -1,0 +1,136 @@
+---
+import Base from '../layouts/Base.astro';
+import SafetyNotice from '../components/SafetyNotice.astro';
+import { site, type Locale } from '../config/site.ts';
+import { path } from '../i18n/routes.ts';
+import { t, formatDate } from '../i18n/ui.ts';
+import { getLastRun } from '../lib/catalog.ts';
+
+interface Props { lang: Locale; page: 'methodology' | 'legal' | 'privacy' }
+const { lang, page } = Astro.props;
+const run = getLastRun();
+const es = lang === 'es';
+const titles = {
+  methodology: es ? 'Metodología: cómo descubrimos y verificamos herramientas' : 'Methodology: how we discover and verify tools',
+  legal: es ? 'Aviso legal' : 'Legal notice',
+  privacy: es ? 'Privacidad' : 'Privacy',
+};
+const descs = {
+  methodology: es ? 'Fuentes, criterios de verificación, traducción automática y métricas del directorio.' : 'Sources, verification criteria, machine translation and metrics used by the directory.',
+  legal: es ? 'Condiciones de uso del directorio y de los enlaces a herramientas de terceros.' : 'Terms of use for the directory and links to third-party tools.',
+  privacy: es ? 'Qué datos guarda el sitio: solo favoritos y comparaciones en tu navegador.' : 'What data the site stores: only favorites and comparisons in your browser.',
+};
+const issues = `${site.repo}/issues`;
+---
+<Base lang={lang} title={titles[page]} description={descs[page]} path={path(lang, page)}
+      alternates={{ es: path('es', page), en: path('en', page) }}>
+  <article class="wrap max-w-[820px] py-12 [&_h2]:mb-3 [&_h2]:mt-9 [&_h2]:text-xl [&_h2]:font-semibold [&_li]:mb-1.5 [&_p]:mb-3 [&_p]:text-[#d3d8ec] [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:text-[#d3d8ec] [&_a]:text-cyan">
+    <h1 class="mb-4 text-[clamp(28px,4vw,40px)] font-bold leading-tight">{titles[page]}</h1>
+
+    {page === 'methodology' && es && (
+      <>
+        <p>{site.name} es un directorio automático. Cada día, un proceso en GitHub Actions consulta fuentes públicas, verifica a los candidatos y publica solo los que superan todos los controles.</p>
+        <h2>Fuentes</h2>
+        <ul>
+          <li><b>GitHub Search API</b>: repositorios de aplicaciones de IA (no bibliotecas, datasets ni colecciones).</li>
+          <li><b>Hugging Face Spaces</b>: aplicaciones en ejecución; se excluyen modelos y datasets independientes.</li>
+          <li><b>Lista curada de sitios oficiales</b>: herramientas comerciales verificadas contra su web oficial.</li>
+          <li><b>Listas públicas con licencia abierta</b> y <b>feeds RSS/Atom</b> autorizados, solo como fuente de candidatos.</li>
+        </ul>
+        <h2>Verificación</h2>
+        <ul>
+          <li>Fuente identificable y URL válida (https) y accesible.</li>
+          <li>Evidencia textual de uso de inteligencia artificial.</li>
+          <li>Descripción suficiente y evidencia de que es una aplicación utilizable (no una biblioteca ni un modelo aislado).</li>
+          <li>En GitHub: README presente, repositorio no archivado y actividad reciente.</li>
+          <li>Categorías y plataformas asignadas solo con evidencia en la fuente (texto, binarios de releases, enlaces a tiendas).</li>
+          <li>Detección de duplicados por URL canónica, identificadores y nombre.</li>
+        </ul>
+        <p>Si falta información crítica, la herramienta no se publica. Los datos desconocidos se muestran como «No verificado»: nunca suponemos que algo es gratuito, compatible con un sistema o utilizable sin conexión.</p>
+        <h2>Traducción</h2>
+        <p>Las descripciones se traducen automáticamente con <a href="https://github.com/argosopentech/argos-translate" rel="noopener">Argos Translate</a>, un traductor de código abierto que funciona sin servicios de pago. Las traducciones se marcan como automáticas; si una traducción no supera los controles de calidad, se muestra el texto original.</p>
+        <h2>Novedades, actualizaciones y tendencias</h2>
+        <ul>
+          <li><b>Nuevas</b>: incorporadas al directorio en los últimos {site.thresholds.newDays} días.</li>
+          <li><b>Con actividad reciente</b>: última actividad comprobada en la fuente (commits, releases, actualización del Space) o cambios detectados entre ejecuciones.</li>
+          <li><b>Tendencias</b>: crecimiento de estrellas de GitHub o «likes» de Hugging Face, calculado con nuestro propio historial (mínimo {site.thresholds.trendMinHistoryDays} días). No equivale a número de usuarios y no se compara con herramientas comerciales.</li>
+        </ul>
+        <h2>Lo que no hacemos</h2>
+        <p>No instalamos ni ejecutamos el software descubierto, no publicamos valoraciones subjetivas y no realizamos scraping que eluda bloqueos o límites.</p>
+        {run && <p class="text-sm text-muted">Última ejecución: {formatDate(lang, run.finishedAt)} · descubiertas: {run.discovered} · admitidas: {run.admitted} · descartadas: {run.rejected}.</p>}
+        <p>¿Encontraste un error o quieres sugerir una herramienta? <a href={issues} rel="noopener">Abre una incidencia en GitHub</a>.</p>
+      </>
+    )}
+    {page === 'methodology' && !es && (
+      <>
+        <p>{site.name} is an automated directory. Every day a GitHub Actions job queries public sources, verifies candidates and publishes only those that pass every check.</p>
+        <h2>Sources</h2>
+        <ul>
+          <li><b>GitHub Search API</b>: repositories of AI applications (not libraries, datasets or collections).</li>
+          <li><b>Hugging Face Spaces</b>: running applications; standalone models and datasets are excluded.</li>
+          <li><b>Curated list of official websites</b>: commercial tools verified against their official site.</li>
+          <li><b>Openly licensed public lists</b> and authorized <b>RSS/Atom feeds</b>, used only as candidate sources.</li>
+        </ul>
+        <h2>Verification</h2>
+        <ul>
+          <li>Identifiable source and a valid, reachable https URL.</li>
+          <li>Textual evidence that the tool uses artificial intelligence.</li>
+          <li>Enough description and evidence that it is a usable application (not a library or a standalone model).</li>
+          <li>On GitHub: README present, repository not archived, recent activity.</li>
+          <li>Categories and platforms are assigned only with evidence from the source (text, release binaries, store links).</li>
+          <li>Duplicate detection by canonical URL, identifiers and name.</li>
+        </ul>
+        <p>If critical information is missing, the tool is not published. Unknown data is shown as "Not verified": we never assume a tool is free, supports an OS or works offline.</p>
+        <h2>Translation</h2>
+        <p>Descriptions are machine-translated with <a href="https://github.com/argosopentech/argos-translate" rel="noopener">Argos Translate</a>, an open source translator with no paid services. Translations are labeled as automatic; if one fails quality checks, the original text is shown.</p>
+        <h2>New, updated and trending</h2>
+        <ul>
+          <li><b>New</b>: added to the directory in the last {site.thresholds.newDays} days.</li>
+          <li><b>Recently active</b>: latest verified activity at the source (commits, releases, Space updates) or changes detected between runs.</li>
+          <li><b>Trending</b>: growth in GitHub stars or Hugging Face likes, computed from our own history (at least {site.thresholds.trendMinHistoryDays} days). Not equivalent to user counts and never compared with commercial tools.</li>
+        </ul>
+        <h2>What we don't do</h2>
+        <p>We never install or run discovered software, publish subjective ratings, or scrape in ways that bypass blocks or limits.</p>
+        {run && <p class="text-sm text-muted">Last run: {formatDate(lang, run.finishedAt)} · discovered: {run.discovered} · admitted: {run.admitted} · rejected: {run.rejected}.</p>}
+        <p>Found a mistake or want to suggest a tool? <a href={issues} rel="noopener">Open an issue on GitHub</a>.</p>
+      </>
+    )}
+
+    {page === 'legal' && (
+      es ? (
+        <>
+          <p>{site.name} es un directorio informativo de herramientas de terceros. Los nombres, marcas y logotipos pertenecen a sus respectivos propietarios y se muestran solo para identificar cada herramienta.</p>
+          <p>La información procede de fuentes públicas y se verifica de forma automática. Puede contener errores o quedar desactualizada; consulta siempre la fuente oficial antes de tomar decisiones.</p>
+          <p>La inclusión de una herramienta no implica recomendación, afiliación ni auditoría de seguridad. Actualmente no hay contenido patrocinado ni enlaces de afiliado; si se incorporan, se identificarán de forma visible.</p>
+          <p>Si eres responsable de una herramienta y quieres corregir o retirar su ficha, <a href={issues} rel="noopener">abre una incidencia</a>.</p>
+        </>
+      ) : (
+        <>
+          <p>{site.name} is an informational directory of third-party tools. Names, trademarks and logos belong to their respective owners and are shown only to identify each tool.</p>
+          <p>Information comes from public sources and is verified automatically. It may contain errors or become outdated; always check the official source before making decisions.</p>
+          <p>Listing a tool does not imply endorsement, affiliation or a security audit. There is currently no sponsored content or affiliate links; if added, they will be clearly labeled.</p>
+          <p>If you maintain a tool and want to correct or remove its listing, <a href={issues} rel="noopener">open an issue</a>.</p>
+        </>
+      )
+    )}
+
+    {page === 'privacy' && (
+      es ? (
+        <>
+          <p>Este sitio no usa cuentas, cookies de seguimiento ni analítica.</p>
+          <p>Tus favoritos y tu selección del comparador se guardan solo en tu navegador (<code>localStorage</code>). No se envían a ningún servidor y puedes borrarlos desde las páginas de favoritos y comparador o limpiando los datos del sitio.</p>
+          <p>Los logotipos pueden cargarse desde servidores de terceros (GitHub, Hugging Face o el sitio oficial de la herramienta), que pueden registrar la solicitud según sus propias políticas.</p>
+        </>
+      ) : (
+        <>
+          <p>This site uses no accounts, tracking cookies or analytics.</p>
+          <p>Your favorites and comparison picks are stored only in your browser (<code>localStorage</code>). They are never sent to a server; you can clear them from the favorites and compare pages or by clearing site data.</p>
+          <p>Logos may load from third-party servers (GitHub, Hugging Face or the tool's official site), which may log the request under their own policies.</p>
+        </>
+      )
+    )}
+
+    <div class="mt-10"><SafetyNotice lang={lang} /></div>
+    <p class="mt-6"><a href={path(lang, 'home')}>← {t(lang, 'notfound.back')}</a></p>
+  </article>
+</Base>

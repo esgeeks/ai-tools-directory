@@ -1,0 +1,2 @@
+# Traducción local gratuita (instalada solo en GitHub Actions). torch se instala antes en su versión CPU.
+argostranslate>=1.9,<2
