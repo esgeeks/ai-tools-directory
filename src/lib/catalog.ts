@@ -4,7 +4,7 @@
  */
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { CatalogSchema, type Tool } from './schema.ts';
+import { CatalogSchema, type Tool, type LocalizedList } from './schema.ts';
 import { CATEGORIES, categoryById } from '../config/taxonomy.ts';
 import { site, type Locale } from '../config/site.ts';
 import type { IndexItem } from './filters.ts';
@@ -68,6 +68,14 @@ export function describe(tool: Tool, lang: Locale): { text: string; status: 'ori
   const st = d.status[lang];
   if (translated && (st === 'machine' || st === 'original')) return { text: translated, status: st === 'original' ? 'original' : 'machine' };
   return { text: d.original, status: 'fallback' };
+}
+
+/** Lista en el idioma pedido; si no hay traducción fiable, la original (si coincide el idioma) o vacía. */
+export function localizedList(list: LocalizedList, tool: Tool, lang: Locale): { items: string[]; machine: boolean } {
+  if (tool.description.originalLang === lang) return { items: list.original, machine: false };
+  const tr = list[lang];
+  if (tr && tr.length === list.original.length) return { items: tr, machine: true };
+  return { items: list.original, machine: false };
 }
 
 export function categoryLabel(id: string, lang: Locale): string {

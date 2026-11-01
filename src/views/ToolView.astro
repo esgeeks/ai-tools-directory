@@ -6,9 +6,9 @@ import { site, type Locale } from '../config/site.ts';
 import { PLATFORMS, PRICING, categoryById } from '../config/taxonomy.ts';
 import { path, absolute } from '../i18n/routes.ts';
 import { t, formatDate } from '../i18n/ui.ts';
-import { svg, escapeHtml } from '../lib/icons.ts';
+import { svg } from '../lib/icons.ts';
 import { renderLogo } from '../lib/card.ts';
-import { describe, isIndexable, relatedTools, lastActivity, sourceLabel } from '../lib/catalog.ts';
+import { describe, isIndexable, relatedTools, lastActivity, sourceLabel, localizedList } from '../lib/catalog.ts';
 import type { Tool } from '../lib/schema.ts';
 
 interface Props { lang: Locale; tool: Tool }
@@ -19,6 +19,8 @@ const plat = (id: string) => PLATFORMS.find((p) => p.id === id)?.label[lang] ?? 
 const price = PRICING.find((p) => p.id === tool.pricing)?.label[lang] ?? tool.pricing;
 const yn = (v: boolean | null) => (v === true ? t(lang, 'tool.yes') : v === false ? t(lang, 'tool.no') : t(lang, 'tool.unknown'));
 const related = relatedTools(tool);
+const features = localizedList(tool.features, tool, lang).items;
+const requirements = localizedList(tool.requirements, tool, lang).items;
 const metaDesc = (() => {
   const s = desc.text.replace(/\s+/g, ' ').trim();
   return s.length > 155 ? `${s.slice(0, 152).trimEnd()}…` : s;
@@ -114,17 +116,17 @@ const provenance = Object.entries(tool.provenance);
         {desc.status === 'fallback' && tool.description.originalLang !== lang && <p class="mt-2 flex items-center gap-1.5 text-xs text-muted"><Fragment set:html={svg('info', 'h-3.5 w-3.5')} />{t(lang, 'tool.translationMissing')}</p>}
       </section>
 
-      {tool.features.length > 0 && (
+      {features.length > 0 && (
         <section aria-labelledby="h-feat">
           <h2 id="h-feat" class="mb-3 text-xl font-semibold">{t(lang, 'tool.features')}</h2>
-          <ul class="list-disc space-y-1.5 pl-5 text-[#d3d8ec]">{tool.features.map((f) => <li>{f}</li>)}</ul>
+          <ul class="list-disc space-y-1.5 pl-5 text-[#d3d8ec]">{features.map((f) => <li>{f}</li>)}</ul>
         </section>
       )}
 
-      {tool.requirements.length > 0 && (
+      {requirements.length > 0 && (
         <section aria-labelledby="h-req">
           <h2 id="h-req" class="mb-3 text-xl font-semibold">{t(lang, 'tool.requirements')}</h2>
-          <ul class="list-disc space-y-1.5 pl-5 text-[#d3d8ec]">{tool.requirements.map((f) => <li>{f}</li>)}</ul>
+          <ul class="list-disc space-y-1.5 pl-5 text-[#d3d8ec]">{requirements.map((f) => <li>{f}</li>)}</ul>
         </section>
       )}
 

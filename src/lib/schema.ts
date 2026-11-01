@@ -28,6 +28,13 @@ export const DescriptionSchema = z.object({
   status: z.object({ es: TranslationStatus, en: TranslationStatus }),
 });
 
+export const LocalizedListSchema = z.object({
+  original: z.array(z.string()),
+  es: z.array(z.string()).nullable(),
+  en: z.array(z.string()).nullable(),
+});
+export type LocalizedList = z.infer<typeof LocalizedListSchema>;
+
 export const MetricSchema = z.object({
   value: z.number(),
   /** Qué mide exactamente (se muestra literal; p. ej. "Estrellas en GitHub"). */
@@ -71,8 +78,9 @@ export const ToolSchema = z.object({
   }),
   logo: ImageSchema.nullable(),
   screenshots: z.array(ImageSchema),
-  features: z.array(z.string()),
-  requirements: z.array(z.string()),
+  /** Listas extraídas de la fuente (p. ej. sección "Features" del README), con traducciones. */
+  features: LocalizedListSchema,
+  requirements: LocalizedListSchema,
   related: z.array(z.string()),
   dates: z.object({
     discovered: isoDate,
@@ -91,6 +99,8 @@ export const ToolSchema = z.object({
     status: z.enum(['published', 'review', 'rejected']),
     checks: z.record(z.string(), z.boolean()),
     reasons: z.array(z.string()),
+    /** Re-verificaciones fallidas seguidas. Solo se despublica tras varias (protege ante caídas temporales). */
+    consecutiveFailures: z.number().int().min(0).default(0),
   }),
   /** Monetización futura (desactivada). Si se activa, se etiqueta visiblemente. */
   sponsored: z.boolean().default(false),

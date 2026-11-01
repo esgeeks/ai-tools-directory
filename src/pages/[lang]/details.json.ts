@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { site, type Locale } from '../../config/site.ts';
 import { PLATFORMS, PRICING } from '../../config/taxonomy.ts';
-import { getTools, describe } from '../../lib/catalog.ts';
+import { getTools, describe, localizedList } from '../../lib/catalog.ts';
 import { path } from '../../i18n/routes.ts';
 
 export function getStaticPaths() {
@@ -24,7 +24,7 @@ export const GET: APIRoute = ({ params }) => {
       license: t.license.name ?? t.license.spdx,
       local: t.localExecution,
       offline: t.offline,
-      features: t.features,
+      features: localizedList(t.features, t, lang).items.slice(0, 6),
       links: { official: t.urls.official, github: t.urls.github, download: t.urls.download, huggingface: t.urls.huggingface },
       verified: t.dates.lastVerified,
     };

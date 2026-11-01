@@ -1,0 +1,71 @@
+{
+  "$comment": "Configuración independiente por fuente. Cada conector puede activarse/desactivarse y tiene sus propios límites. {Nd} = fecha de hace N días.",
+  "limits": {
+    "maxAdmissionsPerRun": 30,
+    "githubCallBudget": 700,
+    "reverifyPerRun": 250,
+    "rejectedRetryDays": 45,
+    "unpublishAfterFailures": 3,
+    "maxUnpublishRatio": 0.1
+  },
+  "github": {
+    "enabled": true,
+    "perQuery": 30,
+    "maxNew": 120,
+    "queries": [
+      "topic:local-ai archived:false pushed:>{60d}",
+      "topic:llm-app archived:false pushed:>{60d}",
+      "topic:ai-assistant archived:false pushed:>{60d} stars:>=5",
+      "topic:chatgpt-app archived:false pushed:>{90d}",
+      "topic:ai-tools archived:false pushed:>{60d} stars:>=5",
+      "topic:desktop-app topic:llm archived:false pushed:>{90d}",
+      "topic:browser-extension topic:ai archived:false pushed:>{90d}",
+      "topic:chrome-extension topic:llm archived:false pushed:>{90d}",
+      "topic:cli topic:llm archived:false pushed:>{90d} stars:>=5",
+      "topic:self-hosted topic:llm archived:false pushed:>{60d}",
+      "topic:speech-to-text topic:app archived:false pushed:>{120d}",
+      "topic:text-to-speech topic:app archived:false pushed:>{120d}",
+      "topic:stable-diffusion-webui archived:false pushed:>{120d}",
+      "topic:ai-image-generation archived:false pushed:>{90d} stars:>=5",
+      "topic:ai-video archived:false pushed:>{90d} stars:>=5",
+      "topic:ai-coding-assistant archived:false pushed:>{60d}",
+      "topic:ai-agent topic:desktop archived:false pushed:>{90d}",
+      "topic:ollama topic:gui archived:false pushed:>{90d}",
+      "created:>{21d} topic:llm stars:>=10 archived:false",
+      "created:>{21d} topic:ai stars:>=10 archived:false"
+    ]
+  },
+  "huggingface": {
+    "enabled": true,
+    "minLikes": 5,
+    "maxNew": 60,
+    "queries": [
+      { "sort": "trendingScore", "limit": 100 },
+      { "sort": "likes", "limit": 100 },
+      { "sort": "lastModified", "limit": 100, "filter": "gradio" }
+    ]
+  },
+  "curated": {
+    "enabled": true,
+    "file": "sources/curated.json",
+    "maxNew": 80
+  },
+  "awesome-list": {
+    "enabled": true,
+    "maxNew": 40,
+    "allowedLicenses": ["CC0-1.0", "MIT", "Apache-2.0", "CC-BY-4.0", "Unlicense"],
+    "lists": [
+      { "repo": "steven2358/awesome-generative-ai" },
+      { "repo": "sindresorhus/awesome-chatgpt" },
+      { "repo": "vince-lam/awesome-local-llms" },
+      { "repo": "mahseema/awesome-ai-tools" }
+    ]
+  },
+  "rss": {
+    "enabled": true,
+    "maxNew": 20,
+    "feeds": [
+      { "url": "https://hnrss.org/show?q=AI&points=30", "titlePrefixStrip": "Show HN:\\s*" }
+    ]
+  }
+}
