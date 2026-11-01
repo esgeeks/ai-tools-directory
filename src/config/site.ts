@@ -28,6 +28,13 @@ export const site = {
     text: '#F5F7FF',
     muted: '#A8B0CB',
   },
+  /**
+   * Analítica sin cookies (Cloudflare Web Analytics). El token es público: identifica el sitio, no da acceso a la cuenta.
+   * Vacío = desactivada.
+   */
+  analytics: {
+    cloudflareToken: 'ede9c31e625c4f8883b057275f144075',
+  },
   /** Umbrales editoriales. */
   thresholds: {
     /** Días durante los que una herramienta cuenta como "nueva". */
