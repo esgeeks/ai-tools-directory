@@ -1,0 +1,23 @@
+---
+// Raíz: redirige al idioma predeterminado. Página no indexable con canonical al destino.
+import { site } from '../config/site.ts';
+import { path, absolute } from '../i18n/routes.ts';
+const target = path(site.defaultLocale, 'home');
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>{site.name}</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href={absolute(target)} />
+  <link rel="alternate" hreflang="es" href={absolute(path('es', 'home'))} />
+  <link rel="alternate" hreflang="en" href={absolute(path('en', 'home'))} />
+  <link rel="alternate" hreflang="x-default" href={absolute(target)} />
+  <meta http-equiv="refresh" content={`0; url=${target}`} />
+  <style>body{background:#090B18;color:#F5F7FF;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0}a{color:#00DDF5}</style>
+</head>
+<body>
+  <p><a href={path('es', 'home')}>Español</a> · <a href={path('en', 'home')}>English</a></p>
+</body>
+</html>

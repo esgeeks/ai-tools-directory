@@ -1,0 +1,40 @@
+---
+/**
+ * Genera todas las rutas localizadas (fichas, categorías, favoritos, comparador y páginas informativas)
+ * con segmentos traducidos: /es/herramientas/x/ ↔ /en/tools/x/.
+ */
+import ToolView from '../../views/ToolView.astro';
+import CategoryIndex from '../../views/CategoryIndex.astro';
+import CategoryView from '../../views/CategoryView.astro';
+import Favorites from '../../views/Favorites.astro';
+import Compare from '../../views/Compare.astro';
+import InfoPage from '../../views/InfoPage.astro';
+import { site, type Locale } from '../../config/site.ts';
+import { CATEGORIES } from '../../config/taxonomy.ts';
+import { SEGMENTS } from '../../i18n/routes.ts';
+import { getTools } from '../../lib/catalog.ts';
+
+export function getStaticPaths() {
+  const tools = getTools();
+  const out = [];
+  for (const lang of site.locales) {
+    const seg = (k: keyof typeof SEGMENTS) => SEGMENTS[k][lang];
+    for (const tool of tools) out.push({ params: { lang, route: `${seg('tool')}/${tool.slug}` }, props: { kind: 'tool', tool } });
+    out.push({ params: { lang, route: seg('categories') }, props: { kind: 'categories' } });
+    for (const category of CATEGORIES) out.push({ params: { lang, route: `${seg('categories')}/${category.slug[lang]}` }, props: { kind: 'category', category } });
+    out.push({ params: { lang, route: seg('favorites') }, props: { kind: 'favorites' } });
+    out.push({ params: { lang, route: seg('compare') }, props: { kind: 'compare' } });
+    for (const page of ['methodology', 'legal', 'privacy'] as const) out.push({ params: { lang, route: seg(page) }, props: { kind: 'info', page } });
+  }
+  return out;
+}
+
+const lang = Astro.params.lang as Locale;
+const p = Astro.props as any;
+---
+{p.kind === 'tool' && <ToolView lang={lang} tool={p.tool} />}
+{p.kind === 'categories' && <CategoryIndex lang={lang} />}
+{p.kind === 'category' && <CategoryView lang={lang} category={p.category} />}
+{p.kind === 'favorites' && <Favorites lang={lang} />}
+{p.kind === 'compare' && <Compare lang={lang} />}
+{p.kind === 'info' && <InfoPage lang={lang} page={p.page} />}

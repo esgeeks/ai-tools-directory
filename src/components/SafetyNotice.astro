@@ -1,0 +1,11 @@
+---
+import type { Locale } from '../config/site.ts';
+import { t } from '../i18n/ui.ts';
+import { svg } from '../lib/icons.ts';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+---
+<aside class="safety" role="note">
+  <Fragment set:html={svg('alert', 'mt-px h-[22px] w-[22px] flex-none text-fuchsia')} />
+  <p><b class="text-ink">{t(lang, 'safety.title')}</b> {t(lang, 'safety.body')}</p>
+</aside>

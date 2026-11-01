@@ -1,0 +1,13 @@
+---
+import type { Locale } from '../config/site.ts';
+import { path } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+---
+<div data-cmp-bar hidden class="fixed inset-x-3 bottom-4 z-50 mx-auto flex max-w-[560px] items-center gap-3 rounded-2xl border border-cyan/30 bg-surface/95 py-2.5 pl-4 pr-2.5 text-sm shadow-[0_20px_50px_-15px_rgba(0,0,0,.8)] backdrop-blur-md">
+  <span data-cmp-text class="truncate">{t(lang, 'cmp.bar', { n: 0 })}</span>
+  <button type="button" data-cmp-clear class="ml-auto shrink-0 text-muted hover:text-ink">{t(lang, 'cmp.clear')}</button>
+  <a class="btn shrink-0 !px-4 !py-2 text-[13.5px]" href={path(lang, 'compare')}>{t(lang, 'cmp.go')}</a>
+</div>
+<div data-toast class="toast" role="status" aria-live="polite" hidden></div>

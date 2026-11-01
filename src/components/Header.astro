@@ -1,0 +1,52 @@
+---
+import { site, type Locale } from '../config/site.ts';
+import { path } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+import { svg } from '../lib/icons.ts';
+import Logo from './Logo.astro';
+
+interface Props { lang: Locale; alternates: Partial<Record<Locale, string>> }
+const { lang, alternates } = Astro.props;
+const home = path(lang, 'home');
+const links = [
+  { href: `${home}#explorar`, label: t(lang, 'nav.explore') },
+  { href: path(lang, 'categories'), label: t(lang, 'nav.categories') },
+  { href: `${home}#nuevas`, label: t(lang, 'nav.new') },
+  { href: path(lang, 'methodology'), label: t(lang, 'nav.methodology') },
+];
+const langs = site.locales.map((l) => ({ l, href: alternates[l] ?? path(l, 'home') }));
+---
+<header class="sticky top-0 z-40 border-b border-line bg-bg/75 backdrop-blur-xl">
+  <div class="wrap flex h-[66px] items-center gap-7">
+    <Logo href={home} />
+    <nav class="hidden gap-[22px] text-[14.5px] text-muted lg:flex" aria-label={t(lang, 'nav.menu')}>
+      {links.map((k) => <a class="transition-colors hover:text-ink" href={k.href}>{k.label}</a>)}
+    </nav>
+    <div class="ml-auto flex items-center gap-2.5">
+      <a class="icon-btn hidden sm:inline-flex" href={path(lang, 'favorites')}>
+        <Fragment set:html={svg('heart')} />{t(lang, 'nav.favorites')}
+        <span class="badge-count bg-fuchsia text-white" data-fav-count hidden>0</span>
+      </a>
+      <a class="icon-btn hidden sm:inline-flex" href={path(lang, 'compare')}>
+        <Fragment set:html={svg('compare')} />{t(lang, 'nav.compare')}
+        <span class="badge-count bg-cyan text-bg" data-cmp-count hidden>0</span>
+      </a>
+      <div class="flex overflow-hidden rounded-[11px] border border-line text-[12.5px] font-semibold" role="group" aria-label={t(lang, 'lang.switch')}>
+        {langs.map(({ l, href }) => (
+          <a href={href} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}
+             class:list={['px-[11px] py-[9px]', l === lang ? 'bg-cyan/12 text-cyan' : 'text-muted hover:text-ink']}>{l.toUpperCase()}</a>
+        ))}
+      </div>
+      <button type="button" class="icon-btn lg:hidden" data-menu-open aria-controls="mobile-menu" aria-expanded="false" aria-label={t(lang, 'nav.menu')}>
+        <Fragment set:html={svg('menu')} />
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="border-t border-line bg-bg2 lg:hidden" hidden>
+    <nav class="wrap flex flex-col py-3 text-[15px]" aria-label={t(lang, 'nav.menu')}>
+      {links.map((k) => <a class="border-b border-line py-3 last:border-0" href={k.href}>{k.label}</a>)}
+      <a class="border-b border-line py-3" href={path(lang, 'favorites')}>{t(lang, 'nav.favorites')}</a>
+      <a class="py-3" href={path(lang, 'compare')}>{t(lang, 'nav.compare')}</a>
+    </nav>
+  </div>
+</header>

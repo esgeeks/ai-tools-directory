@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import type { Locale } from '../config/site.ts';
+import { path } from '../i18n/routes.ts';
+import { t } from '../i18n/ui.ts';
+import { svg } from '../lib/icons.ts';
+import { categoriesWithCounts } from '../lib/catalog.ts';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const cats = categoriesWithCounts();
+const colors = ['#00DDF5', '#865DFF', '#F535CF'];
+---
+<Base lang={lang} title={t(lang, 'cat.title')} description={t(lang, 'cat.description')} path={path(lang, 'categories')}
+      alternates={{ es: path('es', 'categories'), en: path('en', 'categories') }}>
+  <div class="wrap py-12">
+    <h1 class="text-[clamp(28px,4vw,40px)] font-bold">{t(lang, 'cat.title')}</h1>
+    <p class="sec-sub mb-8">{t(lang, 'cat.description')}</p>
+    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      {cats.map((c, i) => (
+        <a class="cat-tile" href={path(lang, 'category', c.slug[lang])}>
+          <span class="mb-3 grid h-[38px] w-[38px] place-items-center rounded-[11px]" style={`background:${colors[i % 3]}1c;color:${colors[i % 3]}`}><Fragment set:html={svg(c.icon, 'h-5 w-5')} /></span>
+          <b class="block text-[15px] font-semibold">{c.label[lang]}</b>
+          <span class="text-xs text-muted">{t(lang, 'cat.count', { n: c.count })}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
