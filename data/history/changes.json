@@ -414,6 +414,546 @@
       "date": "2026-11-01",
       "id": "github:ccch1mneyyy/dsh-go",
       "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:chatgpt.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:claude.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:gemini.google.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:copilot.microsoft.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:perplexity.ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:chat.mistral.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:notebooklm.google",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:krea.ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:runwayml.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:pika.art",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:capcut.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:elevenlabs.io",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:otter.ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:fireflies.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:deepl.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:surferseo.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:khanmigo.ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:github.com/features/copilot",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:windsurf.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:v0.app",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:zapier.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:make.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:lmstudio.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:ollama.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "curated:llamafile.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:linshenkx/prompt-optimizer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:moonshotai/kimi-k2",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:zai-org/glm-5",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:jetbrains/thinkrail",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:vas3k/taxhacker",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:elie222/rakazo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:arthur-ficial/apfel",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:anil-matcha/open-duet",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:thinkinaixyz/deepchat",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:github/copilotforxcode",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:netease-youdao/lobsterai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:fengshao1227/ccg-workflow",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:blaizzy/mlx-vlm",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:tabularisdb/tabularis",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:qingyuna/answer-me-with-html",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:1186258278/openclawchinesetranslation",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:microsoft/tokeneconomizer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:whiteguo233/openbiliclaw",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:zenstory-ai/drama-skills",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:licoy/wordpress-theme-puock",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:qingchencloud/clawpanel",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:cclank/lanshu-create-ai-presenter-video",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:oil-oil/oil-motion",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:learnprompt/learnprompt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:microsoft/foundry-local",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:alisa0808/vox-director",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:player-yn/browserkitten",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "huggingface:qwen/qwen3-tts",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ebony-vinyl/eac-desktop",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:xuanyustudio/localminidrama",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ethanyoq/ai-novel-writer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:deeplethe/solid-glass",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:glanderness/beeftv",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:shiwenwen/hope-agent",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:jau123/meigen-ai-design-mcp",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:jundizhou/easy-stock",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:869413421/ai-moive-studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:pireel/pireel",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:nomadamas/cozyclay",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:ai-prompt-genius/ai-prompt-genius",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:shijue-aid/aid-studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:nodatafound/hackgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:eternityspring/reelbench-skills",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:rockbenben/subtitle-translator",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:poco-ai/agentero",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:anil-matcha/open-genjutsu",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "github:anupray95/ai-agent-on-a-nokia",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:sequoiacap.com/article/generative-ai-a-creative-new-world",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:nytimes.com/2022/10/21/technology/generative-ai.html",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:wired.com/story/ais-new-creative-streak-sparks-a-silicon-valley-gold-rush",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:wsj.com/articles/chatgpt-heralds-an-intellectual-revolution-enlightenment-artificial-intelligence-homo-technicus-technology-cognition-morality-philosophy-774331c6",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:openai.com/blog/openai-api",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:openai.com/blog/dall-e-2",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:stability.ai/news-updates/stable-diffusion-public-release",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:openai.com/blog/chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:ai.meta.com/blog/large-language-model-llama-meta-ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:openai.com/research/gpt-4",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:openai.com/index/dall-e-3",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:openai.com/research/video-generation-models-as-world-simulators",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:deepmind.google/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:huggingface.co/facebook/opt-350m",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:huggingface.co/docs/transformers/model_doc/bloom",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:llama.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:lmsys.org/blog/2023-03-30-vicuna",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:mistral.ai/en/models",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:grok.x.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:qwenlm.github.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:huggingface.co/deepseek-ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:minimax.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:copilot.microsoft.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:meta.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:deepseek.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:chat.qwenlm.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:kimi.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:chat.z.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:sphinx-six-theta.vercel.app",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:rstation.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:parsimony.lasu.dev",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:opper.ai/jevman-benchmark",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-01",
+      "id": "web:agent.reviews",
+      "type": "review"
     }
   ]
 }

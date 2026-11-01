@@ -1,34 +1,62 @@
 {
-  "startedAt": "2026-11-01T17:18:52.349Z",
-  "finishedAt": "2026-11-01T17:24:17.040Z",
+  "startedAt": "2026-11-01T18:16:53.503Z",
+  "finishedAt": "2026-11-01T18:27:07.495Z",
   "ok": true,
   "dryRun": false,
-  "discovered": 120,
+  "discovered": 297,
   "admitted": 30,
-  "review": 53,
-  "rejected": 20,
-  "duplicates": 0,
-  "deferred": 17,
+  "review": 78,
+  "rejected": 99,
+  "duplicates": 6,
+  "deferred": 84,
   "reverified": 0,
   "updated": 0,
   "unpublished": 0,
-  "publishedTotal": 30,
-  "translationsDone": 0,
-  "translationsFailed": 0,
-  "translationsPending": 30,
-  "githubRateRemaining": 0,
+  "publishedTotal": 60,
+  "translationsDone": 133,
+  "translationsFailed": 11,
+  "translationsPending": 0,
+  "githubRateRemaining": 4734,
   "perSource": {
     "github": {
-      "candidates": 120,
-      "admitted": 30,
-      "review": 53,
-      "rejected": 20,
+      "candidates": 130,
+      "admitted": 13,
+      "review": 33,
+      "rejected": 17,
+      "duplicates": 0
+    },
+    "huggingface": {
+      "candidates": 60,
+      "admitted": 0,
+      "review": 1,
+      "rejected": 42,
+      "duplicates": 0
+    },
+    "curated": {
+      "candidates": 57,
+      "admitted": 17,
+      "review": 8,
+      "rejected": 31,
+      "duplicates": 1
+    },
+    "awesome-list": {
+      "candidates": 38,
+      "admitted": 0,
+      "review": 31,
+      "rejected": 2,
+      "duplicates": 5
+    },
+    "rss": {
+      "candidates": 12,
+      "admitted": 0,
+      "review": 5,
+      "rejected": 7,
       "duplicates": 0
     }
   },
   "sourceErrors": {
-    "translation": [
-      "traducción desactivada en esta ejecución"
+    "awesome-list": [
+      "sindresorhus/awesome-chatgpt: no se pudo leer (404)"
     ]
   }
 }
