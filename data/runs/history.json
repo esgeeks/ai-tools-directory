@@ -95,6 +95,61 @@
           "sindresorhus/awesome-chatgpt: no se pudo leer (404)"
         ]
       }
+    },
+    {
+      "startedAt": "2026-11-02T16:10:10.880Z",
+      "finishedAt": "2026-11-02T16:22:43.442Z",
+      "ok": true,
+      "dryRun": false,
+      "discovered": 251,
+      "admitted": 30,
+      "review": 51,
+      "rejected": 80,
+      "duplicates": 2,
+      "deferred": 88,
+      "reverified": 177,
+      "updated": 63,
+      "unpublished": 0,
+      "publishedTotal": 120,
+      "translationsDone": 48,
+      "translationsFailed": 13,
+      "translationsPending": 0,
+      "githubRateRemaining": 4748,
+      "perSource": {
+        "github": {
+          "candidates": 123,
+          "admitted": 29,
+          "review": 13,
+          "rejected": 34,
+          "duplicates": 0
+        },
+        "huggingface": {
+          "candidates": 60,
+          "admitted": 1,
+          "review": 4,
+          "rejected": 16,
+          "duplicates": 0
+        },
+        "curated": {
+          "candidates": 31,
+          "admitted": 0,
+          "review": 11,
+          "rejected": 20,
+          "duplicates": 0
+        },
+        "awesome-list": {
+          "candidates": 37,
+          "admitted": 0,
+          "review": 23,
+          "rejected": 10,
+          "duplicates": 2
+        }
+      },
+      "sourceErrors": {
+        "rss": [
+          "https://hnrss.org/show?q=AI&points=30: HTTP 502"
+        ]
+      }
     }
   ]
 }

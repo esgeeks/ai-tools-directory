@@ -1,62 +1,55 @@
 {
-  "startedAt": "2026-11-01T18:16:53.503Z",
-  "finishedAt": "2026-11-01T18:27:07.495Z",
+  "startedAt": "2026-11-02T16:10:10.880Z",
+  "finishedAt": "2026-11-02T16:22:43.442Z",
   "ok": true,
   "dryRun": false,
-  "discovered": 297,
+  "discovered": 251,
   "admitted": 30,
-  "review": 78,
-  "rejected": 99,
-  "duplicates": 6,
-  "deferred": 84,
-  "reverified": 0,
-  "updated": 0,
+  "review": 51,
+  "rejected": 80,
+  "duplicates": 2,
+  "deferred": 88,
+  "reverified": 177,
+  "updated": 63,
   "unpublished": 0,
-  "publishedTotal": 60,
-  "translationsDone": 133,
-  "translationsFailed": 11,
+  "publishedTotal": 120,
+  "translationsDone": 48,
+  "translationsFailed": 13,
   "translationsPending": 0,
-  "githubRateRemaining": 4734,
+  "githubRateRemaining": 4748,
   "perSource": {
     "github": {
-      "candidates": 130,
-      "admitted": 13,
-      "review": 33,
-      "rejected": 17,
+      "candidates": 123,
+      "admitted": 29,
+      "review": 13,
+      "rejected": 34,
       "duplicates": 0
     },
     "huggingface": {
       "candidates": 60,
-      "admitted": 0,
-      "review": 1,
-      "rejected": 42,
+      "admitted": 1,
+      "review": 4,
+      "rejected": 16,
       "duplicates": 0
     },
     "curated": {
-      "candidates": 57,
-      "admitted": 17,
-      "review": 8,
-      "rejected": 31,
-      "duplicates": 1
+      "candidates": 31,
+      "admitted": 0,
+      "review": 11,
+      "rejected": 20,
+      "duplicates": 0
     },
     "awesome-list": {
-      "candidates": 38,
+      "candidates": 37,
       "admitted": 0,
-      "review": 31,
-      "rejected": 2,
-      "duplicates": 5
-    },
-    "rss": {
-      "candidates": 12,
-      "admitted": 0,
-      "review": 5,
-      "rejected": 7,
-      "duplicates": 0
+      "review": 23,
+      "rejected": 10,
+      "duplicates": 2
     }
   },
   "sourceErrors": {
-    "awesome-list": [
-      "sindresorhus/awesome-chatgpt: no se pudo leer (404)"
+    "rss": [
+      "https://hnrss.org/show?q=AI&points=30: HTTP 502"
     ]
   }
 }
