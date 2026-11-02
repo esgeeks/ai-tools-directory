@@ -9,6 +9,7 @@
     { "name": "Mistral Le Chat", "url": "https://chat.mistral.ai/", "categories": ["assistants"], "webApp": true, "platforms": ["android", "ios"] },
     { "name": "DeepSeek", "url": "https://chat.deepseek.com/", "categories": ["assistants", "programming"], "webApp": true, "platforms": ["android", "ios"] },
     { "name": "NotebookLM", "url": "https://notebooklm.google/", "categories": ["research", "education", "productivity"], "webApp": true, "platforms": ["android", "ios"] },
+    { "name": "StudyArena", "url": "https://studyarena.com", "categories": ["education", "assistants"], "webApp": true },
     { "name": "Midjourney", "url": "https://www.midjourney.com/", "categories": ["image-generation", "graphic-design"], "webApp": true, "pricingUrl": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans" },
     { "name": "Leonardo.Ai", "url": "https://leonardo.ai/", "categories": ["image-generation", "graphic-design"], "webApp": true, "platforms": ["ios", "android"], "pricingUrl": "https://leonardo.ai/pricing/" },
     { "name": "Ideogram", "url": "https://ideogram.ai/", "categories": ["image-generation", "graphic-design"], "webApp": true, "platforms": ["ios"], "pricingUrl": "https://ideogram.ai/features/pricing" },
