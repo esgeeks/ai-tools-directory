@@ -2099,6 +2099,625 @@
         "urls.official",
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "curated:studyarena.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:learningcircuit/local-deep-research",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "huggingface:r3gm/wan2-2-fp8da-aoti-preview",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:gh05tcrew/pentestagent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:fuxicodex/fuxi",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:purpledoubled/locally-uncensored",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:natively-ai-assistant/natively-cluely-ai-assistant",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:sharpai/deepcamera",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:nano-muse/nanomuse",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:vincentwei1021/anything2explainer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "huggingface:selfit-camera/omni-image-editor",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:pinvou/pinvou-agent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:lobehub/sd-webui-lobe-theme",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:youssofal/mtplx",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:neuralnomadsai/codenomad",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:org2ai/org2",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "huggingface:microsoft/trellis.2",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:jhlee0409/claude-code-history-viewer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:modelflare-ai/anymodelbot",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:skalesapp/skales",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:memtensor/memmy-agent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:isair/jarvis",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:leemysw/yovoice",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:nimbalyst/nimbalyst",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:szczyglis-dev/py-gpt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:win4r/aisuperdomain",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:atomicbot-ai/atomic-chat",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:sybil-solutions/local-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:delibae/claude-prism",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:edenfunf/reelmimic",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:agents365-ai/video-podcast-maker",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:n1neman/sapper-v2",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:smixs/visual-skills",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:liuda30201/ai-coding",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:divagr18/qwenputer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:oliver-kriska/claude-elixir-phoenix",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:hainrixz/the-architect",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:hevnsnt/cvengine",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:alejandros17487/ai-jailbreaks",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:zhikunqingtao/zhikuncode",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:memtensor/memt-1.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:jmanico/grim-prompter",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:innei/ryugi",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:junwan666/astrbot-for-android",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:see-sol-lab/deepseekgui",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:mix1009/model-keyword",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:rtora/munorai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:rabbittux/purrge",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:saos-3624/dsh-see-now",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:evolink-ai/gpt-image-2.5-for-e-commerce",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:alignbase/sunpeak",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:nerverdevs/nervecenter",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:christos-antono/npctalk",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:eren23/openflipbook",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:enmerasoftware/ai-design-check",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "huggingface:xiaomi-research/xiaomi-ocr-0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:mem.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:nekton.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:limitless.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:sybill.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:read.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:consensus.app/search",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:scite.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:scispace.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:storm.genie.stanford.edu",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:alphaxiv.org",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:asreview.nl",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:rayyan.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:paper2agent.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:arena.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:artificialanalysis.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:imgsys.org/rankings",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:platform.openai.com/docs/guides/code",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "web:blog.replit.com/ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "curated:pika.art",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:anil-matcha/open-duet",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:copilotkit/copilotkit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:cosmicstack-labs/mercury-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:dagucloud/dagu",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:gptme/gptme",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:harnessrouter/harnessrouter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:janhq/jan",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:javis603/token-monitor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:kortix-ai/suna",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:langfuse/langfuse",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:lexmount/moli",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:lidge-jun/opencodex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:linshenkx/prompt-optimizer",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:makecindy/cindy",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:mangiucugna/json_repair",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:nicedreamzapp/claude-code-local",
+      "type": "updated",
+      "fields": [
+        "name",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:open-webui/open-webui",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:pacifio/atlas",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:palmier-io/palmier-pro",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:pbek/qownnotes",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:qwenlm/qwen-code",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:strelov1/freehire",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:tabularisdb/tabularis",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:yifanfeng97/hyper-extract",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "github:zackriya-solutions/meetily",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
     }
   ]
 }
