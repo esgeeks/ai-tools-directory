@@ -3368,6 +3368,531 @@
       "fields": [
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:significant-gravitas/autogpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:comet-ml/opik",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:maximhq/bifrost",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:mrfakename/z-image-turbo",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:openlit/openlit",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:ethanyoq/pagekin",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:juneyaooo/rea-video",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:sahenjp/rustxng",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:franzenzenhofer/big-arrow-on-the-screen",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:risa-labs-inc/bossconsole",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:kulkas2pintu/qwen_edit_image",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:hugging-apps/bfs-best-face-swap",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:existence-master/sentient",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:opensec-git/pi-bolt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:balanov/uncut",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:normal-computing-oss/fuji-web",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:dragonked2/alphacode",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:mixpeek/amux",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:0xsero/parchi",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:eliasbiondo/antirion",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:aet256/qwen-image-edit-rapid-aio-loras-experimental",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:allenv0/scm",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:razzant/claudexor",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:jatinkrmalik/llmfeeder",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:agent-sh/agnix",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:nayjest/gito",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:c4rohan/lampline",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:saladtechnologies/comfyui-api",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:mlhher/late-cli",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:clipcat-ai/clipcat-skill",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:notasithlord/peerd",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:saravutw/wan2.2_i2v_lightning_4-8step_custom",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:amrdab/clawdcursor",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:justhil/pi-app",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:cerlancism/chatgpt-subtitle-translator",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:micz/thunderai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:ztt0216/myagent",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:amphibiousrizz/browser",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:miscandijay2025/lora-forge-alibaba-cloud",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:godtiza/nebula-forge-studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:nrodriguez1997/lora-docker-aliyun-pipeline",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:nihildigit/bilby",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:swaggymacro/easychat",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:gutris1/sd-hub",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:kodelyx/free-gemini-api",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:mobinbiback/subify",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:averatec0773/offeros",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:diverobserve/stable-diffusion-webui-creative-suite-pro-pack-ultimate",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:kalinplus/auto-filler",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:fr0zenwatter/latex-in-ai-sidebar",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:mnfst/manifest-ui",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:merserk/sd-webui-forge-universal-portable",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:fancyyan/xiaohongshu-content-collector",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:readplace/readplace.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:yegor256/jekyll-chatgpt-translate",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:null-object-0000/ai-clash",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:chyra-moon/deepseek-harness-desktop",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:gptdeep/chatgpt-plus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:anolilab/neore",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "huggingface:fafsaf1/flowhmr",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:openrouter.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:helicone.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:getwren.ai/oss",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:cleanlab.ai/tlm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:mlflow.org",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:agentset.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:manifest.build",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:groq.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:modelcontextprotocol.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:fal.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:rea.tools",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:platform.openai.com/playground",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:aistudio.google.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:github.com/marketplace/models",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:msty.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:llm.datasette.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "web:runthisllm.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-05",
+      "id": "curated:krea.ai",
+      "type": "updated",
+      "fields": [
+        "pricing"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "curated:surferseo.com",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:agent-of-empires/agent-of-empires",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:agenta-ai/agenta",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:atomicbot-ai/atomic-chat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:blaizzy/mlx-vlm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:dagucloud/dagu",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:elie222/rakazo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:feder-cr/jobs_applier_ai_agent_aihawk",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:harnessrouter/harnessrouter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:trailhq/trail-code",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:unslothai/unsloth",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": "github:yifanfeng97/hyper-extract",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
     }
   ]
 }
