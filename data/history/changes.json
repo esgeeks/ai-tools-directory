@@ -4540,6 +4540,591 @@
       "fields": [
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:xingangpan/draggan",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:black-forest-labs/flux",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:openbyteinc/quantdinger",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:ap123/illusiondiffusion",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:black-forest-labs/flux.1-schnell",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:facebook/musicgen",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:klingteam/liveportrait",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:instantx/instantid",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:tencent/hunyuan3d-2",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:akhaliq/anycoder",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:mukaist/midjourney",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:pharmapsychotic/clip-interrogator",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:not-lain/background-removal",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:mrfakename/e2-f5-tts",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:openai/whisper",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:sanchit-gandhi/whisper-jax",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:humanaigc/outfitanyone",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:prithivmlmods/qwen-image-edit-2511-loras-fast",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:multimodalart/qwen-image-multiple-angles-3d-camera",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:tonyassi/voice-clone",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:fffiloni/diffusers-image-outpaint",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:minimaxai/minimax-h3-turbo-lora",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:phips/upscaler",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:banan1cee/whale_girl",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:alexsergivan/kwant",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:linoyts/qwen-image-2-1-realtime",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:speridlabs/idol",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:kulkas2pintu/kv-i2v",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:vesaias/jobnavigator",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:maotoumao/cebian",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:fishaudio/drama-3",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:stablecanvas/comfyui-client",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:7sen1ot/clawgod_y",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:shaitrish/37studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:dlouapre/nlp-before-llms",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:liquidai/lfm3-omni-2b-webgpu",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:drawthingsai/local-code-community",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:gradium/phonon",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:siutin/stable-diffusion-webui-docker",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:kogutt999/pro-realism-edit-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:edrisranjbar/lifeos",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:woniu9524/open-web-bridge",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:baka999/minimax-h3-turbo-lora-uncensored",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:guaryn/qwen-image-2.1-uncensored-aio-loras",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "huggingface:fastvideo/fasth3-omni",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:fwerkor/local-shell-mcp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:joshua-holloway/note-taker",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:vipxer/maxolla",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:lilsynnofficial/synthesis",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:aman-abeb/judge-caliper",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:hofd/learnwordwebapp",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:miazym/simasistant",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:mar-alf/mattress-advisor",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:rubyoubarn91/ai-meal-plan-generator",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:naritaroad/earcue",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:omara32/youtube-rag-summarizer-with-llms-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:germancata2023/ocr-ai-shell",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:sbeuvadyarik67/neolauncher-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:sulejmanovdamir057-alt/vanguard_os",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:craiyon.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:stability.ai/dreamstudio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:getalpaca.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:patience.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:genshare.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:modyfi.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:clipdrop.co",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:prisma-ai.com/lensa",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:rundiffusion.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:bing.com/images/create",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:creator.nightcafe.studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:magnific.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "web:brandmark.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:aientech/dossier",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:androoagi/starnet",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:asheshgoplani/agent-deck",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:comet-ml/opik",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:copilotkit/copilotkit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:dagucloud/dagu",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:dragonked2/alphacode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:farion1231/cc-switch",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:feder-cr/invisible_dots",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:feder-cr/jobs_applier_ai_agent_aihawk",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:generalaction/emdash",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:giancarloerra/socraticode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:juneyaooo/rea-video",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:juneyaooo/rea-video",
+      "type": "updated",
+      "fields": [
+        "platforms"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:openlit/openlit",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:opensec-git/pi-bolt",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:sahenjp/rustxng",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:sirmalloc/ccstatusline",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:strelov1/freehire",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:unslothai/unsloth",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:win4r/aisuperdomain",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": "github:youssofal/mtplx",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
     }
   ]
 }
