@@ -1,5 +1,123 @@
 {
-  "generatedAt": "2026-11-07",
+  "generatedAt": "2026-11-08",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
-  "trends": []
+  "trends": [
+    {
+      "id": "github:orkas-ai/orkas",
+      "kind": "github_stars",
+      "delta": 1969,
+      "from": 7135,
+      "to": 9104,
+      "days": 7,
+      "rate": 23.229097127849954
+    },
+    {
+      "id": "github:jetbrains/thinkrail",
+      "kind": "github_stars",
+      "delta": 1013,
+      "from": 6926,
+      "to": 7939,
+      "days": 7,
+      "rate": 12.128475336612828
+    },
+    {
+      "id": "github:makecindy/cindy",
+      "kind": "github_stars",
+      "delta": 602,
+      "from": 8901,
+      "to": 9503,
+      "days": 7,
+      "rate": 6.3629822639429365
+    },
+    {
+      "id": "github:makazhanalpamys/soup",
+      "kind": "github_stars",
+      "delta": 423,
+      "from": 9882,
+      "to": 10305,
+      "days": 7,
+      "rate": 4.244455766328087
+    },
+    {
+      "id": "github:linshenkx/prompt-optimizer",
+      "kind": "github_stars",
+      "delta": 667,
+      "from": 40231,
+      "to": 40898,
+      "days": 7,
+      "rate": 3.323347172518344
+    },
+    {
+      "id": "github:janhq/jan",
+      "kind": "github_stars",
+      "delta": 366,
+      "from": 45219,
+      "to": 45585,
+      "days": 7,
+      "rate": 1.720206700218146
+    },
+    {
+      "id": "github:openhands/openhands",
+      "kind": "github_stars",
+      "delta": 520,
+      "from": 92424,
+      "to": 92944,
+      "days": 7,
+      "rate": 1.7099898077575453
+    },
+    {
+      "id": "github:open-webui/open-webui",
+      "kind": "github_stars",
+      "delta": 626,
+      "from": 157463,
+      "to": 158089,
+      "days": 7,
+      "rate": 1.5773066401736797
+    },
+    {
+      "id": "github:kortix-ai/suna",
+      "kind": "github_stars",
+      "delta": 216,
+      "from": 20344,
+      "to": 20560,
+      "days": 7,
+      "rate": 1.5125249372456435
+    },
+    {
+      "id": "github:lidge-jun/opencodex",
+      "kind": "github_stars",
+      "delta": 168,
+      "from": 18135,
+      "to": 18303,
+      "days": 7,
+      "rate": 1.2458123420208527
+    },
+    {
+      "id": "github:lightningpixel/modly",
+      "kind": "github_stars",
+      "delta": 83,
+      "from": 8507,
+      "to": 8590,
+      "days": 7,
+      "rate": 0.8972579734852297
+    },
+    {
+      "id": "github:jackwener/opencli",
+      "kind": "github_stars",
+      "delta": 149,
+      "from": 30813,
+      "to": 30962,
+      "days": 7,
+      "rate": 0.8481393225196222
+    },
+    {
+      "id": "github:nocobase/nocobase",
+      "kind": "github_stars",
+      "delta": 67,
+      "from": 24804,
+      "to": 24871,
+      "days": 7,
+      "rate": 0.42498798850766906
+    }
+  ]
 }
