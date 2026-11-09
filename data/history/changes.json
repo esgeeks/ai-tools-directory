@@ -5665,6 +5665,490 @@
       "fields": [
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:ggml-org/whisper.cpp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:neonbjb/tortoise-tts",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:rsxdalv/tts-webui",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:multimodalart/wan2-1-fast",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:lightricks/ltx-video-distilled",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:tencentarc/instantmesh",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:multimodalart/flux-lora-the-explorer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:timbrooks/instruct-pix2pix",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:coherelabs/c4ai-command",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:ysharma/chatgpt4",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:fancyfeast/joy-caption-pre-alpha",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:osanseviero/instantcoder",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:jamesliu1217/easycontrol_ghibli",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:compvis/stable-diffusion-license",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:asahina2k/animagine-xl-3.1",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:gokaygokay/flux-prompt-generator",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:softcatala/whisper-ctranslate2",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:shinyobjectz/raea",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:dongbumlee/ontosmith",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:yc-software/minecraft-agent-harness",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:m3st3rj4k3l/flux.2-klein-multi-lora-v2",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:fanhuayishiy/ai-crew-pass",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:umaircxnd/minimax-h3-turbo-lora-uncensored-workflow",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:prunaai/p-h3-image",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:silveroxides/dlss-5-anything-w-prompt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:manho/panelize",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:azoo92i/autoapplymax",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:dcspark/shinkai-node",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:simarsinghrayat/linux-shortcut-center",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:nvidia/nemotron-transcribe",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:ppxxyy/h3-turbo-lora",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:cumasystem/omni-videos-custom",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:ghostrider761/qwen-image-2.1-uncensored-gguf",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:townbox/ava",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:horry0214/sideask",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:acorderob/sd-webui-prompt-postprocessor",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:prism-shadow/travel-agent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:licon/ez-translate",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:anxety-solo/sdaigen",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:wy-luke/stablediffusion-installer-for-mac",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:alexsinhf/krea-2-identity-loras",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:eaststarai/sanad-agent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:dcc123456/browser-copilot",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:bluelovers/sd-webui-pnginfo-beautify",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:affogato.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:autodesk.com/products/flow-studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:wellsaid.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:openai.com/index/whisper",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:huggingface.co/collections/nvidia/parakeet-asr-659711f49d1469e51546e021",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:harmonai.org",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:audiocraft.metademolab.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "web:haveibeentrained.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:7sen1ot/clawgod_y",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:aientech/dossier",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:alexsergivan/kwant",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:anil-matcha/open-generative-ai",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:asheshgoplani/agent-deck",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:balanov/uncut",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:banan1cee/whale_girl",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:c4rohan/lampline",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:dagucloud/dagu",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:dragonked2/alphacode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:elie222/rakazo",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:esengine/deepseek-reasonix",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:farion1231/cc-switch",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:feder-cr/invisible_dots",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:qwenlm/qwen-code",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:rlaope/oh-my-hermes",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:rtk-ai/rtk",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:ruvnet/ruflo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:screenpipe/screenpipe",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:shifthackz/stable-diffusion-kmp",
+      "type": "updated",
+      "fields": [
+        "name",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:the-pr-agent/pr-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:weworker/weworker",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "github:yolow92/pagesift",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:amisima/qwen-2.1-turbo",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-09",
+      "id": "huggingface:amisima/qwen-2.1-turbo",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "categories"
+      ]
     }
   ]
 }

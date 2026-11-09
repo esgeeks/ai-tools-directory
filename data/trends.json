@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08",
+  "generatedAt": "2026-11-09",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -12,6 +12,24 @@
       "rate": 23.229097127849954
     },
     {
+      "id": "github:qingyuna/answer-me-with-html",
+      "kind": "github_stars",
+      "delta": 1069,
+      "from": 5079,
+      "to": 6148,
+      "days": 7,
+      "rate": 14.926615838884503
+    },
+    {
+      "id": "github:aientech/dossier",
+      "kind": "github_stars",
+      "delta": 915,
+      "from": 3980,
+      "to": 4895,
+      "days": 7,
+      "rate": 14.413470746416923
+    },
+    {
       "id": "github:jetbrains/thinkrail",
       "kind": "github_stars",
       "delta": 1013,
@@ -19,6 +37,24 @@
       "to": 7939,
       "days": 7,
       "rate": 12.128475336612828
+    },
+    {
+      "id": "github:elie222/rakazo",
+      "kind": "github_stars",
+      "delta": 987,
+      "from": 6681,
+      "to": 7668,
+      "days": 7,
+      "rate": 12.030324927969737
+    },
+    {
+      "id": "github:anil-matcha/open-generative-ai",
+      "kind": "github_stars",
+      "delta": 1526,
+      "from": 32063,
+      "to": 33589,
+      "days": 7,
+      "rate": 8.515577268028652
     },
     {
       "id": "github:makecindy/cindy",
@@ -30,6 +66,33 @@
       "rate": 6.3629822639429365
     },
     {
+      "id": "github:anil-matcha/open-duet",
+      "kind": "github_stars",
+      "delta": 417,
+      "from": 6515,
+      "to": 6932,
+      "days": 7,
+      "rate": 5.146579547213459
+    },
+    {
+      "id": "github:farion1231/cc-switch",
+      "kind": "github_stars",
+      "delta": 1839,
+      "from": 151193,
+      "to": 153032,
+      "days": 7,
+      "rate": 4.728725319413221
+    },
+    {
+      "id": "github:can1357/oh-my-pi",
+      "kind": "github_stars",
+      "delta": 855,
+      "from": 37527,
+      "to": 38382,
+      "days": 7,
+      "rate": 4.4106750437718265
+    },
+    {
       "id": "github:makazhanalpamys/soup",
       "kind": "github_stars",
       "delta": 423,
@@ -39,6 +102,15 @@
       "rate": 4.244455766328087
     },
     {
+      "id": "github:rlaope/oh-my-hermes",
+      "kind": "github_stars",
+      "delta": 241,
+      "from": 5051,
+      "to": 5292,
+      "days": 7,
+      "rate": 3.3743442006635966
+    },
+    {
       "id": "github:linshenkx/prompt-optimizer",
       "kind": "github_stars",
       "delta": 667,
@@ -46,6 +118,42 @@
       "to": 40898,
       "days": 7,
       "rate": 3.323347172518344
+    },
+    {
+      "id": "github:ruvnet/ruflo",
+      "kind": "github_stars",
+      "delta": 722,
+      "from": 80611,
+      "to": 81333,
+      "days": 7,
+      "rate": 2.5421747255217118
+    },
+    {
+      "id": "github:drumih/turbo-fieldfare",
+      "kind": "github_stars",
+      "delta": 214,
+      "from": 7110,
+      "to": 7324,
+      "days": 7,
+      "rate": 2.5290491069718004
+    },
+    {
+      "id": "github:rtk-ai/rtk",
+      "kind": "github_stars",
+      "delta": 678,
+      "from": 85314,
+      "to": 85992,
+      "days": 7,
+      "rate": 2.3205573997262596
+    },
+    {
+      "id": "github:cosmicstack-labs/mercury-agent",
+      "kind": "github_stars",
+      "delta": 123,
+      "from": 3765,
+      "to": 3888,
+      "days": 7,
+      "rate": 1.9913969622038459
     },
     {
       "id": "github:janhq/jan",
@@ -75,6 +183,24 @@
       "rate": 1.5773066401736797
     },
     {
+      "id": "github:eracle/openoutreach",
+      "kind": "github_stars",
+      "delta": 92,
+      "from": 3478,
+      "to": 3570,
+      "days": 7,
+      "rate": 1.5489005683133898
+    },
+    {
+      "id": "github:blaizzy/mlx-vlm",
+      "kind": "github_stars",
+      "delta": 117,
+      "from": 5709,
+      "to": 5826,
+      "days": 7,
+      "rate": 1.5417441971028223
+    },
+    {
       "id": "github:kortix-ai/suna",
       "kind": "github_stars",
       "delta": 216,
@@ -84,40 +210,13 @@
       "rate": 1.5125249372456435
     },
     {
-      "id": "github:lidge-jun/opencodex",
+      "id": "github:qwenlm/qwen-code",
       "kind": "github_stars",
-      "delta": 168,
-      "from": 18135,
-      "to": 18303,
+      "delta": 242,
+      "from": 28888,
+      "to": 29130,
       "days": 7,
-      "rate": 1.2458123420208527
-    },
-    {
-      "id": "github:lightningpixel/modly",
-      "kind": "github_stars",
-      "delta": 83,
-      "from": 8507,
-      "to": 8590,
-      "days": 7,
-      "rate": 0.8972579734852297
-    },
-    {
-      "id": "github:jackwener/opencli",
-      "kind": "github_stars",
-      "delta": 149,
-      "from": 30813,
-      "to": 30962,
-      "days": 7,
-      "rate": 0.8481393225196222
-    },
-    {
-      "id": "github:nocobase/nocobase",
-      "kind": "github_stars",
-      "delta": 67,
-      "from": 24804,
-      "to": 24871,
-      "days": 7,
-      "rate": 0.42498798850766906
+      "rate": 1.4225944492971963
     }
   ]
 }
