@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-11-09",
+  "generatedAt": "2026-11-10",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
+    {
+      "id": "github:wangzan101/mika",
+      "kind": "github_stars",
+      "delta": 2104,
+      "from": 5917,
+      "to": 8021,
+      "days": 7,
+      "rate": 27.23752968414698
+    },
     {
       "id": "github:orkas-ai/orkas",
       "kind": "github_stars",
@@ -66,6 +75,15 @@
       "rate": 6.3629822639429365
     },
     {
+      "id": "github:harnessrouter/harnessrouter",
+      "kind": "github_stars",
+      "delta": 391,
+      "from": 3928,
+      "to": 4319,
+      "days": 7,
+      "rate": 6.199324473813573
+    },
+    {
       "id": "github:anil-matcha/open-duet",
       "kind": "github_stars",
       "delta": 417,
@@ -118,6 +136,24 @@
       "to": 40898,
       "days": 7,
       "rate": 3.323347172518344
+    },
+    {
+      "id": "github:vincentwei1021/anything2explainer",
+      "kind": "github_stars",
+      "delta": 180,
+      "from": 3009,
+      "to": 3189,
+      "days": 7,
+      "rate": 3.254488689930657
+    },
+    {
+      "id": "github:wanshuiyin/auto-claude-code-research-in-sleep",
+      "kind": "github_stars",
+      "delta": 408,
+      "from": 18567,
+      "to": 18975,
+      "days": 7,
+      "rate": 2.990234953311495
     },
     {
       "id": "github:ruvnet/ruflo",
@@ -181,42 +217,6 @@
       "to": 158089,
       "days": 7,
       "rate": 1.5773066401736797
-    },
-    {
-      "id": "github:eracle/openoutreach",
-      "kind": "github_stars",
-      "delta": 92,
-      "from": 3478,
-      "to": 3570,
-      "days": 7,
-      "rate": 1.5489005683133898
-    },
-    {
-      "id": "github:blaizzy/mlx-vlm",
-      "kind": "github_stars",
-      "delta": 117,
-      "from": 5709,
-      "to": 5826,
-      "days": 7,
-      "rate": 1.5417441971028223
-    },
-    {
-      "id": "github:kortix-ai/suna",
-      "kind": "github_stars",
-      "delta": 216,
-      "from": 20344,
-      "to": 20560,
-      "days": 7,
-      "rate": 1.5125249372456435
-    },
-    {
-      "id": "github:qwenlm/qwen-code",
-      "kind": "github_stars",
-      "delta": 242,
-      "from": 28888,
-      "to": 29130,
-      "days": 7,
-      "rate": 1.4225944492971963
     }
   ]
 }

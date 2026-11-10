@@ -6149,6 +6149,462 @@
         "description.original",
         "categories"
       ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:dair-ai/prompt-engineering-guide",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:ebony-vinyl/eac-design-world",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:runanywhereai/trnrt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:danielgross/teleprompter",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:thea2026/image-to-video",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:dodaios/ste80-humanizer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:zaxiu88888/issue-rag",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:daankular/h3eros",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:eyuputku57-ops/-coregold---global-virtual-card-platform-for-media-buying-ai-saas-cross-border-payments",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:onlyreadai/onlyread",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:townbox/motionbricks-playground",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:abdallahmagdy15/mudriknow",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:kazekaze93/sd-webui-style-organizer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:edge0/audio8-tts-realistic-air",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:hclivess/ollama-batch-processor",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:zebbern/agent-collab",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:fastgpu/vram-and-gpu-cost-calculator",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:phineas1500/onhand",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:ashfordeou/grasp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:alzwded/openaudiobookify",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:hyz317/hairdeck",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:vinaykolupula/contxtai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:cereeenn120/minimax-h3-turbo-lora-unrestricted-ref2va",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:daankular/qwen-image-2.1-uncensored-aio-loras",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:cfahlgren1/pixel-search",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:prunaai/p-bench",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:edmon02/bookmark-ai-organizer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:code-forge-temple/scribe-pal",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:ibm-research/cuga-policy-playground",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:aahana787/qwen-image-edit-2509-custom",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:i18n-actions/ai-i18n",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:akhaliq/qwen35-3d-coder-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:asafsaar/dofek",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:michaellod/byoky",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:beyond-horizons-institute/symbio-basic",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:waitinghere/krea2t-revamped",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "huggingface:vagosolutions/sauerkrautlm-glinerel-knowledge-graph",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:fusengine/codex-plugins",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:aidungeon.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:clickable.so",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:scale.com/genai-platform",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:scenario.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:finchat.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:whimsical.com/ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:selfies-with-sama.vost.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:pangram.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:learnprompting.org",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:platform.openai.com/docs/guides/prompt-engineering",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:promptperfect.jina.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:manning.com/books/build-a-large-language-model-from-scratch",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:deeplearning.ai/short-courses/prompt-engineering-for-vision-models",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:manning.com/books/build-a-reasoning-model-from-scratch",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:manning.com/books/build-an-ai-agent-from-scratch",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:manning.com/books/build-a-deepseek-model-from-scratch",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:manning.com/books/ai-governance",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:poloclub.github.io/transformer-explainer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "web:pharmapsychotic.com/tools.html",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:freestylefly/wesight",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:fwerkor/local-shell-mcp",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:harnessrouter/harnessrouter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:maotoumao/cebian",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:micz/thunderai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:mlhher/late-cli",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:openbyteinc/quantdinger",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:opensec-git/pi-bolt",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:razzant/claudexor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:sahenjp/rustxng",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:shaitrish/37studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:skalesapp/skales",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:strelov1/freehire",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:tabularisdb/tabularis",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:twigpine/openclaude",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:wici-ai/inferssd",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "github:win4r/aisuperdomain",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
     }
   ]
 }

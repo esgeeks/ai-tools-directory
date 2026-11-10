@@ -1860,159 +1860,6 @@
     "source": "https://maxvideoai.com/examples",
     "rules": "2026-11-01.2"
   },
-  "curated:remove.bg": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Remove.bg",
-    "source": "https://www.remove.bg/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:photoroom.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Photoroom",
-    "source": "https://www.photoroom.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:lumalabs.ai/dream-machine": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Luma Dream Machine",
-    "source": "https://lumalabs.ai/dream-machine",
-    "rules": "2026-11-01.2"
-  },
-  "curated:heygen.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "HeyGen",
-    "source": "https://www.heygen.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:synthesia.io": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Synthesia",
-    "source": "https://www.synthesia.io/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:descript.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Descript",
-    "source": "https://www.descript.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:opus.pro": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "OpusClip",
-    "source": "https://www.opus.pro/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:suno.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Suno",
-    "source": "https://suno.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:udio.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Udio",
-    "source": "https://www.udio.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:podcast.adobe.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Adobe Podcast",
-    "source": "https://podcast.adobe.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:grammarly.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Grammarly",
-    "source": "https://www.grammarly.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:copy.ai": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Copy.ai",
-    "source": "https://www.copy.ai/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:notion.com/product/ai": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Notion AI",
-    "source": "https://www.notion.com/product/ai",
-    "rules": "2026-11-01.2"
-  },
-  "curated:elicit.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Elicit",
-    "source": "https://elicit.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:replit.com": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Replit",
-    "source": "https://replit.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:bolt.new": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Bolt.new",
-    "source": "https://bolt.new/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:upscayl.org": {
-    "at": "2026-11-09",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Upscayl",
-    "source": "https://upscayl.org/",
-    "rules": "2026-11-01.2"
-  },
   "github:suno-ai/bark": {
     "at": "2026-11-09",
     "reasons": [
@@ -2237,6 +2084,233 @@
     ],
     "name": "This Image Does Not Exist",
     "source": "https://thisimagedoesnotexist.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:remove.bg": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Remove.bg",
+    "source": "https://www.remove.bg/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:photoroom.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Photoroom",
+    "source": "https://www.photoroom.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:lumalabs.ai/dream-machine": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Luma Dream Machine",
+    "source": "https://lumalabs.ai/dream-machine",
+    "rules": "2026-11-01.2"
+  },
+  "curated:heygen.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "HeyGen",
+    "source": "https://www.heygen.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:synthesia.io": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Synthesia",
+    "source": "https://www.synthesia.io/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:descript.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Descript",
+    "source": "https://www.descript.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:opus.pro": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "OpusClip",
+    "source": "https://www.opus.pro/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:suno.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Suno",
+    "source": "https://suno.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:udio.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Udio",
+    "source": "https://www.udio.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:podcast.adobe.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Adobe Podcast",
+    "source": "https://podcast.adobe.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:grammarly.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Grammarly",
+    "source": "https://www.grammarly.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:copy.ai": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Copy.ai",
+    "source": "https://www.copy.ai/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:notion.com/product/ai": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Notion AI",
+    "source": "https://www.notion.com/product/ai",
+    "rules": "2026-11-01.2"
+  },
+  "curated:elicit.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Elicit",
+    "source": "https://elicit.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:replit.com": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Replit",
+    "source": "https://replit.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:bolt.new": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Bolt.new",
+    "source": "https://bolt.new/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:upscayl.org": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Upscayl",
+    "source": "https://upscayl.org/",
+    "rules": "2026-11-01.2"
+  },
+  "github:openai/openai-cookbook": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (openai/openai-cookbook)"
+    ],
+    "name": "Openai cookbook",
+    "source": "https://github.com/openai/openai-cookbook",
+    "rules": "2026-11-01.2"
+  },
+  "github:anthropics/courses": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA",
+      "RECHAZO isTool: nombre de colección/recurso (anthropics/courses)",
+      "RECHAZO notArchived: repositorio archivado o deshabilitado"
+    ],
+    "name": "Courses",
+    "source": "https://github.com/anthropics/courses",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:megapotatoai/photo-enhancer": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Photo Enhancer",
+    "source": "https://huggingface.co/spaces/MegaPotatoAI/Photo-Enhancer",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:0ppxnhximxr/snapref": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO notLibrary: parece una biblioteca/framework (lib:inference engine)"
+    ],
+    "name": "SnapRef v2a · Anima",
+    "source": "https://huggingface.co/spaces/0ppxnhximxr/snapref",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:megapotatoai/4k-upscaler": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "4K Upscaler",
+    "source": "https://huggingface.co/spaces/MegaPotatoAI/4K-Upscaler",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:htw-ki-werkstatt/ramanbench": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "RamanBench",
+    "source": "https://huggingface.co/spaces/HTW-KI-Werkstatt/RamanBench",
+    "rules": "2026-11-01.2"
+  },
+  "web:morpher.com/ai": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Morpher AI",
+    "source": "https://morpher.com/ai",
+    "rules": "2026-11-01.2"
+  },
+  "web:animatedllm.github.io": {
+    "at": "2026-11-10",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "AnimatedLLM",
+    "source": "https://animatedllm.github.io/",
     "rules": "2026-11-01.2"
   }
 }
