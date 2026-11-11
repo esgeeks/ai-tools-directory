@@ -6605,6 +6605,564 @@
       "fields": [
         "urls.official"
       ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:eugeneyan/open-llms",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:nexu-io/openmotion",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:tover0314-w/opentypeless",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:faqfirebase/pi-desktop",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:mdiri-ai/soduwork",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:juneo-lab/decision-forge",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "huggingface:minimaxai/minimax-h3-image",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:vladlerkin/family-tree-editor",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "huggingface:hugging-apps/mirage-vision",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "huggingface:nvidia/physicalai-human-1m-explorer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:devteapot/slop",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:kiroshi-app/kiroshi-monorepo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:zsyu9779/dsh-desktop",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:alunixa-code/alunixa-x",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "huggingface:ritianyu/splatanything",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "huggingface:lakonik/pi-h3",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "huggingface:nvidia/rfd4-proteina-zerogpu",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:lszl84/gritcode",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:netics01/codexhp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:deviousd4n/gpterm",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:stellio-app/stellio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:mallikcheripally/session-steward",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:edmen12/deskmcp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:cyanqx/windows11-mcp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:elonzh/hanppie",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:neoxlabs/openneox",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:candorsystems/candor-finance",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:ba4rnj/3pi-desk-for-claude-code",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:ssut/barracks",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:pumpgtm/pumpgtm-mcp",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:zjl1985/agent-sweep",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:sysadmindoc/fileorganizer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:at0m-b0mb/hermescontrol",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:brightdeck/mcp",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:trano89/maccl",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:twitter.com/sonyatweetybird/status/1584580362339962880",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:airtable.com/shr6nfe9fohp17ijg/tbll3ekhzfkm3p6yt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:airtable.com/shrh4reigddv8szuo/tbl5dsxdd1p859qlo",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:twitter.com/gwertz/status/1593268767269670912",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:gpt3demo.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:gpt4demo.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:flowgpt.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:chat.openai.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:sindresorhus.gumroad.com/l/quickgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:macgpt.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:manuelkehl.gumroad.com/l/chatterbox",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:writemage.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:untimelyunicorn.gumroad.com/l/machato",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "web:wondergpt.co",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:agent-of-empires/agent-of-empires",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:agent-sh/agnix",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:agenta-ai/agenta",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:ashleykleynhans/stable-diffusion-docker",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:balanov/baiagent-director",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:banan1cee/whale_gril",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "license.spdx"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:comfy-org/comfyui",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:imshaikot/browsentic",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:innei/ryugi",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:innei/ryugi",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:ivanmurzak/unity-mcp",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:janhq/jan",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:javis603/token-monitor",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:jetbrains/thinkrail",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:kizuna-ai-lab/sokuji",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:kortix-ai/suna",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:langfuse/langfuse",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:leemysw/yovoice",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:lexmount/moli",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:lidge-jun/opencodex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:linshenkx/prompt-optimizer",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:longsurf-ai/openchart",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:lwh0630/tokenbar",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:makecindy/cindy",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:mangiucugna/json_repair",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:memtensor/memmy-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:mengxi-ream/read-frog",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:modelflare-ai/anymodelbot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:n1neman/sapper-v2",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:n1neman/sapper-v2",
+      "type": "updated",
+      "fields": [
+        "platforms"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:nicedreamzapp/claude-code-local",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:nimbalyst/nimbalyst",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:nocobase/nocobase",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:onyx-dot-app/onyx",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:open-webui/open-webui",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:openagents-org/openagents",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:openfilm/openfilm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:openhands/openhands",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "github:pbek/qownnotes",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
     }
   ]
 }

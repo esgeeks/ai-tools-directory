@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-11",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -12,13 +12,13 @@
       "rate": 27.23752968414698
     },
     {
-      "id": "github:orkas-ai/orkas",
+      "id": "github:openfilm/openfilm",
       "kind": "github_stars",
-      "delta": 1969,
-      "from": 7135,
-      "to": 9104,
+      "delta": 1171,
+      "from": 4589,
+      "to": 5760,
       "days": 7,
-      "rate": 23.229097127849954
+      "rate": 17.192724690422516
     },
     {
       "id": "github:qingyuna/answer-me-with-html",
@@ -39,15 +39,6 @@
       "rate": 14.413470746416923
     },
     {
-      "id": "github:jetbrains/thinkrail",
-      "kind": "github_stars",
-      "delta": 1013,
-      "from": 6926,
-      "to": 7939,
-      "days": 7,
-      "rate": 12.128475336612828
-    },
-    {
       "id": "github:elie222/rakazo",
       "kind": "github_stars",
       "delta": 987,
@@ -55,6 +46,15 @@
       "to": 7668,
       "days": 7,
       "rate": 12.030324927969737
+    },
+    {
+      "id": "github:agent-of-empires/agent-of-empires",
+      "kind": "github_stars",
+      "delta": 612,
+      "from": 3511,
+      "to": 4123,
+      "days": 7,
+      "rate": 10.255702997669692
     },
     {
       "id": "github:anil-matcha/open-generative-ai",
@@ -66,13 +66,22 @@
       "rate": 8.515577268028652
     },
     {
-      "id": "github:makecindy/cindy",
+      "id": "github:modelflare-ai/anymodelbot",
       "kind": "github_stars",
-      "delta": 602,
-      "from": 8901,
-      "to": 9503,
+      "delta": 440,
+      "from": 2695,
+      "to": 3135,
       "days": 7,
-      "rate": 6.3629822639429365
+      "rate": 8.398108903270067
+    },
+    {
+      "id": "github:jetbrains/thinkrail",
+      "kind": "github_stars",
+      "delta": 608,
+      "from": 7551,
+      "to": 8159,
+      "days": 7,
+      "rate": 6.973779523471793
     },
     {
       "id": "github:harnessrouter/harnessrouter",
@@ -82,6 +91,24 @@
       "to": 4319,
       "days": 7,
       "rate": 6.199324473813573
+    },
+    {
+      "id": "github:makecindy/cindy",
+      "kind": "github_stars",
+      "delta": 576,
+      "from": 9241,
+      "to": 9817,
+      "days": 7,
+      "rate": 5.975733945705846
+    },
+    {
+      "id": "github:lexmount/moli",
+      "kind": "github_stars",
+      "delta": 826,
+      "from": 22560,
+      "to": 23386,
+      "days": 7,
+      "rate": 5.493255081751516
     },
     {
       "id": "github:anil-matcha/open-duet",
@@ -111,13 +138,13 @@
       "rate": 4.4106750437718265
     },
     {
-      "id": "github:makazhanalpamys/soup",
+      "id": "github:nano-muse/nanomuse",
       "kind": "github_stars",
-      "delta": 423,
-      "from": 9882,
-      "to": 10305,
+      "delta": 225,
+      "from": 3181,
+      "to": 3406,
       "days": 7,
-      "rate": 4.244455766328087
+      "rate": 3.9583486047694465
     },
     {
       "id": "github:rlaope/oh-my-hermes",
@@ -129,15 +156,6 @@
       "rate": 3.3743442006635966
     },
     {
-      "id": "github:linshenkx/prompt-optimizer",
-      "kind": "github_stars",
-      "delta": 667,
-      "from": 40231,
-      "to": 40898,
-      "days": 7,
-      "rate": 3.323347172518344
-    },
-    {
       "id": "github:vincentwei1021/anything2explainer",
       "kind": "github_stars",
       "delta": 180,
@@ -145,6 +163,24 @@
       "to": 3189,
       "days": 7,
       "rate": 3.254488689930657
+    },
+    {
+      "id": "github:makazhanalpamys/soup",
+      "kind": "github_stars",
+      "delta": 324,
+      "from": 10138,
+      "to": 10462,
+      "days": 7,
+      "rate": 3.2099668106999255
+    },
+    {
+      "id": "github:linshenkx/prompt-optimizer",
+      "kind": "github_stars",
+      "delta": 627,
+      "from": 40564,
+      "to": 41191,
+      "days": 7,
+      "rate": 3.1112123823056637
     },
     {
       "id": "github:wanshuiyin/auto-claude-code-research-in-sleep",
@@ -156,6 +192,24 @@
       "rate": 2.990234953311495
     },
     {
+      "id": "github:pinvou/pinvou-agent",
+      "kind": "github_stars",
+      "delta": 150,
+      "from": 2823,
+      "to": 2973,
+      "days": 7,
+      "rate": 2.7984879811884573
+    },
+    {
+      "id": "github:pipeshub-ai/pipeshub-ai",
+      "kind": "github_stars",
+      "delta": 171,
+      "from": 3905,
+      "to": 4076,
+      "days": 7,
+      "rate": 2.719085515937953
+    },
+    {
       "id": "github:ruvnet/ruflo",
       "kind": "github_stars",
       "delta": 722,
@@ -163,60 +217,6 @@
       "to": 81333,
       "days": 7,
       "rate": 2.5421747255217118
-    },
-    {
-      "id": "github:drumih/turbo-fieldfare",
-      "kind": "github_stars",
-      "delta": 214,
-      "from": 7110,
-      "to": 7324,
-      "days": 7,
-      "rate": 2.5290491069718004
-    },
-    {
-      "id": "github:rtk-ai/rtk",
-      "kind": "github_stars",
-      "delta": 678,
-      "from": 85314,
-      "to": 85992,
-      "days": 7,
-      "rate": 2.3205573997262596
-    },
-    {
-      "id": "github:cosmicstack-labs/mercury-agent",
-      "kind": "github_stars",
-      "delta": 123,
-      "from": 3765,
-      "to": 3888,
-      "days": 7,
-      "rate": 1.9913969622038459
-    },
-    {
-      "id": "github:janhq/jan",
-      "kind": "github_stars",
-      "delta": 366,
-      "from": 45219,
-      "to": 45585,
-      "days": 7,
-      "rate": 1.720206700218146
-    },
-    {
-      "id": "github:openhands/openhands",
-      "kind": "github_stars",
-      "delta": 520,
-      "from": 92424,
-      "to": 92944,
-      "days": 7,
-      "rate": 1.7099898077575453
-    },
-    {
-      "id": "github:open-webui/open-webui",
-      "kind": "github_stars",
-      "delta": 626,
-      "from": 157463,
-      "to": 158089,
-      "days": 7,
-      "rate": 1.5773066401736797
     }
   ]
 }
