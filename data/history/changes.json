@@ -7163,6 +7163,529 @@
       "fields": [
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:chatgptnextweb/nextchat",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:lencx/chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:chatboxai/chatbox",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:codewhale-hq/codewhale",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:mckaywrigley/chatbot-ui",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:skydoves/chatgpt-android",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:sindresorhus/actions",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:sonnylazuardi/chat-ai-desktop",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:anse-app/anse",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:agentes-chat/agentes-chat",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "huggingface:openbmb/voxcpm-demo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:hemulgm/chatgpt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:trzy/chatarkit",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:bapaws/answer",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:daveschumaker/artbot-for-stable-diffusion",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:riponcm/gemtype",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:kenkaiii/roamies",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:plingjs/pling",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:adityaarsharma/sitewalk",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "huggingface:uv-scripts/run-on-jobs",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:timamus/qchatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:openamer/openamer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:holgertkey/tagent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:xyz-rainbow/ollama-run",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:agarwalrishu13/nanolaama",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:taggedzi/tz-ollama-utils",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:logancammish/locoryn",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:mytech-today-now/autoresearch-win-rtx-scheduled",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:lvzhaobo/agentic-app-maturity",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:dpedoneze/say",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:bitslix/blxvoice",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:nhsimpson5/local-model-auto-code-docs",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:saifsyed08/tails",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:hyperwriteai.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:sharegpt.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:taskade.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:kilo.ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:code.claude.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:hermes-agent.nousresearch.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:recraft.ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:hyperframes.heygen.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:intellibar.app",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:sindresorhus.com/ask-ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:play.google.com/store/apps/details",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:apps.apple.com/app/id1662283032",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:hellohistory.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:pgmagic.app",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:atua.app",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "web:screensnap.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:7sen1ot/clawgod_y",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:alexsergivan/kwant",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:amrdab/clawdcursor",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:anil-matcha/open-duet",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:arthur-ficial/apfel",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:atomicbot-ai/atomic-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:av/harbor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:banan1cee/whale_girl",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "license.spdx",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:c4rohan/lampline",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:christos-antono/npctalk",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:christos-antono/npctalk",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:copilotkit/copilotkit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:cosmicstack-labs/mercury-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:dcc123456/browser-copilot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:dongbumlee/ontosmith",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:dragonked2/alphacode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:eaststarai/sanad-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:elie222/rakazo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:farion1231/cc-switch",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:feder-cr/invisible_dots",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:feder-cr/jobs_applier_ai_agent_aihawk",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "platforms"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:juneyaooo/rea-video",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:manho/panelize",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:qingyuna/answer-me-with-html",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:qwenlm/qwen-code",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:raullenchai/rapid-mlx",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:rlaope/oh-my-hermes",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:rtk-ai/rtk",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:ruvnet/ruflo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:shinyobjectz/raea",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:thclaws/thclaws",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "github:whitetowerai/ohmygame",
+      "type": "updated",
+      "fields": [
+        "pricing"
+      ]
     }
   ]
 }

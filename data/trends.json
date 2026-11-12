@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-12",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -23,29 +23,56 @@
     {
       "id": "github:qingyuna/answer-me-with-html",
       "kind": "github_stars",
-      "delta": 1069,
-      "from": 5079,
-      "to": 6148,
-      "days": 7,
-      "rate": 14.926615838884503
+      "delta": 990,
+      "from": 5280,
+      "to": 6270,
+      "days": 8,
+      "rate": 13.560371576705096
     },
     {
-      "id": "github:aientech/dossier",
+      "id": "github:purpledoubled/locally-uncensored",
       "kind": "github_stars",
-      "delta": 915,
-      "from": 3980,
-      "to": 4895,
-      "days": 7,
-      "rate": 14.413470746416923
+      "delta": 764,
+      "from": 3240,
+      "to": 4004,
+      "days": 8,
+      "rate": 13.319729635709168
+    },
+    {
+      "id": "github:whitetowerai/ohmygame",
+      "kind": "github_stars",
+      "delta": 508,
+      "from": 1643,
+      "to": 2151,
+      "days": 8,
+      "rate": 12.346254731969308
+    },
+    {
+      "id": "github:the-pr-agent/pr-agent",
+      "kind": "github_stars",
+      "delta": 1423,
+      "from": 14569,
+      "to": 15992,
+      "days": 8,
+      "rate": 11.769176259024794
     },
     {
       "id": "github:elie222/rakazo",
       "kind": "github_stars",
-      "delta": 987,
-      "from": 6681,
-      "to": 7668,
+      "delta": 950,
+      "from": 7124,
+      "to": 8074,
       "days": 7,
-      "rate": 12.030324927969737
+      "rate": 11.216127024793261
+    },
+    {
+      "id": "github:anil-matcha/open-generative-ai",
+      "kind": "github_stars",
+      "delta": 1903,
+      "from": 32365,
+      "to": 34268,
+      "days": 7,
+      "rate": 10.569775797979768
     },
     {
       "id": "github:agent-of-empires/agent-of-empires",
@@ -57,13 +84,13 @@
       "rate": 10.255702997669692
     },
     {
-      "id": "github:anil-matcha/open-generative-ai",
+      "id": "github:aientech/dossier",
       "kind": "github_stars",
-      "delta": 1526,
-      "from": 32063,
-      "to": 33589,
+      "delta": 573,
+      "from": 4491,
+      "to": 5064,
       "days": 7,
-      "rate": 8.515577268028652
+      "rate": 8.503131021713648
     },
     {
       "id": "github:modelflare-ai/anymodelbot",
@@ -102,6 +129,15 @@
       "rate": 5.975733945705846
     },
     {
+      "id": "github:rlaope/oh-my-hermes",
+      "kind": "github_stars",
+      "delta": 428,
+      "from": 5107,
+      "to": 5535,
+      "days": 8,
+      "rate": 5.959985502192824
+    },
+    {
       "id": "github:lexmount/moli",
       "kind": "github_stars",
       "delta": 826,
@@ -111,31 +147,22 @@
       "rate": 5.493255081751516
     },
     {
-      "id": "github:anil-matcha/open-duet",
-      "kind": "github_stars",
-      "delta": 417,
-      "from": 6515,
-      "to": 6932,
-      "days": 7,
-      "rate": 5.146579547213459
-    },
-    {
       "id": "github:farion1231/cc-switch",
       "kind": "github_stars",
-      "delta": 1839,
-      "from": 151193,
-      "to": 153032,
+      "delta": 1826,
+      "from": 152072,
+      "to": 153898,
       "days": 7,
-      "rate": 4.728725319413221
+      "rate": 4.681712708890778
     },
     {
       "id": "github:can1357/oh-my-pi",
       "kind": "github_stars",
-      "delta": 855,
-      "from": 37527,
-      "to": 38382,
+      "delta": 897,
+      "from": 37907,
+      "to": 38804,
       "days": 7,
-      "rate": 4.4106750437718265
+      "rate": 4.60411860829332
     },
     {
       "id": "github:nano-muse/nanomuse",
@@ -147,13 +174,22 @@
       "rate": 3.9583486047694465
     },
     {
-      "id": "github:rlaope/oh-my-hermes",
+      "id": "github:atomicbot-ai/atomic-agent",
       "kind": "github_stars",
-      "delta": 241,
-      "from": 5051,
-      "to": 5292,
+      "delta": 227,
+      "from": 3395,
+      "to": 3622,
       "days": 7,
-      "rate": 3.3743442006635966
+      "rate": 3.867508207974718
+    },
+    {
+      "id": "github:qwenlm/qwen-code",
+      "kind": "github_stars",
+      "delta": 628,
+      "from": 29002,
+      "to": 29630,
+      "days": 8,
+      "rate": 3.684441165932526
     },
     {
       "id": "github:vincentwei1021/anything2explainer",
@@ -181,42 +217,6 @@
       "to": 41191,
       "days": 7,
       "rate": 3.1112123823056637
-    },
-    {
-      "id": "github:wanshuiyin/auto-claude-code-research-in-sleep",
-      "kind": "github_stars",
-      "delta": 408,
-      "from": 18567,
-      "to": 18975,
-      "days": 7,
-      "rate": 2.990234953311495
-    },
-    {
-      "id": "github:pinvou/pinvou-agent",
-      "kind": "github_stars",
-      "delta": 150,
-      "from": 2823,
-      "to": 2973,
-      "days": 7,
-      "rate": 2.7984879811884573
-    },
-    {
-      "id": "github:pipeshub-ai/pipeshub-ai",
-      "kind": "github_stars",
-      "delta": 171,
-      "from": 3905,
-      "to": 4076,
-      "days": 7,
-      "rate": 2.719085515937953
-    },
-    {
-      "id": "github:ruvnet/ruflo",
-      "kind": "github_stars",
-      "delta": 722,
-      "from": 80611,
-      "to": 81333,
-      "days": 7,
-      "rate": 2.5421747255217118
     }
   ]
 }
