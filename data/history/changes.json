@@ -7686,6 +7686,225 @@
       "fields": [
         "pricing"
       ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:lm-sys/fastchat",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:arc53/docsgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:anse-app/chatgpt-demo",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:bhaskatripathi/pdfgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:xlang-ai/openagents",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:shobrook/adrenaline",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:pashpashpash/vault-ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:iamsrikanthnani/pluely",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:cogentapps/chat-with-gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:okisdev/chatchat",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:observedobserver/chatgpt-i18n",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:showlab/vlog",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:hyperionaidev/smolmaxxing",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:huawei-csl/macaq",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:ycjcl868/eslint-gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:simplysabir/ai-writing-assistant",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:markeljan/web3gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:eg9y/chatbutler",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "huggingface:eclipse-senpai/klm-1.6-chat-preview",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "huggingface:prithivmlmods/vlm-parsing",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "huggingface:owensong/inflect-v3",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:xyborg/conversokit",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "huggingface:ngocdang83/hachimimt-demo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:palettebrain.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:apps.apple.com/app/id1638522784",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:prompt.16x.engineer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:chatbar.top",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:typingmind.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:chatkit.app",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:humata.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:epicmusicquiz.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:flexgpt.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:wielded.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "web:pricepertoken.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:fusengine/codex-plugins",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:fusengine/codex-plugins",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "license.spdx",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:harnessrouter/harnessrouter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:yeahhe365/gemini-nexus",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "github:yolow92/pagesift",
+      "type": "updated",
+      "fields": [
+        "license.spdx",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "huggingface:amisima/qwen-2.1-turbo",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original"
+      ]
     }
   ]
 }

@@ -675,6 +675,64 @@
         }
       },
       "sourceErrors": {}
+    },
+    {
+      "startedAt": "2026-11-13T14:41:37.379Z",
+      "finishedAt": "2026-11-13T14:51:55.145Z",
+      "ok": true,
+      "dryRun": false,
+      "discovered": 69,
+      "admitted": 11,
+      "review": 23,
+      "rejected": 25,
+      "duplicates": 10,
+      "deferred": 0,
+      "reverified": 206,
+      "updated": 5,
+      "unpublished": 0,
+      "publishedTotal": 436,
+      "translationsDone": 33,
+      "translationsFailed": 40,
+      "translationsPending": 0,
+      "githubRateRemaining": 4879,
+      "perSource": {
+        "github": {
+          "candidates": 34,
+          "admitted": 3,
+          "review": 16,
+          "rejected": 5,
+          "duplicates": 10
+        },
+        "huggingface": {
+          "candidates": 5,
+          "admitted": 4,
+          "review": 0,
+          "rejected": 1,
+          "duplicates": 0
+        },
+        "curated": {
+          "candidates": 17,
+          "admitted": 0,
+          "review": 0,
+          "rejected": 17,
+          "duplicates": 0
+        },
+        "awesome-list": {
+          "candidates": 12,
+          "admitted": 4,
+          "review": 7,
+          "rejected": 1,
+          "duplicates": 0
+        },
+        "rss": {
+          "candidates": 1,
+          "admitted": 0,
+          "review": 0,
+          "rejected": 1,
+          "duplicates": 0
+        }
+      },
+      "sourceErrors": {}
     }
   ]
 }

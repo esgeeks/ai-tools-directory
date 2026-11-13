@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -111,13 +111,13 @@
       "rate": 6.973779523471793
     },
     {
-      "id": "github:harnessrouter/harnessrouter",
-      "kind": "github_stars",
-      "delta": 391,
-      "from": 3928,
-      "to": 4319,
+      "id": "huggingface:kulkas2pintu/wan777",
+      "kind": "hf_likes",
+      "delta": 235,
+      "from": 1340,
+      "to": 1575,
       "days": 7,
-      "rate": 6.199324473813573
+      "rate": 6.303190924233387
     },
     {
       "id": "github:makecindy/cindy",
@@ -201,6 +201,15 @@
       "rate": 3.254488689930657
     },
     {
+      "id": "huggingface:ast-1320/qwen-2511-plus-flux.2-klein",
+      "kind": "hf_likes",
+      "delta": 64,
+      "from": 341,
+      "to": 405,
+      "days": 7,
+      "rate": 3.236619119514711
+    },
+    {
       "id": "github:makazhanalpamys/soup",
       "kind": "github_stars",
       "delta": 324,
@@ -208,15 +217,6 @@
       "to": 10462,
       "days": 7,
       "rate": 3.2099668106999255
-    },
-    {
-      "id": "github:linshenkx/prompt-optimizer",
-      "kind": "github_stars",
-      "delta": 627,
-      "from": 40564,
-      "to": 41191,
-      "days": 7,
-      "rate": 3.1112123823056637
     }
   ]
 }
