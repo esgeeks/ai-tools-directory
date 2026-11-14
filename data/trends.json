@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
-      "id": "github:wangzan101/mika",
+      "id": "github:wici-ai/inferssd",
       "kind": "github_stars",
-      "delta": 2104,
-      "from": 5917,
-      "to": 8021,
-      "days": 7,
-      "rate": 27.23752968414698
+      "delta": 747,
+      "from": 337,
+      "to": 1084,
+      "days": 8,
+      "rate": 37.97214401281856
     },
     {
       "id": "github:openfilm/openfilm",
@@ -48,6 +48,15 @@
       "rate": 12.346254731969308
     },
     {
+      "id": "github:wangzan101/mika",
+      "kind": "github_stars",
+      "delta": 1054,
+      "from": 7522,
+      "to": 8576,
+      "days": 7,
+      "rate": 12.112542341980282
+    },
+    {
       "id": "github:the-pr-agent/pr-agent",
       "kind": "github_stars",
       "delta": 1423,
@@ -55,6 +64,15 @@
       "to": 15992,
       "days": 8,
       "rate": 11.769176259024794
+    },
+    {
+      "id": "github:agent-of-empires/agent-of-empires",
+      "kind": "github_stars",
+      "delta": 695,
+      "from": 3648,
+      "to": 4343,
+      "days": 8,
+      "rate": 11.42881890522443
     },
     {
       "id": "github:elie222/rakazo",
@@ -73,15 +91,6 @@
       "to": 34268,
       "days": 7,
       "rate": 10.569775797979768
-    },
-    {
-      "id": "github:agent-of-empires/agent-of-empires",
-      "kind": "github_stars",
-      "delta": 612,
-      "from": 3511,
-      "to": 4123,
-      "days": 7,
-      "rate": 10.255702997669692
     },
     {
       "id": "github:aientech/dossier",
@@ -147,6 +156,15 @@
       "rate": 5.493255081751516
     },
     {
+      "id": "huggingface:speridlabs/idol",
+      "kind": "hf_likes",
+      "delta": 81,
+      "from": 185,
+      "to": 266,
+      "days": 7,
+      "rate": 5.283857391732882
+    },
+    {
       "id": "github:farion1231/cc-switch",
       "kind": "github_stars",
       "delta": 1826,
@@ -163,6 +181,15 @@
       "to": 38804,
       "days": 7,
       "rate": 4.60411860829332
+    },
+    {
+      "id": "huggingface:guaryn/qwen-image-2.1-uncensored-aio-loras",
+      "kind": "hf_likes",
+      "delta": 57,
+      "from": 110,
+      "to": 167,
+      "days": 7,
+      "rate": 4.50624566573994
     },
     {
       "id": "github:nano-muse/nanomuse",
@@ -183,40 +210,13 @@
       "rate": 3.867508207974718
     },
     {
-      "id": "github:qwenlm/qwen-code",
-      "kind": "github_stars",
-      "delta": 628,
-      "from": 29002,
-      "to": 29630,
-      "days": 8,
-      "rate": 3.684441165932526
-    },
-    {
-      "id": "github:vincentwei1021/anything2explainer",
-      "kind": "github_stars",
-      "delta": 180,
-      "from": 3009,
-      "to": 3189,
-      "days": 7,
-      "rate": 3.254488689930657
-    },
-    {
-      "id": "huggingface:ast-1320/qwen-2511-plus-flux.2-klein",
+      "id": "huggingface:hugging-apps/bfs-best-face-swap",
       "kind": "hf_likes",
-      "delta": 64,
-      "from": 341,
-      "to": 405,
+      "delta": 110,
+      "from": 817,
+      "to": 927,
       "days": 7,
-      "rate": 3.236619119514711
-    },
-    {
-      "id": "github:makazhanalpamys/soup",
-      "kind": "github_stars",
-      "delta": 324,
-      "from": 10138,
-      "to": 10462,
-      "days": 7,
-      "rate": 3.2099668106999255
+      "rate": 3.7357958594622844
     }
   ]
 }

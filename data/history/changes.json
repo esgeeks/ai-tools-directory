@@ -7905,6 +7905,417 @@
         "name",
         "description.original"
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:xcanwin/keepchatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:chatgptbox-dev/chatgptbox",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:interstellard/chatgpt-advanced",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:pionxzh/chatgpt-exporter",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:beelzebub-labs/beelzebub",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:sparticleinc/chatgpt-google-summary-extension",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:c-nedelcu/talk-to-chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:liady/chatgpt-pdf",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:clmnin/summarize.site",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:sturdy-dev/codereview.gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "huggingface:lightricks/ltx-2-3",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:jcubic/chat-gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:sailist/chatgpt-enhancement-extension",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:bladesmithpanel/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:basingradejudge/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:cloudryospeed/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:avalanchegnatbeat95/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:aspectnisafeguard/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:admiralemporium/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:torusbarbarianmap9/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:barriercenter/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:tealagentrevive/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:clampoverlord46/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:winnerbrokerbarrow/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:armsworminterface/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:boarddrunail/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:gryphonempress/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:hurricanemonarchdart/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:apothecarydesign/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:feathershosmash/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:archiveeutrough/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:arcticprawnemporium/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:boardglacode/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:armysystemsun/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:archeramplify/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:channelsparrowyank/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:assassinswandemolish/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:beigeheadstore/ai--manus",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "huggingface:alissonerdx/charactersheet-lora-demo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:idosal/assistant-chat-gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "huggingface:assembledchaos/qwen-image-2-1-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:xiaowuc2/chatgpt-python-applications",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:yaph/chatgpt-export",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:phugadev/gpt2markdown",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:serg-plusplus/meeper",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:ahk-d/chatgpt-google-colab",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "huggingface:m3st3rj4k3l/qwen-image-2.1-multi-loras",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:mytai20100/opencode-browser",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "huggingface:zyphra/zonos3-mini",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "web:chatgpt4google.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "web:chrome.google.com/webstore/detail/superpower-chatgpt/amhmeenmapldpjdedekalnfifgnpfnkc",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "web:chrome.google.com/webstore/detail/fancygpt/meonalmakdjaojaoipfhahcfccoecegk",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "web:chrome.google.com/webstore/detail/writingmateai-1-chatgpt-a/iihamopomflffiecicbgelncanmfionp",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "web:chrome.google.com/webstore/detail/chatgpt-for-chrome-youtub/cdjifpfganmhoojfclednjdnnpooaojb",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "web:chromewebstore.google.com/detail/tubesum/hkhihfjmjgledkdhmlohldmpnolcoabm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:agent-of-empires/agent-of-empires",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:agenta-ai/agenta",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:esengine/deepseek-reasonix",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:openbyteinc/quantdinger",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:opensec-git/pi-bolt",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:phineas1500/onhand",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:razzant/claudexor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:sahenjp/rustxng",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:shaitrish/37studio",
+      "type": "updated",
+      "fields": [
+        "name",
+        "platforms",
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:strelov1/freehire",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:thinkinaixyz/deepchat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:twigpine/openclaude",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:unslothai/unsloth",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "github:win4r/aisuperdomain",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
     }
   ]
 }
