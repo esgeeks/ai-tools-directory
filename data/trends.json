@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -14,11 +14,38 @@
     {
       "id": "github:openfilm/openfilm",
       "kind": "github_stars",
-      "delta": 1171,
-      "from": 4589,
-      "to": 5760,
+      "delta": 2073,
+      "from": 5300,
+      "to": 7373,
       "days": 7,
-      "rate": 17.192724690422516
+      "rate": 28.341472534442538
+    },
+    {
+      "id": "github:modelflare-ai/anymodelbot",
+      "kind": "github_stars",
+      "delta": 1257,
+      "from": 2741,
+      "to": 3998,
+      "days": 7,
+      "rate": 23.793337198041517
+    },
+    {
+      "id": "github:microsoft/tokeneconomizer",
+      "kind": "github_stars",
+      "delta": 1129,
+      "from": 5047,
+      "to": 6176,
+      "days": 7,
+      "rate": 15.813813954617327
+    },
+    {
+      "id": "github:banan1cee/whale_gril",
+      "kind": "github_stars",
+      "delta": 280,
+      "from": 356,
+      "to": 636,
+      "days": 7,
+      "rate": 13.896166675593022
     },
     {
       "id": "github:qingyuna/answer-me-with-html",
@@ -102,22 +129,22 @@
       "rate": 8.503131021713648
     },
     {
-      "id": "github:modelflare-ai/anymodelbot",
+      "id": "github:cattmonkey/chaosintelligence",
       "kind": "github_stars",
-      "delta": 440,
-      "from": 2695,
-      "to": 3135,
+      "delta": 129,
+      "from": 317,
+      "to": 446,
       "days": 7,
-      "rate": 8.398108903270067
+      "rate": 6.733745187537259
     },
     {
-      "id": "github:jetbrains/thinkrail",
+      "id": "github:makecindy/cindy",
       "kind": "github_stars",
-      "delta": 608,
-      "from": 7551,
-      "to": 8159,
+      "delta": 651,
+      "from": 9503,
+      "to": 10154,
       "days": 7,
-      "rate": 6.973779523471793
+      "rate": 6.660565441493591
     },
     {
       "id": "huggingface:kulkas2pintu/wan777",
@@ -129,13 +156,13 @@
       "rate": 6.303190924233387
     },
     {
-      "id": "github:makecindy/cindy",
-      "kind": "github_stars",
-      "delta": 576,
-      "from": 9241,
-      "to": 9817,
+      "id": "huggingface:aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "kind": "hf_likes",
+      "delta": 76,
+      "from": 96,
+      "to": 172,
       "days": 7,
-      "rate": 5.975733945705846
+      "rate": 6.289804753377997
     },
     {
       "id": "github:rlaope/oh-my-hermes",
@@ -147,15 +174,6 @@
       "rate": 5.959985502192824
     },
     {
-      "id": "github:lexmount/moli",
-      "kind": "github_stars",
-      "delta": 826,
-      "from": 22560,
-      "to": 23386,
-      "days": 7,
-      "rate": 5.493255081751516
-    },
-    {
       "id": "huggingface:speridlabs/idol",
       "kind": "hf_likes",
       "delta": 81,
@@ -163,6 +181,15 @@
       "to": 266,
       "days": 7,
       "rate": 5.283857391732882
+    },
+    {
+      "id": "github:lexmount/moli",
+      "kind": "github_stars",
+      "delta": 783,
+      "from": 23014,
+      "to": 23797,
+      "days": 7,
+      "rate": 5.155780829567818
     },
     {
       "id": "github:farion1231/cc-switch",
@@ -190,33 +217,6 @@
       "to": 167,
       "days": 7,
       "rate": 4.50624566573994
-    },
-    {
-      "id": "github:nano-muse/nanomuse",
-      "kind": "github_stars",
-      "delta": 225,
-      "from": 3181,
-      "to": 3406,
-      "days": 7,
-      "rate": 3.9583486047694465
-    },
-    {
-      "id": "github:atomicbot-ai/atomic-agent",
-      "kind": "github_stars",
-      "delta": 227,
-      "from": 3395,
-      "to": 3622,
-      "days": 7,
-      "rate": 3.867508207974718
-    },
-    {
-      "id": "huggingface:hugging-apps/bfs-best-face-swap",
-      "kind": "hf_likes",
-      "delta": 110,
-      "from": 817,
-      "to": 927,
-      "days": 7,
-      "rate": 3.7357958594622844
     }
   ]
 }

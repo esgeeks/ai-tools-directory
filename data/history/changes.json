@@ -8316,6 +8316,428 @@
       "fields": [
         "urls.official"
       ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:nutlope/aicommits",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:gofireflyio/aiac",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:eli64s/readme-ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:zurawiki/gptcommit",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:context-labs/autodoc",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:zhengqbbb/cz-git",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:shobrook/wut",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:williamfzc/chat-gpt-ppt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:j178/chatgpt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:pythops/tenere",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:topkiflare74/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:topapothecarycanal/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:toppatronweave/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:topconstableinlet67/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:tornadonovicewhirl40/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:titanshieldravine/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:ultimateakiln/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:trackersnailgrip/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:trapbladesmith/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:torusdrasocket/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:tremorrattackle/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:violetkomodolimit/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:taboospecialistblade/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:tonephorepair/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:platelminto/chatgpt-conversation",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:trackboatwrightplan/ai--manus2.0",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:guanguans/ai-commit",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "huggingface:rioshiina/imagegen",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:diciaup/assistant-cli",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:tobiasbueschel/search-gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:nicolaballotta/gpt3-wordpress-post-generator",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:jackbackes/happycommit",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:banan1cee/whale_gril",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:cyanqx/windows11-mcp",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:isair/jarvis",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:ivanmurzak/unity-mcp",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "pricing",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:janhq/jan",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:javis603/token-monitor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:jetbrains/thinkrail",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:kizuna-ai-lab/sokuji",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:kortix-ai/suna",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:langfuse/langfuse",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:leemysw/yovoice",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:lexmount/moli",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:lidge-jun/opencodex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:makecindy/cindy",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:mallikcheripally/session-steward",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:mdiri-ai/soduwork",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:mengxi-ream/read-frog",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:mervinpraison/praisonai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:michael-a-kuykendall/shimmy",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:modelflare-ai/anymodelbot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:n1neman/sapper-v2",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:nicosuave/comradex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:nocobase/nocobase",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:onyx-dot-app/onyx",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:open-multi-agent/open-multi-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:openhands/openhands",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:pbek/qownnotes",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:pinvou/pinvou-agent",
+      "type": "updated",
+      "fields": [
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:pipeshub-ai/pipeshub-ai",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:stellio-app/stellio",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "github:wiseria-ai-labs/pie-ai-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "huggingface:umaircxnd/minimax-h3-turbo-lora-uncensored-workflow",
+      "type": "unpublished"
     }
   ]
 }

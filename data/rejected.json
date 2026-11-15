@@ -2343,7 +2343,7 @@
     "rules": "2026-11-01.2"
   },
   "github:chenfei-wu/taskmatrix": {
-    "at": "2026-11-14",
+    "at": "2026-11-15",
     "reasons": [
       "RECHAZO isTool: no es una herramienta: \"paper:\""
     ],
@@ -2352,7 +2352,7 @@
     "rules": "2026-11-01.2"
   },
   "github:vercel/chatbot": {
-    "at": "2026-11-14",
+    "at": "2026-11-15",
     "reasons": [
       "RECHAZO notFork: fork o plantilla"
     ],
@@ -2361,7 +2361,7 @@
     "rules": "2026-11-01.2"
   },
   "github:opencx-labs/openchat": {
-    "at": "2026-11-14",
+    "at": "2026-11-15",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2414,159 +2414,6 @@
     "source": "https://yourairedlines.com/",
     "rules": "2026-11-01.2"
   },
-  "curated:remove.bg": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Remove.bg",
-    "source": "https://www.remove.bg/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:photoroom.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Photoroom",
-    "source": "https://www.photoroom.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:lumalabs.ai/dream-machine": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Luma Dream Machine",
-    "source": "https://lumalabs.ai/dream-machine",
-    "rules": "2026-11-01.2"
-  },
-  "curated:heygen.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "HeyGen",
-    "source": "https://www.heygen.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:synthesia.io": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Synthesia",
-    "source": "https://www.synthesia.io/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:descript.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Descript",
-    "source": "https://www.descript.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:opus.pro": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "OpusClip",
-    "source": "https://www.opus.pro/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:suno.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Suno",
-    "source": "https://suno.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:udio.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Udio",
-    "source": "https://www.udio.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:podcast.adobe.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Adobe Podcast",
-    "source": "https://podcast.adobe.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:grammarly.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Grammarly",
-    "source": "https://www.grammarly.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:copy.ai": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Copy.ai",
-    "source": "https://www.copy.ai/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:notion.com/product/ai": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Notion AI",
-    "source": "https://www.notion.com/product/ai",
-    "rules": "2026-11-01.2"
-  },
-  "curated:elicit.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Elicit",
-    "source": "https://elicit.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:replit.com": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Replit",
-    "source": "https://replit.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:bolt.new": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Bolt.new",
-    "source": "https://bolt.new/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:upscayl.org": {
-    "at": "2026-11-14",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Upscayl",
-    "source": "https://upscayl.org/",
-    "rules": "2026-11-01.2"
-  },
   "github:nutlope/twitterbio": {
     "at": "2026-11-14",
     "reasons": [
@@ -2610,6 +2457,377 @@
     ],
     "name": "Pixel Atlas",
     "source": "https://huggingface.co/spaces/tomaarsen/pixel-art-atlas-search",
+    "rules": "2026-11-01.2"
+  },
+  "curated:remove.bg": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Remove.bg",
+    "source": "https://www.remove.bg/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:photoroom.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Photoroom",
+    "source": "https://www.photoroom.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:lumalabs.ai/dream-machine": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Luma Dream Machine",
+    "source": "https://lumalabs.ai/dream-machine",
+    "rules": "2026-11-01.2"
+  },
+  "curated:heygen.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "HeyGen",
+    "source": "https://www.heygen.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:synthesia.io": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Synthesia",
+    "source": "https://www.synthesia.io/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:descript.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Descript",
+    "source": "https://www.descript.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:opus.pro": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "OpusClip",
+    "source": "https://www.opus.pro/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:suno.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Suno",
+    "source": "https://suno.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:udio.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Udio",
+    "source": "https://www.udio.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:podcast.adobe.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Adobe Podcast",
+    "source": "https://podcast.adobe.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:grammarly.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Grammarly",
+    "source": "https://www.grammarly.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:copy.ai": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Copy.ai",
+    "source": "https://www.copy.ai/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:notion.com/product/ai": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Notion AI",
+    "source": "https://www.notion.com/product/ai",
+    "rules": "2026-11-01.2"
+  },
+  "curated:elicit.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Elicit",
+    "source": "https://elicit.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:replit.com": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Replit",
+    "source": "https://replit.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:bolt.new": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Bolt.new",
+    "source": "https://bolt.new/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:upscayl.org": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Upscayl",
+    "source": "https://upscayl.org/",
+    "rules": "2026-11-01.2"
+  },
+  "github:trackboatwrightplan/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:trapaccountant/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TrapAccountant/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:trackersnailgrip/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:toppatronweave/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/toppatronweave/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:tradesmanrecord/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TradesmanRecord/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:trapbladesmith/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TrapBladesmith/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:turquoiseconsultant/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TurquoiseConsultant/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:turkeydesignate/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TurkeyDesignate/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:webbookkeeper/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/WebBookkeeper/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:tealplesense/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/Tealplesense/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:topconstableinlet67/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/topconstableinlet67/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:unitsenseimonitor/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/unitsenseimonitor/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:trapkrostride/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/Trapkrostride/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:truedefenderrouter/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TrueDefenderRouter/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:tarantulacorrect/github-copilot-app": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: tema excluido: awesome"
+    ],
+    "name": "GitHub Copilot app",
+    "source": "https://github.com/TarantulaCorrect/GitHub-Copilot-app",
+    "rules": "2026-11-01.2"
+  },
+  "github:dylanjcastillo/shell-genie": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA",
+      "RECHAZO notArchived: repositorio archivado o deshabilitado"
+    ],
+    "name": "Shell Genie",
+    "source": "https://github.com/dylanjcastillo/shell-genie",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:fabrice-tiercelin/supir": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO spaceRunning: Space no en ejecución (RUNTIME_ERROR)"
+    ],
+    "name": "Wan Alpha I2V (WIP)",
+    "source": "https://huggingface.co/spaces/Fabrice-TIERCELIN/SUPIR",
+    "rules": "2026-11-01.2"
+  },
+  "github:clevercli/clevercli": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO notArchived: repositorio archivado o deshabilitado"
+    ],
+    "name": "Clevercli",
+    "source": "https://github.com/clevercli/clevercli",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:huggingai4engineering/cadgenbench": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA",
+      "RECHAZO isTool: no es una herramienta: \"leaderboard\""
+    ],
+    "name": "CADGenBench Leaderboard",
+    "source": "https://huggingface.co/spaces/HuggingAI4Engineering/CADGenBench",
+    "rules": "2026-11-01.2"
+  },
+  "github:mountaineerbr/shellchatgpt": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO notLibrary: parece una biblioteca/framework (lib:wrapper for)"
+    ],
+    "name": "shellChatGPT",
+    "source": "https://github.com/mountaineerbr/shellChatGPT",
+    "rules": "2026-11-01.2"
+  },
+  "github:dejorrit/commit-assist": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO notArchived: repositorio archivado o deshabilitado"
+    ],
+    "name": "CommitAssist",
+    "source": "https://github.com/dejorrit/commit-assist",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:megapotatoai/face-enhancer": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "AI Face Restoration",
+    "source": "https://huggingface.co/spaces/MegaPotatoAI/Face-Enhancer",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:jgkwak/solv3r": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: no es una herramienta: \"model weights\""
+    ],
+    "name": "Solv3R",
+    "source": "https://huggingface.co/spaces/jgkwak/solv3r",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:juiceb0xc0de/byogguf": {
+    "at": "2026-11-15",
+    "reasons": [
+      "RECHAZO isTool: no es una herramienta: \"model card\""
+    ],
+    "name": "BYOGGUF",
+    "source": "https://huggingface.co/spaces/juiceb0xc0de/BYOGGUF",
     "rules": "2026-11-01.2"
   }
 }
