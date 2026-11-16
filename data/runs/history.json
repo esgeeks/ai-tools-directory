@@ -836,6 +836,61 @@
           "https://hnrss.org/show?q=AI&points=30: HTTP 502"
         ]
       }
+    },
+    {
+      "startedAt": "2026-11-16T15:59:08.385Z",
+      "finishedAt": "2026-11-16T16:09:51.226Z",
+      "ok": true,
+      "dryRun": false,
+      "discovered": 88,
+      "admitted": 7,
+      "review": 34,
+      "rejected": 29,
+      "duplicates": 18,
+      "deferred": 0,
+      "reverified": 195,
+      "updated": 35,
+      "unpublished": 2,
+      "publishedTotal": 454,
+      "translationsDone": 46,
+      "translationsFailed": 44,
+      "translationsPending": 0,
+      "githubRateRemaining": 4782,
+      "perSource": {
+        "github": {
+          "candidates": 64,
+          "admitted": 5,
+          "review": 32,
+          "rejected": 9,
+          "duplicates": 18
+        },
+        "huggingface": {
+          "candidates": 6,
+          "admitted": 2,
+          "review": 1,
+          "rejected": 3,
+          "duplicates": 0
+        },
+        "curated": {
+          "candidates": 17,
+          "admitted": 0,
+          "review": 0,
+          "rejected": 17,
+          "duplicates": 0
+        },
+        "awesome-list": {
+          "candidates": 1,
+          "admitted": 0,
+          "review": 1,
+          "rejected": 0,
+          "duplicates": 0
+        }
+      },
+      "sourceErrors": {
+        "rss": [
+          "https://hnrss.org/show?q=AI&points=30: HTTP 502"
+        ]
+      }
     }
   ]
 }

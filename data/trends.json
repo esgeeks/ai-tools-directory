@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-16",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -48,31 +48,22 @@
       "rate": 13.896166675593022
     },
     {
-      "id": "github:qingyuna/answer-me-with-html",
+      "id": "github:elie222/rakazo",
       "kind": "github_stars",
-      "delta": 990,
-      "from": 5280,
-      "to": 6270,
-      "days": 8,
-      "rate": 13.560371576705096
+      "delta": 1127,
+      "from": 7668,
+      "to": 8795,
+      "days": 7,
+      "rate": 12.828371519141367
     },
     {
-      "id": "github:purpledoubled/locally-uncensored",
+      "id": "github:banan1cee/whale_girl",
       "kind": "github_stars",
-      "delta": 764,
-      "from": 3240,
-      "to": 4004,
-      "days": 8,
-      "rate": 13.319729635709168
-    },
-    {
-      "id": "github:whitetowerai/ohmygame",
-      "kind": "github_stars",
-      "delta": 508,
-      "from": 1643,
-      "to": 2151,
-      "days": 8,
-      "rate": 12.346254731969308
+      "delta": 271,
+      "from": 406,
+      "to": 677,
+      "days": 7,
+      "rate": 12.690737746931953
     },
     {
       "id": "github:wangzan101/mika",
@@ -84,15 +75,6 @@
       "rate": 12.112542341980282
     },
     {
-      "id": "github:the-pr-agent/pr-agent",
-      "kind": "github_stars",
-      "delta": 1423,
-      "from": 14569,
-      "to": 15992,
-      "days": 8,
-      "rate": 11.769176259024794
-    },
-    {
       "id": "github:agent-of-empires/agent-of-empires",
       "kind": "github_stars",
       "delta": 695,
@@ -102,31 +84,40 @@
       "rate": 11.42881890522443
     },
     {
-      "id": "github:elie222/rakazo",
+      "id": "github:purpledoubled/locally-uncensored",
       "kind": "github_stars",
-      "delta": 950,
-      "from": 7124,
-      "to": 8074,
+      "delta": 673,
+      "from": 3629,
+      "to": 4302,
       "days": 7,
-      "rate": 11.216127024793261
+      "rate": 11.095584119503414
+    },
+    {
+      "id": "github:alexsergivan/kwant",
+      "kind": "github_stars",
+      "delta": 232,
+      "from": 407,
+      "to": 639,
+      "days": 7,
+      "rate": 10.852502257619722
+    },
+    {
+      "id": "github:qwenlm/qwen-code",
+      "kind": "github_stars",
+      "delta": 1468,
+      "from": 29130,
+      "to": 30598,
+      "days": 7,
+      "rate": 8.593763778105972
     },
     {
       "id": "github:anil-matcha/open-generative-ai",
       "kind": "github_stars",
-      "delta": 1903,
-      "from": 32365,
-      "to": 34268,
+      "delta": 1390,
+      "from": 33589,
+      "to": 34979,
       "days": 7,
-      "rate": 10.569775797979768
-    },
-    {
-      "id": "github:aientech/dossier",
-      "kind": "github_stars",
-      "delta": 573,
-      "from": 4491,
-      "to": 5064,
-      "days": 7,
-      "rate": 8.503131021713648
+      "rate": 7.5786746233129545
     },
     {
       "id": "github:cattmonkey/chaosintelligence",
@@ -165,13 +156,22 @@
       "rate": 6.289804753377997
     },
     {
+      "id": "github:atomicbot-ai/atomic-agent",
+      "kind": "github_stars",
+      "delta": 351,
+      "from": 3340,
+      "to": 3691,
+      "days": 7,
+      "rate": 6.0284722671756725
+    },
+    {
       "id": "github:rlaope/oh-my-hermes",
       "kind": "github_stars",
-      "delta": 428,
-      "from": 5107,
-      "to": 5535,
-      "days": 8,
-      "rate": 5.959985502192824
+      "delta": 426,
+      "from": 5292,
+      "to": 5718,
+      "days": 7,
+      "rate": 5.828511494143618
     },
     {
       "id": "huggingface:speridlabs/idol",
@@ -194,20 +194,20 @@
     {
       "id": "github:farion1231/cc-switch",
       "kind": "github_stars",
-      "delta": 1826,
-      "from": 152072,
-      "to": 153898,
+      "delta": 1869,
+      "from": 153032,
+      "to": 154901,
       "days": 7,
-      "rate": 4.681712708890778
+      "rate": 4.776911964468276
     },
     {
-      "id": "github:can1357/oh-my-pi",
+      "id": "github:aientech/dossier",
       "kind": "github_stars",
-      "delta": 897,
-      "from": 37907,
-      "to": 38804,
+      "delta": 328,
+      "from": 4895,
+      "to": 5223,
       "days": 7,
-      "rate": 4.60411860829332
+      "rate": 4.664345322785622
     },
     {
       "id": "huggingface:guaryn/qwen-image-2.1-uncensored-aio-loras",

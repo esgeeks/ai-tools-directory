@@ -8738,6 +8738,512 @@
       "date": "2026-11-15",
       "id": "huggingface:umaircxnd/minimax-h3-turbo-lora-uncensored-workflow",
       "type": "unpublished"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:fuergaosi233/wechat-chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:ther1d/shell_gpt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:father-bot/chatgpt_telegram_bot",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:anc95/chatgpt-codereview",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:m1guelpf/chatgpt-telegram",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:hitkeeen/blender-ai-mcp-addon",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:frigadehq/yogurt",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:0xacx/chatgpt-shell-cli",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:robusta-dev/kubernetes-chatgpt-bot",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:transitive-bullshit/chatgpt-twitter-bot",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:yellowlaborermarket/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:wireprovostpucker/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:winnerspecialist/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:vortexhostfeel/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:wingdatavacuum/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:typetyrantscheme/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:visionbeyondtrack/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:windgatorrise37/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:weightcashiercupola/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:wisemeadowlarkspike/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:watchlespeed/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:wyrmclimbermanacle/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:violetnyudress/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:turtlereside/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:weldbladesmithwharf/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:visionwormstudio/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:westlocksmithspout/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:trooperfilter/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:wharfbouldercolander/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:windowstaffgate11/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:werewolfemuhub/gemini-config-checker-",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:pedrorito/chatgptslackbot",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:franalgaba/chatgpt-telegram-bot-serverless",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:m1guelpf/chatgpt-discord",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:jjuliano/aifiles",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "huggingface:leivisondias/qwen-image-2.1-uncensored-aio-loras",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:zebroc/chatgpt-create-unit-tests",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "huggingface:baka999/minimax-h3-image-mysticxxx-v5",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "huggingface:trl-lib/async-grpo-stable",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:coderproandtester/texter",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "web:googlegpt.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:7sen1ot/clawgod_y",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:adityaarsharma/sitewalk",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:agentes-chat/agentes-chat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:aientech/dossier",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:alexsergivan/kwant",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:amrdab/clawdcursor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:anil-matcha/open-generative-ai",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:arthur-ficial/apfel",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:asheshgoplani/agent-deck",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:atomicbot-ai/atomic-chat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:balanov/uncut",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:banan1cee/whale_girl",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:chatboxai/chatbox",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:comet-ml/opik",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:copilotkit/copilotkit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:dagucloud/dagu",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:dcc123456/browser-copilot",
+      "type": "updated",
+      "fields": [
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:dongbumlee/ontosmith",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:dragonked2/alphacode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:drumih/turbo-fieldfare",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:eaststarai/sanad-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:eracle/openoutreach",
+      "type": "updated",
+      "fields": [
+        "license.spdx"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:farion1231/cc-switch",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:feder-cr/invisible_dots",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:kenkaiii/roamies",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:manho/panelize",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:openamer/openamer",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:qingyuna/answer-me-with-html",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:qualcomm/geniex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:qwenlm/qwen-code",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:raullenchai/rapid-mlx",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "license.spdx"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:rlaope/oh-my-hermes",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "github:ruvnet/ruflo",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "huggingface:aahana787/qwen-image-edit-2509-custom",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "huggingface:thea2026/image-to-video",
+      "type": "unpublished"
     }
   ]
 }
