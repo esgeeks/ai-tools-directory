@@ -9244,6 +9244,223 @@
       "date": "2026-11-16",
       "id": "huggingface:thea2026/image-to-video",
       "type": "unpublished"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:openclaw/openclaw",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:mpociot/chatgpt-vscode",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:jackmort/chatgpt.nvim",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:gencay/vscode-chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:obiscr/chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:rksm/org-ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:sybil-solutions/inference-optimisation-skill",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:abielzulio/chatgpt-raycast",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:dodaios/dodaios",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:ysunyang4/nexus",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:filippofinke/wordgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:sankaiai/twitcanva-video-workflow",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:alidehbansiahkarbon/fusionai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:codercooke/vim-llm-agent",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:analyticsinmotion/add-chatgpt-to-microsoft-word",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:jellyfish042/uncheatableeval",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:anotiawang/open-assistant-helper",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:huggingfaceswarms/pybot",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:thejagstudio/tessera-pixel-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:jit2024/minimaxh3characterswap",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:kazufusa/minimax-h3-turbo-lora-uncensored-workflow",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:nvidia/dvsm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "huggingface:briaai/bria-rmbg-3.0",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:cdz-hy/litetask",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:huzaifa-rahim-malik/llm-based-navigation-using-turtlebot4",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:code-forge-temple/scribe-pal",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:franzenzenhofer/big-arrow-on-the-screen",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:fusengine/codex-plugins",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:gptme/gptme",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:harnessrouter/harnessrouter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:innei/ryugi",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:justhil/pi-app",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:neoxlabs/openneox",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:shifthackz/stable-diffusion-kmp",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:shinyobjectz/raea",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:sno-ai/sno-station-skills",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "github:thclaws/thclaws",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
     }
   ]
 }

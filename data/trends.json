@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16",
+  "generatedAt": "2026-11-17",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -10,6 +10,15 @@
       "to": 1084,
       "days": 8,
       "rate": 37.97214401281856
+    },
+    {
+      "id": "github:shinyobjectz/raea",
+      "kind": "github_stars",
+      "delta": 1390,
+      "from": 1324,
+      "to": 2714,
+      "days": 8,
+      "rate": 37.499150888009304
     },
     {
       "id": "github:openfilm/openfilm",
@@ -75,6 +84,15 @@
       "rate": 12.112542341980282
     },
     {
+      "id": "github:whitetowerai/ohmygame",
+      "kind": "github_stars",
+      "delta": 523,
+      "from": 1834,
+      "to": 2357,
+      "days": 8,
+      "rate": 12.049283968823989
+    },
+    {
       "id": "github:agent-of-empires/agent-of-empires",
       "kind": "github_stars",
       "delta": 695,
@@ -138,15 +156,6 @@
       "rate": 6.660565441493591
     },
     {
-      "id": "huggingface:kulkas2pintu/wan777",
-      "kind": "hf_likes",
-      "delta": 235,
-      "from": 1340,
-      "to": 1575,
-      "days": 7,
-      "rate": 6.303190924233387
-    },
-    {
       "id": "huggingface:aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing",
       "kind": "hf_likes",
       "delta": 76,
@@ -192,6 +201,15 @@
       "rate": 5.155780829567818
     },
     {
+      "id": "github:the-pr-agent/pr-agent",
+      "kind": "github_stars",
+      "delta": 642,
+      "from": 15687,
+      "to": 16329,
+      "days": 8,
+      "rate": 5.11769094688413
+    },
+    {
       "id": "github:farion1231/cc-switch",
       "kind": "github_stars",
       "delta": 1869,
@@ -199,24 +217,6 @@
       "to": 154901,
       "days": 7,
       "rate": 4.776911964468276
-    },
-    {
-      "id": "github:aientech/dossier",
-      "kind": "github_stars",
-      "delta": 328,
-      "from": 4895,
-      "to": 5223,
-      "days": 7,
-      "rate": 4.664345322785622
-    },
-    {
-      "id": "huggingface:guaryn/qwen-image-2.1-uncensored-aio-loras",
-      "kind": "hf_likes",
-      "delta": 57,
-      "from": 110,
-      "to": 167,
-      "days": 7,
-      "rate": 4.50624566573994
     }
   ]
 }
