@@ -1,16 +1,7 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
-    {
-      "id": "github:wici-ai/inferssd",
-      "kind": "github_stars",
-      "delta": 747,
-      "from": 337,
-      "to": 1084,
-      "days": 8,
-      "rate": 37.97214401281856
-    },
     {
       "id": "github:shinyobjectz/raea",
       "kind": "github_stars",
@@ -75,15 +66,6 @@
       "rate": 12.690737746931953
     },
     {
-      "id": "github:wangzan101/mika",
-      "kind": "github_stars",
-      "delta": 1054,
-      "from": 7522,
-      "to": 8576,
-      "days": 7,
-      "rate": 12.112542341980282
-    },
-    {
       "id": "github:whitetowerai/ohmygame",
       "kind": "github_stars",
       "delta": 523,
@@ -91,15 +73,6 @@
       "to": 2357,
       "days": 8,
       "rate": 12.049283968823989
-    },
-    {
-      "id": "github:agent-of-empires/agent-of-empires",
-      "kind": "github_stars",
-      "delta": 695,
-      "from": 3648,
-      "to": 4343,
-      "days": 8,
-      "rate": 11.42881890522443
     },
     {
       "id": "github:purpledoubled/locally-uncensored",
@@ -120,6 +93,15 @@
       "rate": 10.852502257619722
     },
     {
+      "id": "huggingface:prunaai/p-h3-image",
+      "kind": "hf_likes",
+      "delta": 115,
+      "from": 70,
+      "to": 185,
+      "days": 9,
+      "rate": 10.498015685515684
+    },
+    {
       "id": "github:qwenlm/qwen-code",
       "kind": "github_stars",
       "delta": 1468,
@@ -129,6 +111,15 @@
       "rate": 8.593763778105972
     },
     {
+      "id": "github:agent-of-empires/agent-of-empires",
+      "kind": "github_stars",
+      "delta": 531,
+      "from": 4123,
+      "to": 4654,
+      "days": 7,
+      "rate": 8.21997182088607
+    },
+    {
       "id": "github:anil-matcha/open-generative-ai",
       "kind": "github_stars",
       "delta": 1390,
@@ -136,6 +127,15 @@
       "to": 34979,
       "days": 7,
       "rate": 7.5786746233129545
+    },
+    {
+      "id": "huggingface:townbox/ava",
+      "kind": "hf_likes",
+      "delta": 72,
+      "from": 55,
+      "to": 127,
+      "days": 9,
+      "rate": 7.026480525229439
     },
     {
       "id": "github:cattmonkey/chaosintelligence",
@@ -165,6 +165,15 @@
       "rate": 6.289804753377997
     },
     {
+      "id": "huggingface:kulkas2pintu/wan777",
+      "kind": "hf_likes",
+      "delta": 242,
+      "from": 1438,
+      "to": 1680,
+      "days": 9,
+      "rate": 6.273557753119073
+    },
+    {
       "id": "github:atomicbot-ai/atomic-agent",
       "kind": "github_stars",
       "delta": 351,
@@ -181,15 +190,6 @@
       "to": 5718,
       "days": 7,
       "rate": 5.828511494143618
-    },
-    {
-      "id": "huggingface:speridlabs/idol",
-      "kind": "hf_likes",
-      "delta": 81,
-      "from": 185,
-      "to": 266,
-      "days": 7,
-      "rate": 5.283857391732882
     },
     {
       "id": "github:lexmount/moli",

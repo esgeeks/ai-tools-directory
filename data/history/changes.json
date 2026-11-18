@@ -9461,6 +9461,185 @@
       "fields": [
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:sinaptik-ai/pandas-ai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:keijiro/aicommand",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:tencent/loopforge",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:fnnx-ai/scikit-llm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:macpaw/openai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:keijiro/aishader",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:bramses/chatgpt-md",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:fffiloni/clip-interrogator-2",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:prithivmlmods/qwen-image-edit-2509-loras-fast",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:chapyter/chapyter",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:eclipse-theia/theia-ide",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:frogleo/image-to-3d",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:suncloudsmoon/textcraft",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:mefengl/vscode-i-dont-care-about-commit-message",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:ftp27/fastlane-plugin-translate_gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:cfahlgren1/slack-moji",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:hugging-apps/haru-4b",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:victor/longcat-video-avatar-1.6",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:nathanael-fijalkow/chess-post-training",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:hugging-apps/aadd-audio-degradation-detection",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:ibm-granite/llmon-attention-visualization",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "huggingface:ai-coustics/voicefocus",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:roma-guru/smart-exceptions",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "web:plusdocs.com/plus-ai-for-google-slides",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:1jehuang/jcode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:aden-hive/hive",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:agent-of-empires/agent-of-empires",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:agenta-ai/agenta",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:alibaba/qz-browser-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:yolow92/pagesift",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "github:zanllp/infinite-image-browsing",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
     }
   ]
 }
