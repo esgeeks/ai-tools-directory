@@ -9640,6 +9640,197 @@
         "platforms",
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:openai-php/client",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:alexrudall/ruby-openai",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:jhlee0409/omnilogue",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:josssphzhou/poki",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "huggingface:wan-ai/wan2.2-s2v",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:geeks-of-data/knowledge-gpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:ingyamilmolinar/doctorgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "huggingface:prunaai/p-image-oss",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "huggingface:johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "huggingface:notmax123/bluev3",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:arta48/termind-desktop",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:openbyteinc/quantdinger",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:openlit/openlit",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:razzant/claudexor",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:sahenjp/rustxng",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:shaitrish/37studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:strelov1/freehire",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:tabularisdb/tabularis",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "name",
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:twigpine/openclaude",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:unslothai/unsloth",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:wici-ai/inferssd",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:win4r/aisuperdomain",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "github:zackriya-solutions/meetily",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "huggingface:zyphra/zonos3-mini",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
     }
   ]
 }
