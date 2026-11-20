@@ -9831,6 +9831,489 @@
       "fields": [
         "description.original"
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:rocketride-org/rocketride-server",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:harnessmd/munder-difflin",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:sandbox-quantum/switch",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:bookwjitchieni1986/blender-ai-mcp-addon",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:swapperfinance/swapper-toolkit",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:amisima/wan_2.2_i2v_studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:traderharikrishna/wan_2.2_i2v_14b_custom_lora",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:hugging-apps/clairic",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:janrupf/stable-diffusion-webui-nix",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:xyzanonimous5/qwen-image-2.1-studio",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:software-mansion/reverb-tts-runntime",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:linlinlinlinsdada/jeveration",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:mrfakename/voice-isolator",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:thott-bot/wow-forever-ai-mcp",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "web:genez.io/blog/create-your-first-app-using-chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "web:umaar.com/dev-tips/269-web-streams-openai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "web:reddit.com/r/chatgpt",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "web:discord.com/invite/openai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "web:aifordevelopers.org",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "web:theresanai.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:ashleykleynhans/stable-diffusion-docker",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:at0m-b0mb/hermescontrol",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:balanov/baiagent-director",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:banan1cee/whale_gril",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:comfy-org/comfyui",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "platforms",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:isair/jarvis",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:ivanmurzak/unity-mcp",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:janhq/jan",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:javis603/token-monitor",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:jhlee0409/claude-code-history-viewer",
+      "type": "updated",
+      "fields": [
+        "name",
+        "categories",
+        "urls.official",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:kiroshi-app/kiroshi-monorepo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:kizuna-ai-lab/sokuji",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:kortix-ai/suna",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:langfuse/langfuse",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:learningcircuit/local-deep-research",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:lexmount/moli",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:lidge-jun/opencodex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:lightningpixel/modly",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:linshenkx/prompt-optimizer",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:lwh0630/tokenbar",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:makazhanalpamys/soup",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:makecindy/cindy",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:mdiri-ai/soduwork",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:memtensor/memmy-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:mengxi-ream/read-frog",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:mervinpraison/praisonai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:microsoft/tokeneconomizer",
+      "type": "updated",
+      "fields": [
+        "license.spdx"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:mintplex-labs/anything-llm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:modelflare-ai/anymodelbot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:nanocoai/nanoclaw",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "platforms"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:natively-ai-assistant/natively-cluely-ai-assistant",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:netease-youdao/lobsterai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:netics01/codexhp",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:neuralnomadsai/codenomad",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:neywa-labs/mlx-vlm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:nguyenphutrong/quotio",
+      "type": "updated",
+      "fields": [
+        "pricing"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:nicosuave/comradex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:ningbainb/deepseek-harness-desktop",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:nocobase/nocobase",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:off-grid-ai/ogam",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:onyx-dot-app/onyx",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:open-webui/open-webui",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:openagents-org/openagents",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:openfilm/openfilm",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "github:openhands/openhands",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:amisima/qwen-2.1-turbo",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "huggingface:ghostrider761/qwen-image-2.1-uncensored-gguf",
+      "type": "unpublished"
     }
   ]
 }
