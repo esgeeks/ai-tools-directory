@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -30,13 +30,13 @@
       "rate": 37.980484616496916
     },
     {
-      "id": "github:shinyobjectz/raea",
+      "id": "github:agentes-chat/agentes-chat",
       "kind": "github_stars",
-      "delta": 1390,
-      "from": 1324,
-      "to": 2714,
-      "days": 8,
-      "rate": 37.499150888009304
+      "delta": 973,
+      "from": 917,
+      "to": 1890,
+      "days": 9,
+      "rate": 31.289570603347723
     },
     {
       "id": "github:modelflare-ai/anymodelbot",
@@ -57,6 +57,15 @@
       "rate": 27.919220699158238
     },
     {
+      "id": "github:elie222/rakazo",
+      "kind": "github_stars",
+      "delta": 1306,
+      "from": 8074,
+      "to": 9380,
+      "days": 9,
+      "rate": 14.489660824276058
+    },
+    {
       "id": "github:banan1cee/whale_gril",
       "kind": "github_stars",
       "delta": 323,
@@ -75,6 +84,15 @@
       "rate": 12.678271577370772
     },
     {
+      "id": "github:banan1cee/whale_girl",
+      "kind": "github_stars",
+      "delta": 307,
+      "from": 540,
+      "to": 847,
+      "days": 9,
+      "rate": 12.638989983246692
+    },
+    {
       "id": "github:n1neman/sapper-v2",
       "kind": "github_stars",
       "delta": 558,
@@ -82,15 +100,6 @@
       "to": 2509,
       "days": 9,
       "rate": 12.474141168876095
-    },
-    {
-      "id": "github:whitetowerai/ohmygame",
-      "kind": "github_stars",
-      "delta": 523,
-      "from": 1834,
-      "to": 2357,
-      "days": 8,
-      "rate": 12.049283968823989
     },
     {
       "id": "huggingface:prunaai/p-h3-image",
@@ -120,6 +129,15 @@
       "rate": 7.814188279120133
     },
     {
+      "id": "github:anil-matcha/open-generative-ai",
+      "kind": "github_stars",
+      "delta": 1338,
+      "from": 34268,
+      "to": 35606,
+      "days": 9,
+      "rate": 7.222626025831303
+    },
+    {
       "id": "huggingface:townbox/ava",
       "kind": "hf_likes",
       "delta": 72,
@@ -136,6 +154,15 @@
       "to": 215,
       "days": 9,
       "rate": 6.708627416855241
+    },
+    {
+      "id": "github:alexsergivan/kwant",
+      "kind": "github_stars",
+      "delta": 157,
+      "from": 527,
+      "to": 684,
+      "days": 9,
+      "rate": 6.535995519812469
     },
     {
       "id": "huggingface:daankular/qwen-image-2.1-uncensored-aio-loras",
@@ -165,6 +192,24 @@
       "rate": 6.119100932850764
     },
     {
+      "id": "huggingface:lakonik/pi-h3",
+      "kind": "hf_likes",
+      "delta": 46,
+      "from": 10,
+      "to": 56,
+      "days": 10,
+      "rate": 5.938574464184706
+    },
+    {
+      "id": "github:farion1231/cc-switch",
+      "kind": "github_stars",
+      "delta": 2269,
+      "from": 153898,
+      "to": 156167,
+      "days": 9,
+      "rate": 5.782923807077515
+    },
+    {
       "id": "huggingface:cfahlgren1/pixel-search",
       "kind": "hf_likes",
       "delta": 48,
@@ -172,51 +217,6 @@
       "to": 76,
       "days": 9,
       "rate": 5.4349297638940595
-    },
-    {
-      "id": "github:onlyreadai/onlyread",
-      "kind": "github_stars",
-      "delta": 55,
-      "from": 53,
-      "to": 108,
-      "days": 9,
-      "rate": 5.4193110299036125
-    },
-    {
-      "id": "github:makecindy/cindy",
-      "kind": "github_stars",
-      "delta": 512,
-      "from": 9817,
-      "to": 10329,
-      "days": 9,
-      "rate": 5.154391437356133
-    },
-    {
-      "id": "github:the-pr-agent/pr-agent",
-      "kind": "github_stars",
-      "delta": 642,
-      "from": 15687,
-      "to": 16329,
-      "days": 8,
-      "rate": 5.11769094688413
-    },
-    {
-      "id": "github:lexmount/moli",
-      "kind": "github_stars",
-      "delta": 757,
-      "from": 23386,
-      "to": 24143,
-      "days": 9,
-      "rate": 4.944861532199189
-    },
-    {
-      "id": "huggingface:cumasystem/omni-videos-custom",
-      "kind": "hf_likes",
-      "delta": 48,
-      "from": 56,
-      "to": 104,
-      "days": 9,
-      "rate": 4.662172139314868
     }
   ]
 }

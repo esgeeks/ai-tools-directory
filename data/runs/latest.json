@@ -1,33 +1,33 @@
 {
-  "startedAt": "2026-11-20T15:34:43.384Z",
-  "finishedAt": "2026-11-20T15:46:33.327Z",
+  "startedAt": "2026-11-21T14:45:59.980Z",
+  "finishedAt": "2026-11-21T14:56:15.335Z",
   "ok": true,
   "dryRun": false,
-  "discovered": 75,
-  "admitted": 10,
-  "review": 10,
-  "rejected": 31,
-  "duplicates": 24,
+  "discovered": 69,
+  "admitted": 4,
+  "review": 6,
+  "rejected": 32,
+  "duplicates": 27,
   "deferred": 0,
-  "reverified": 188,
-  "updated": 45,
-  "unpublished": 2,
-  "publishedTotal": 490,
-  "translationsDone": 24,
+  "reverified": 196,
+  "updated": 37,
+  "unpublished": 0,
+  "publishedTotal": 494,
+  "translationsDone": 19,
   "translationsFailed": 48,
   "translationsPending": 0,
-  "githubRateRemaining": 4804,
+  "githubRateRemaining": 4811,
   "perSource": {
     "github": {
-      "candidates": 42,
-      "admitted": 4,
+      "candidates": 37,
+      "admitted": 0,
       "review": 3,
-      "rejected": 11,
+      "rejected": 10,
       "duplicates": 24
     },
     "huggingface": {
-      "candidates": 10,
-      "admitted": 6,
+      "candidates": 8,
+      "admitted": 4,
       "review": 1,
       "rejected": 3,
       "duplicates": 0
@@ -40,11 +40,11 @@
       "duplicates": 0
     },
     "awesome-list": {
-      "candidates": 6,
+      "candidates": 7,
       "admitted": 0,
-      "review": 6,
-      "rejected": 0,
-      "duplicates": 0
+      "review": 2,
+      "rejected": 2,
+      "duplicates": 3
     }
   },
   "sourceErrors": {}

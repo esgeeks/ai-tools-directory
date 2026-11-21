@@ -10314,6 +10314,359 @@
       "date": "2026-11-20",
       "id": "huggingface:ghostrider761/qwen-image-2.1-uncensored-gguf",
       "type": "unpublished"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:mankidev/antialgorithm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:thesysdev/opendashboards",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "huggingface:alexnasa/wan2.2-animate-zerogpu",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "huggingface:ivannm/qwen-image-edit-2509-loras-fast2-copy",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "huggingface:someone-in-the-world/firered-imageedit-japanese",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "huggingface:hynt/f5-tts-vietnamese-100h",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "huggingface:x-highvoltage-x/qwen-image-2.1-uncensored-aio-loras",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:ur3ley/ollama-model-manager",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "web:get.murf.ai/v8i9to5ad4oq",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "web:get.meetgeek.ai/zmrnb5xlyfs9",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:7sen1ot/clawgod_y",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:adityaarsharma/sitewalk",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:agentes-chat/agentes-chat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:aientech/dossier",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:alexsergivan/kwant",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:amrdab/clawdcursor",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:androoagi/starnet",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:apache/hertzbeat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:arthur-ficial/apfel",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:atomicbot-ai/atomic-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:atomicbot-ai/atomic-chat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:balanov/uncut",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:banan1cee/whale_girl",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:beclab/olares",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:blaizzy/mlx-vlm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:comet-ml/opik",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:copilotkit/copilotkit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:cosmicstack-labs/mercury-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:dcc123456/browser-copilot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:delibae/claude-prism",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:dongbumlee/ontosmith",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:dragonked2/alphacode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:elie222/rakazo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:farion1231/cc-switch",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:orkas-ai/orkas",
+      "type": "updated",
+      "fields": [
+        "urls.download",
+        "offline"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:pacifio/atlas",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:pbek/qownnotes",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:pinvou/pinvou-agent",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:pipeshub-ai/pipeshub-ai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:rehydra-ai/rehydra-sdk",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:ssut/barracks",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:stellio-app/stellio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:tristmeister/heiss-ui",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "github:wiseria-ai-labs/pie-ai-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "huggingface:lakonik/pi-h3",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
     }
   ]
 }
