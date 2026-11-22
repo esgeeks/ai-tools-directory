@@ -10667,6 +10667,220 @@
         "description.original",
         "categories"
       ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "huggingface:waitinghere/minimax-h3-ref2va-revamped",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:roktiw/chinemoji",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:huggingface.co/stabilityai/stablebeluga1-delta",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:huggingface.co/stabilityai/stablebeluga2",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:altern.ai/ai/gpt-4o-mini",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:bing.com/chat",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:tiledesk.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:aicamp.so",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "web:galichat.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "curated:github.com/features/copilot",
+      "type": "updated",
+      "fields": [
+        "platforms"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "curated:ideogram.ai",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "curated:ideogram.ai",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:alzwded/openaudiobookify",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:dodaios/dodaios",
+      "type": "updated",
+      "fields": [
+        "license.spdx",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:feder-cr/invisible_dots",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:feder-cr/jobs_applier_ai_agent_aihawk",
+      "type": "updated",
+      "fields": [
+        "pricing"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:frigadehq/yogurt",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:fusengine/codex-plugins",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:generalaction/emdash",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:kenkaiii/roamies",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:manho/panelize",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:openamer/openamer",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:purpledoubled/locally-uncensored",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:qingyuna/answer-me-with-html",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:qwenlm/qwen-code",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:raullenchai/rapid-mlx",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:rlaope/oh-my-hermes",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:rtk-ai/rtk",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "github:ruvnet/ruflo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
     }
   ]
 }

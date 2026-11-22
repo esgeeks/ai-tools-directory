@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -57,6 +57,24 @@
       "rate": 27.919220699158238
     },
     {
+      "id": "huggingface:minimaxai/minimax-h3-image",
+      "kind": "hf_likes",
+      "delta": 224,
+      "from": 36,
+      "to": 260,
+      "days": 11,
+      "rate": 24.154541197570204
+    },
+    {
+      "id": "github:kenkaiii/roamies",
+      "kind": "github_stars",
+      "delta": 285,
+      "from": 137,
+      "to": 422,
+      "days": 10,
+      "rate": 20.841264087623223
+    },
+    {
       "id": "github:elie222/rakazo",
       "kind": "github_stars",
       "delta": 1306,
@@ -102,22 +120,13 @@
       "rate": 12.474141168876095
     },
     {
-      "id": "huggingface:prunaai/p-h3-image",
-      "kind": "hf_likes",
-      "delta": 115,
-      "from": 70,
-      "to": 185,
-      "days": 9,
-      "rate": 10.498015685515684
-    },
-    {
-      "id": "github:agent-of-empires/agent-of-empires",
+      "id": "github:purpledoubled/locally-uncensored",
       "kind": "github_stars",
-      "delta": 531,
-      "from": 4123,
-      "to": 4654,
-      "days": 7,
-      "rate": 8.21997182088607
+      "delta": 577,
+      "from": 4004,
+      "to": 4581,
+      "days": 10,
+      "rate": 9.062206224080056
     },
     {
       "id": "huggingface:waitinghere/krea2t-revamped",
@@ -138,13 +147,13 @@
       "rate": 7.222626025831303
     },
     {
-      "id": "huggingface:townbox/ava",
-      "kind": "hf_likes",
-      "delta": 72,
-      "from": 55,
-      "to": 127,
-      "days": 9,
-      "rate": 7.026480525229439
+      "id": "github:qwenlm/qwen-code",
+      "kind": "github_stars",
+      "delta": 1231,
+      "from": 29630,
+      "to": 30861,
+      "days": 10,
+      "rate": 7.145392744020953
     },
     {
       "id": "huggingface:guaryn/qwen-image-2.1-uncensored-aio-loras",
@@ -172,15 +181,6 @@
       "to": 87,
       "days": 9,
       "rate": 6.3727937358744
-    },
-    {
-      "id": "huggingface:kulkas2pintu/wan777",
-      "kind": "hf_likes",
-      "delta": 242,
-      "from": 1438,
-      "to": 1680,
-      "days": 9,
-      "rate": 6.273557753119073
     },
     {
       "id": "github:cattmonkey/chaosintelligence",
