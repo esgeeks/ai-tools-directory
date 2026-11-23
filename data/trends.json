@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22",
+  "generatedAt": "2026-11-23",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
     {
@@ -12,13 +12,13 @@
       "rate": 287.72672727892916
     },
     {
-      "id": "github:wici-ai/inferssd",
+      "id": "github:shinyobjectz/raea",
       "kind": "github_stars",
-      "delta": 871,
-      "from": 378,
-      "to": 1249,
-      "days": 9,
-      "rate": 42.101374097938645
+      "delta": 2424,
+      "from": 2238,
+      "to": 4662,
+      "days": 11,
+      "rate": 50.6762658064297
     },
     {
       "id": "github:openfilm/openfilm",
@@ -66,6 +66,15 @@
       "rate": 24.154541197570204
     },
     {
+      "id": "github:whitetowerai/ohmygame",
+      "kind": "github_stars",
+      "delta": 1110,
+      "from": 2151,
+      "to": 3261,
+      "days": 11,
+      "rate": 23.659902875731557
+    },
+    {
       "id": "github:kenkaiii/roamies",
       "kind": "github_stars",
       "delta": 285,
@@ -91,15 +100,6 @@
       "to": 815,
       "days": 9,
       "rate": 13.874037980678116
-    },
-    {
-      "id": "github:wangzan101/mika",
-      "kind": "github_stars",
-      "delta": 1139,
-      "from": 8021,
-      "to": 9160,
-      "days": 9,
-      "rate": 12.678271577370772
     },
     {
       "id": "github:banan1cee/whale_girl",
@@ -129,15 +129,6 @@
       "rate": 9.062206224080056
     },
     {
-      "id": "huggingface:waitinghere/krea2t-revamped",
-      "kind": "hf_likes",
-      "delta": 63,
-      "from": 15,
-      "to": 78,
-      "days": 9,
-      "rate": 7.814188279120133
-    },
-    {
       "id": "github:anil-matcha/open-generative-ai",
       "kind": "github_stars",
       "delta": 1338,
@@ -156,15 +147,6 @@
       "rate": 7.145392744020953
     },
     {
-      "id": "huggingface:guaryn/qwen-image-2.1-uncensored-aio-loras",
-      "kind": "hf_likes",
-      "delta": 89,
-      "from": 126,
-      "to": 215,
-      "days": 9,
-      "rate": 6.708627416855241
-    },
-    {
       "id": "github:alexsergivan/kwant",
       "kind": "github_stars",
       "delta": 157,
@@ -174,13 +156,13 @@
       "rate": 6.535995519812469
     },
     {
-      "id": "huggingface:daankular/qwen-image-2.1-uncensored-aio-loras",
-      "kind": "hf_likes",
-      "delta": 57,
-      "from": 30,
-      "to": 87,
+      "id": "github:agent-of-empires/agent-of-empires",
+      "kind": "github_stars",
+      "delta": 414,
+      "from": 4343,
+      "to": 4757,
       "days": 9,
-      "rate": 6.3727937358744
+      "rate": 6.246255422753917
     },
     {
       "id": "github:cattmonkey/chaosintelligence",
@@ -210,13 +192,31 @@
       "rate": 5.782923807077515
     },
     {
-      "id": "huggingface:cfahlgren1/pixel-search",
+      "id": "huggingface:nvidia/physicalai-human-1m-explorer",
       "kind": "hf_likes",
-      "delta": 48,
-      "from": 28,
-      "to": 76,
+      "delta": 43,
+      "from": 16,
+      "to": 59,
+      "days": 11,
+      "rate": 5.292934112111308
+    },
+    {
+      "id": "github:makecindy/cindy",
+      "kind": "github_stars",
+      "delta": 512,
+      "from": 9817,
+      "to": 10329,
       "days": 9,
-      "rate": 5.4349297638940595
+      "rate": 5.154391437356133
+    },
+    {
+      "id": "github:lexmount/moli",
+      "kind": "github_stars",
+      "delta": 757,
+      "from": 23386,
+      "to": 24143,
+      "days": 9,
+      "rate": 4.944861532199189
     }
   ]
 }

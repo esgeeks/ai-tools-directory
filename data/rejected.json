@@ -2161,7 +2161,7 @@
     "rules": "2026-11-01.2"
   },
   "github:f/prompts.chat": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO isTool: tema excluido: awesome-list"
     ],
@@ -2343,7 +2343,7 @@
     "rules": "2026-11-01.2"
   },
   "github:chenfei-wu/taskmatrix": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO isTool: no es una herramienta: \"paper:\""
     ],
@@ -2352,7 +2352,7 @@
     "rules": "2026-11-01.2"
   },
   "github:vercel/chatbot": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notFork: fork o plantilla"
     ],
@@ -2361,7 +2361,7 @@
     "rules": "2026-11-01.2"
   },
   "github:opencx-labs/openchat": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2678,7 +2678,7 @@
     "rules": "2026-11-01.2"
   },
   "github:mayooear/ai-pdf-chatbot-langchain": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2687,7 +2687,7 @@
     "rules": "2026-11-01.2"
   },
   "github:myreader-io/mygptreader": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2823,7 +2823,7 @@
     "rules": "2026-11-01.2"
   },
   "github:transitive-bullshit/agentic": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2878,7 +2878,7 @@
     "rules": "2026-11-01.2"
   },
   "github:vercel/ai": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notLibrary: parece una biblioteca/framework (lib:library for)"
     ],
@@ -2914,7 +2914,7 @@
     "rules": "2026-11-01.2"
   },
   "github:richardgill/llm-ui": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO notLibrary: parece una biblioteca/framework (lib:library for)"
     ],
@@ -3086,8 +3086,17 @@
     "source": "https://try.sanebox.com/yzkpe5s68xk2",
     "rules": "2026-11-01.2"
   },
-  "curated:remove.bg": {
+  "github:xinatian/mroffice": {
     "at": "2026-11-22",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "MR Office",
+    "source": "https://github.com/XinaTian/MROffice",
+    "rules": "2026-11-01.2"
+  },
+  "curated:remove.bg": {
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3096,7 +3105,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:photoroom.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3105,7 +3114,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:lumalabs.ai/dream-machine": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3114,7 +3123,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:heygen.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3123,7 +3132,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:synthesia.io": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3132,7 +3141,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:descript.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3141,7 +3150,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:opus.pro": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3150,7 +3159,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:suno.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3159,7 +3168,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:udio.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3168,7 +3177,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:podcast.adobe.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3177,7 +3186,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:grammarly.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3186,7 +3195,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:copy.ai": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3195,7 +3204,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:notion.com/product/ai": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3204,7 +3213,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:elicit.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3213,7 +3222,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:replit.com": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3222,7 +3231,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:bolt.new": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3231,7 +3240,7 @@
     "rules": "2026-11-01.2"
   },
   "curated:upscayl.org": {
-    "at": "2026-11-22",
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
@@ -3239,13 +3248,31 @@
     "source": "https://upscayl.org/",
     "rules": "2026-11-01.2"
   },
-  "github:xinatian/mroffice": {
-    "at": "2026-11-22",
+  "huggingface:lewtun/from-llms-to-swarms": {
+    "at": "2026-11-23",
     "reasons": [
       "RECHAZO aiEvidence: sin evidencia de uso de IA"
     ],
-    "name": "MR Office",
-    "source": "https://github.com/XinaTian/MROffice",
+    "name": "From Language Models to Agent Swarms",
+    "source": "https://huggingface.co/spaces/lewtun/from-llms-to-swarms",
+    "rules": "2026-11-01.2"
+  },
+  "web:dmwithme.com": {
+    "at": "2026-11-23",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "dmwithme",
+    "source": "https://dmwithme.com/",
+    "rules": "2026-11-01.2"
+  },
+  "web:telborg.com": {
+    "at": "2026-11-23",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Telborg",
+    "source": "https://telborg.com/",
     "rules": "2026-11-01.2"
   }
 }

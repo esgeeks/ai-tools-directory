@@ -10881,6 +10881,190 @@
       "fields": [
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:memfreeme/memfree",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "huggingface:black-forest-labs/flux.2-dev",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:w01fb0ss/pibot",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "huggingface:kulkas2pintu/wan222",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "huggingface:hugging-apps/minimax-h3-character-swap-lora",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "huggingface:upsampler/relayvsr",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:chaserr/novel-craft-studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:radzap/aloud-type",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "web:kazimir.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "web:refinder.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:1jehuang/jcode",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:23blocks-os/ai-maestro",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:agent-of-empires/agent-of-empires",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:agenta-ai/agenta",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:anxety-solo/sdaigen",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:harnessrouter/harnessrouter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:helgesverre/ollama-gui",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:incarnamind/incarnamind",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:justhil/pi-app",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:mlhher/late-cli",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:screenpipe/screenpipe",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:shinyobjectz/raea",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:sno-ai/sno-station-skills",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:weworker/weworker",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "github:ysunyang4/nexus",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "huggingface:aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "web:taskade.com",
+      "type": "updated",
+      "fields": [
+        "platforms"
+      ]
     }
   ]
 }
