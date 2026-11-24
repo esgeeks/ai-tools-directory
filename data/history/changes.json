@@ -11065,6 +11065,133 @@
       "fields": [
         "platforms"
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:modsetter/surfsense",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:n8n-io/nod",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:jackson-cmd/risk-aware-trading-agents",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "huggingface:prithivmlmods/flux-3-image-klein-loras-fast",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "huggingface:mehdi-hf/tiny-ava-demo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "huggingface:hugging-apps/minimax-h3-image-character-swap",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "huggingface:akhaliq/inkling-2-mini",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:liuharold98/chatgpt-desktop",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:aman-abeb/context-packer",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "web:mynexusai.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "web:contenda.co",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "web:writewithlaika.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "web:app.rapidtextai.com",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "web:yomu.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:hitkeeen/blender-ai-mcp-addon",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:innei/ryugi",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:innei/ryugi",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "categories",
+        "platforms",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:tencent/loopforge",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:yolow92/pagesift",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "github:zanllp/infinite-image-browsing",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "huggingface:prunaai/p-h3-image",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
     }
   ]
 }

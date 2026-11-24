@@ -1,16 +1,7 @@
 {
-  "generatedAt": "2026-11-23",
+  "generatedAt": "2026-11-24",
   "basis": "Crecimiento de estrellas de GitHub / likes de Hugging Face en 7 días según historial propio",
   "trends": [
-    {
-      "id": "github:mdiri-ai/soduwork",
-      "kind": "github_stars",
-      "delta": 5321,
-      "from": 292,
-      "to": 5613,
-      "days": 9,
-      "rate": 287.72672727892916
-    },
     {
       "id": "github:shinyobjectz/raea",
       "kind": "github_stars",
@@ -21,15 +12,6 @@
       "rate": 50.6762658064297
     },
     {
-      "id": "github:openfilm/openfilm",
-      "kind": "github_stars",
-      "delta": 2895,
-      "from": 5760,
-      "to": 8655,
-      "days": 9,
-      "rate": 37.980484616496916
-    },
-    {
       "id": "github:agentes-chat/agentes-chat",
       "kind": "github_stars",
       "delta": 973,
@@ -37,24 +19,6 @@
       "to": 1890,
       "days": 9,
       "rate": 31.289570603347723
-    },
-    {
-      "id": "github:modelflare-ai/anymodelbot",
-      "kind": "github_stars",
-      "delta": 1679,
-      "from": 3135,
-      "to": 4814,
-      "days": 9,
-      "rate": 29.75061705361157
-    },
-    {
-      "id": "github:microsoft/tokeneconomizer",
-      "kind": "github_stars",
-      "delta": 2118,
-      "from": 5705,
-      "to": 7823,
-      "days": 9,
-      "rate": 27.919220699158238
     },
     {
       "id": "huggingface:minimaxai/minimax-h3-image",
@@ -75,6 +39,15 @@
       "rate": 23.659902875731557
     },
     {
+      "id": "github:innei/ryugi",
+      "kind": "github_stars",
+      "delta": 493,
+      "from": 399,
+      "to": 892,
+      "days": 13,
+      "rate": 23.26610848442233
+    },
+    {
       "id": "github:kenkaiii/roamies",
       "kind": "github_stars",
       "delta": 285,
@@ -93,15 +66,6 @@
       "rate": 14.489660824276058
     },
     {
-      "id": "github:banan1cee/whale_gril",
-      "kind": "github_stars",
-      "delta": 323,
-      "from": 492,
-      "to": 815,
-      "days": 9,
-      "rate": 13.874037980678116
-    },
-    {
       "id": "github:banan1cee/whale_girl",
       "kind": "github_stars",
       "delta": 307,
@@ -109,15 +73,6 @@
       "to": 847,
       "days": 9,
       "rate": 12.638989983246692
-    },
-    {
-      "id": "github:n1neman/sapper-v2",
-      "kind": "github_stars",
-      "delta": 558,
-      "from": 1951,
-      "to": 2509,
-      "days": 9,
-      "rate": 12.474141168876095
     },
     {
       "id": "github:purpledoubled/locally-uncensored",
@@ -165,13 +120,13 @@
       "rate": 6.246255422753917
     },
     {
-      "id": "github:cattmonkey/chaosintelligence",
-      "kind": "github_stars",
-      "delta": 126,
-      "from": 374,
-      "to": 500,
-      "days": 9,
-      "rate": 6.119100932850764
+      "id": "huggingface:prunaai/p-h3-image",
+      "kind": "hf_likes",
+      "delta": 82,
+      "from": 133,
+      "to": 215,
+      "days": 11,
+      "rate": 6.061614421827497
     },
     {
       "id": "huggingface:lakonik/pi-h3",
@@ -201,22 +156,67 @@
       "rate": 5.292934112111308
     },
     {
-      "id": "github:makecindy/cindy",
+      "id": "github:rlaope/oh-my-hermes",
       "kind": "github_stars",
-      "delta": 512,
-      "from": 9817,
-      "to": 10329,
-      "days": 9,
-      "rate": 5.154391437356133
+      "delta": 366,
+      "from": 5535,
+      "to": 5901,
+      "days": 10,
+      "rate": 4.897444202185294
     },
     {
-      "id": "github:lexmount/moli",
+      "id": "github:the-pr-agent/pr-agent",
       "kind": "github_stars",
-      "delta": 757,
-      "from": 23386,
-      "to": 24143,
+      "delta": 603,
+      "from": 15992,
+      "to": 16595,
+      "days": 11,
+      "rate": 4.76088900120401
+    },
+    {
+      "id": "huggingface:ast-1320/qwen-2511-plus-flux.2-klein",
+      "kind": "hf_likes",
+      "delta": 92,
+      "from": 405,
+      "to": 497,
+      "days": 11,
+      "rate": 4.313026524634158
+    },
+    {
+      "id": "github:weworker/weworker",
+      "kind": "github_stars",
+      "delta": 66,
+      "from": 200,
+      "to": 266,
+      "days": 11,
+      "rate": 4.174206511422261
+    },
+    {
+      "id": "github:qingyuna/answer-me-with-html",
+      "kind": "github_stars",
+      "delta": 329,
+      "from": 6270,
+      "to": 6599,
+      "days": 10,
+      "rate": 4.138446629634012
+    },
+    {
+      "id": "huggingface:wank3r/minimax-h3",
+      "kind": "hf_likes",
+      "delta": 81,
+      "from": 356,
+      "to": 437,
+      "days": 11,
+      "rate": 4.019962502582267
+    },
+    {
+      "id": "github:aientech/dossier",
+      "kind": "github_stars",
+      "delta": 286,
+      "from": 5064,
+      "to": 5350,
       "days": 9,
-      "rate": 4.944861532199189
+      "rate": 3.999315545663982
     }
   ]
 }
