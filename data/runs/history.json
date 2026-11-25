@@ -1300,6 +1300,61 @@
         }
       },
       "sourceErrors": {}
+    },
+    {
+      "startedAt": "2026-11-25T17:21:02.127Z",
+      "finishedAt": "2026-11-25T17:30:42.193Z",
+      "ok": true,
+      "dryRun": false,
+      "discovered": 68,
+      "admitted": 8,
+      "review": 3,
+      "rejected": 31,
+      "duplicates": 26,
+      "deferred": 0,
+      "reverified": 191,
+      "updated": 19,
+      "unpublished": 1,
+      "publishedTotal": 516,
+      "translationsDone": 10,
+      "translationsFailed": 49,
+      "translationsPending": 0,
+      "githubRateRemaining": 4856,
+      "perSource": {
+        "github": {
+          "candidates": 37,
+          "admitted": 1,
+          "review": 0,
+          "rejected": 10,
+          "duplicates": 26
+        },
+        "huggingface": {
+          "candidates": 9,
+          "admitted": 7,
+          "review": 0,
+          "rejected": 2,
+          "duplicates": 0
+        },
+        "curated": {
+          "candidates": 17,
+          "admitted": 0,
+          "review": 0,
+          "rejected": 17,
+          "duplicates": 0
+        },
+        "awesome-list": {
+          "candidates": 5,
+          "admitted": 0,
+          "review": 3,
+          "rejected": 2,
+          "duplicates": 0
+        }
+      },
+      "sourceErrors": {
+        "rss": [
+          "https://hnrss.org/show?q=AI&points=30: HTTP 502"
+        ]
+      }
     }
   ]
 }

@@ -11192,6 +11192,225 @@
       "fields": [
         "name"
       ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:sous-labs/songe",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:linoyts/smart-character-swap-flux2-klein",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:cfahlgren1/imagine",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:dlouapre/looped-transformers",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:ridinthatjawn/wan2-2-fp8da-aoti-preview-2c-finishing",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:linoyts/fastframes-s-live",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:huggingfaceswarms/scaling-swarms",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "huggingface:kandinskylab/kandinsky-6.0-vsr-demo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "web:listomatic.app",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "web:quickcreator.io",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "web:dittto.ai",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:jhlee0409/omnilogue",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:josssphzhou/poki",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:openbyteinc/quantdinger",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:openclaw/openclaw",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:openlit/openlit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:opensec-git/pi-bolt",
+      "type": "updated",
+      "fields": [
+        "name",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:phineas1500/onhand",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:pionxzh/chatgpt-exporter",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:shaitrish/37studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:skalesapp/skales",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:skyline-e/local-ai-route",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:strelov1/freehire",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:sylinko/everywhere",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "pricing",
+        "license.spdx",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:tracer-cloud/opensre",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:ufomiao/zcf",
+      "type": "updated",
+      "fields": [
+        "pricing"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:unslothai/unsloth",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:wangzan101/mika",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:wici-ai/inferssd",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:win4r/aisuperdomain",
+      "type": "updated",
+      "fields": [
+        "urls.official"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "github:youssofal/mtplx",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
     }
   ]
 }

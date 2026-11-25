@@ -1,35 +1,35 @@
 {
-  "startedAt": "2026-11-24T17:53:49.255Z",
-  "finishedAt": "2026-11-24T18:03:51.463Z",
+  "startedAt": "2026-11-25T17:21:02.127Z",
+  "finishedAt": "2026-11-25T17:30:42.193Z",
   "ok": true,
   "dryRun": false,
-  "discovered": 70,
-  "admitted": 9,
-  "review": 5,
-  "rejected": 30,
+  "discovered": 68,
+  "admitted": 8,
+  "review": 3,
+  "rejected": 31,
   "duplicates": 26,
   "deferred": 0,
   "reverified": 191,
-  "updated": 5,
+  "updated": 19,
   "unpublished": 1,
-  "publishedTotal": 509,
-  "translationsDone": 15,
+  "publishedTotal": 516,
+  "translationsDone": 10,
   "translationsFailed": 49,
   "translationsPending": 0,
-  "githubRateRemaining": 4897,
+  "githubRateRemaining": 4856,
   "perSource": {
     "github": {
-      "candidates": 41,
-      "admitted": 5,
+      "candidates": 37,
+      "admitted": 1,
       "review": 0,
       "rejected": 10,
       "duplicates": 26
     },
     "huggingface": {
-      "candidates": 7,
-      "admitted": 4,
+      "candidates": 9,
+      "admitted": 7,
       "review": 0,
-      "rejected": 3,
+      "rejected": 2,
       "duplicates": 0
     },
     "curated": {
@@ -42,10 +42,14 @@
     "awesome-list": {
       "candidates": 5,
       "admitted": 0,
-      "review": 5,
-      "rejected": 0,
+      "review": 3,
+      "rejected": 2,
       "duplicates": 0
     }
   },
-  "sourceErrors": {}
+  "sourceErrors": {
+    "rss": [
+      "https://hnrss.org/show?q=AI&points=30: HTTP 502"
+    ]
+  }
 }
