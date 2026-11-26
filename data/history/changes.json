@@ -11411,6 +11411,329 @@
         "description.original",
         "urls.download"
       ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "curated:lumalabs.ai/dream-machine",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "curated:replit.com",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:janus-sh/janus",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:lixiaoxiao9888-create/manju-laoli-skill",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:alesha-pro/llm.asm",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "huggingface:agents-course/first_agent_template",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:google-deepmind/robotics-antigravity-plugin",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "huggingface:akhaliq/sensenova-u1.6-studio",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "huggingface:ishiki-labs/weight-space-programming-for-audio-models",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "huggingface:kandinskylab/kandinsky-imagesr-2.0-demo",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "huggingface:ciaochris/humantouch",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "web:deepl.com/write",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "web:headlinesai.pro",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "web:gptlocalhost.com/demo",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "web:gistai.tech",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:banan1cee/whale_gril",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:ivanmurzak/unity-mcp",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:janhq/jan",
+      "type": "updated",
+      "fields": [
+        "name"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:javis603/token-monitor",
+      "type": "updated",
+      "fields": [
+        "pricing",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:jhlee0409/claude-code-history-viewer",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:kizuna-ai-lab/sokuji",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:kortix-ai/suna",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "categories",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:langfuse/langfuse",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:learningcircuit/local-deep-research",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:leemysw/yovoice",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:lidge-jun/opencodex",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:linshenkx/prompt-optimizer",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:lwh0630/tokenbar",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:makazhanalpamys/soup",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:makecindy/cindy",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:mallikcheripally/session-steward",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:mdiri-ai/soduwork",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:mengxi-ream/read-frog",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:mervinpraison/praisonai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:modelflare-ai/anymodelbot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:nano-muse/nanomuse",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:nanocoai/nanoclaw",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:nerverdevs/nervecenter",
+      "type": "published-after-review"
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:nerverdevs/nervecenter",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "categories",
+        "platforms",
+        "license.spdx",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:netease-youdao/lobsterai",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:netics01/codexhp",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:neywa-labs/mlx-vlm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:ningbainb/deepseek-harness-desktop",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "github:off-grid-ai/ogam",
+      "type": "updated",
+      "fields": [
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "huggingface:waitinghere/krea2t-revamped",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "categories"
+      ]
     }
   ]
 }

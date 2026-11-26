@@ -2161,7 +2161,7 @@
     "rules": "2026-11-01.2"
   },
   "github:f/prompts.chat": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO isTool: tema excluido: awesome-list"
     ],
@@ -2343,7 +2343,7 @@
     "rules": "2026-11-01.2"
   },
   "github:chenfei-wu/taskmatrix": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO isTool: no es una herramienta: \"paper:\""
     ],
@@ -2352,7 +2352,7 @@
     "rules": "2026-11-01.2"
   },
   "github:vercel/chatbot": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notFork: fork o plantilla"
     ],
@@ -2361,7 +2361,7 @@
     "rules": "2026-11-01.2"
   },
   "github:opencx-labs/openchat": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2678,7 +2678,7 @@
     "rules": "2026-11-01.2"
   },
   "github:mayooear/ai-pdf-chatbot-langchain": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2687,7 +2687,7 @@
     "rules": "2026-11-01.2"
   },
   "github:myreader-io/mygptreader": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2823,7 +2823,7 @@
     "rules": "2026-11-01.2"
   },
   "github:transitive-bullshit/agentic": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notArchived: repositorio archivado o deshabilitado"
     ],
@@ -2878,7 +2878,7 @@
     "rules": "2026-11-01.2"
   },
   "github:vercel/ai": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notLibrary: parece una biblioteca/framework (lib:library for)"
     ],
@@ -2914,7 +2914,7 @@
     "rules": "2026-11-01.2"
   },
   "github:richardgill/llm-ui": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "reasons": [
       "RECHAZO notLibrary: parece una biblioteca/framework (lib:library for)"
     ],
@@ -3158,159 +3158,6 @@
     "source": "https://huggingface.co/spaces/trl-lib/asyncgrpo-benchmark",
     "rules": "2026-11-01.2"
   },
-  "curated:remove.bg": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Remove.bg",
-    "source": "https://www.remove.bg/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:photoroom.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Photoroom",
-    "source": "https://www.photoroom.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:lumalabs.ai/dream-machine": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Luma Dream Machine",
-    "source": "https://lumalabs.ai/dream-machine",
-    "rules": "2026-11-01.2"
-  },
-  "curated:heygen.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "HeyGen",
-    "source": "https://www.heygen.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:synthesia.io": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Synthesia",
-    "source": "https://www.synthesia.io/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:descript.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Descript",
-    "source": "https://www.descript.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:opus.pro": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "OpusClip",
-    "source": "https://www.opus.pro/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:suno.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Suno",
-    "source": "https://suno.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:udio.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Udio",
-    "source": "https://www.udio.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:podcast.adobe.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Adobe Podcast",
-    "source": "https://podcast.adobe.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:grammarly.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Grammarly",
-    "source": "https://www.grammarly.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:copy.ai": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Copy.ai",
-    "source": "https://www.copy.ai/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:notion.com/product/ai": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Notion AI",
-    "source": "https://www.notion.com/product/ai",
-    "rules": "2026-11-01.2"
-  },
-  "curated:elicit.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Elicit",
-    "source": "https://elicit.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:replit.com": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Replit",
-    "source": "https://replit.com/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:bolt.new": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Bolt.new",
-    "source": "https://bolt.new/",
-    "rules": "2026-11-01.2"
-  },
-  "curated:upscayl.org": {
-    "at": "2026-11-25",
-    "reasons": [
-      "RECHAZO aiEvidence: sin evidencia de uso de IA"
-    ],
-    "name": "Upscayl",
-    "source": "https://upscayl.org/",
-    "rules": "2026-11-01.2"
-  },
   "github:opensetlabs/openset-llm": {
     "at": "2026-11-25",
     "reasons": [
@@ -3354,6 +3201,159 @@
     ],
     "name": "PulsePost",
     "source": "https://pulsepost.io/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:remove.bg": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Remove.bg",
+    "source": "https://www.remove.bg/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:photoroom.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Photoroom",
+    "source": "https://www.photoroom.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:heygen.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "HeyGen",
+    "source": "https://www.heygen.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:synthesia.io": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Synthesia",
+    "source": "https://www.synthesia.io/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:descript.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Descript",
+    "source": "https://www.descript.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:opus.pro": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "OpusClip",
+    "source": "https://www.opus.pro/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:suno.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Suno",
+    "source": "https://suno.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:udio.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Udio",
+    "source": "https://www.udio.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:podcast.adobe.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Adobe Podcast",
+    "source": "https://podcast.adobe.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:grammarly.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Grammarly",
+    "source": "https://www.grammarly.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:copy.ai": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Copy.ai",
+    "source": "https://www.copy.ai/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:notion.com/product/ai": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Notion AI",
+    "source": "https://www.notion.com/product/ai",
+    "rules": "2026-11-01.2"
+  },
+  "curated:elicit.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Elicit",
+    "source": "https://elicit.com/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:bolt.new": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Bolt.new",
+    "source": "https://bolt.new/",
+    "rules": "2026-11-01.2"
+  },
+  "curated:upscayl.org": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Upscayl",
+    "source": "https://upscayl.org/",
+    "rules": "2026-11-01.2"
+  },
+  "huggingface:gsma/open-telco-leaderboard": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO isTool: nombre de colección/recurso (GSMA/open-telco-leaderboard)"
+    ],
+    "name": "Open Telco Leaderboard",
+    "source": "https://huggingface.co/spaces/GSMA/open-telco-leaderboard",
+    "rules": "2026-11-01.2"
+  },
+  "web:shyeditor.com": {
+    "at": "2026-11-26",
+    "reasons": [
+      "RECHAZO aiEvidence: sin evidencia de uso de IA"
+    ],
+    "name": "Shy Editor",
+    "source": "https://www.shyeditor.com/",
     "rules": "2026-11-01.2"
   }
 }
