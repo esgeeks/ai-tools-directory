@@ -11734,6 +11734,333 @@
         "description.original",
         "categories"
       ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:beautifulrem/forge-neo-remi",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:hittler-ai/flux.2-klein-multi-lora",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:wank3r/h3eros",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:cowboyraptor/nsfw-uncensored-image2",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:yas1n/cadomatic",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:ekam/libra-tts",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:hikaridawn/codecopsd-h3-ref2va",
+      "type": "added"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "web:chrome.google.com/webstore/detail/chatgpt-for-search-engine/feeonheemodpkdckaljcjogdncpiiban",
+      "type": "review"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:7sen1ot/clawgod_y",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:agentes-chat/agentes-chat",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:aientech/dossier",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:alexsergivan/kwant",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:anil-matcha/open-generative-ai",
+      "type": "updated",
+      "fields": [
+        "description.original"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:anus-dev/anus",
+      "type": "updated",
+      "fields": [
+        "name",
+        "urls.official",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:arthur-ficial/apfel",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:asheshgoplani/agent-deck",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:atomicbot-ai/atomic-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:atomicbot-ai/atomic-chat",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:awslabs/cli-agent-orchestrator",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:balanov/uncut",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:banan1cee/whale_girl",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:blaizzy/mlx-vlm",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:c4rohan/lampline",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:can1357/oh-my-pi",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:codewhale-hq/codewhale",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:comet-ml/opik",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:copilotkit/copilotkit",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:cosmicstack-labs/mercury-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:dcc123456/browser-copilot",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:dragonked2/alphacode",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:drumih/turbo-fieldfare",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:ekkolearnai/ekko-studio",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:elie222/rakazo",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:farion1231/cc-switch",
+      "type": "updated",
+      "fields": [
+        "categories",
+        "urls.download",
+        "localExecution"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:open-multi-agent/open-multi-agent",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:open-webui/open-webui",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:openagents-org/openagents",
+      "type": "updated",
+      "fields": [
+        "description.original",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:openhands/openhands",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:orkas-ai/orkas",
+      "type": "updated",
+      "fields": [
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:pacifio/atlas",
+      "type": "updated",
+      "fields": [
+        "platforms",
+        "urls.download"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": "github:sahenjp/rustxng",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:kogutt999/pro-realism-edit-studio",
+      "type": "unpublished"
+    },
+    {
+      "date": "2026-11-27",
+      "id": "huggingface:xyzanonimous5/qwen-image-2.1-studio",
+      "type": "updated",
+      "fields": [
+        "name",
+        "description.original",
+        "categories"
+      ]
     }
   ]
 }
